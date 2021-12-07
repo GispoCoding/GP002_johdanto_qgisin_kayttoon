@@ -20,9 +20,14 @@ wms-palvelun-lisääminen
 wfs-palvelun-lisääminen
 lisätehtävä-wfs-rajapintapalvelun-kysely-ja-suodatus-sql-lausekkeella
 harjoitus-3-paikkatietoaineiston-visualisointi
-harjoitus-4-paikkatietoaineiston-nimiöinti-ja-luokittelu
 harjoituksen-sisältö-2
 valmistautuminen-2
+vektoriaineistojen-visualisointi
+monikulmioaineiston-edistynyt-visualisointi
+rasteriaineistojen-visualisointi
+harjoitus-4-paikkatietoaineiston-nimiöinti-ja-luokittelu
+harjoituksen-sisältö-3
+valmistautuminen-3
 nimiöiden-tyyli--ja-yleisasetukset
 nimiön-tekstityyli
 nimiöinnit-viivatasoilla
