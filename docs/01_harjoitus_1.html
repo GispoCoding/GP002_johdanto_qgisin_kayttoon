@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+<!-- Based on TemplateMo 553 Xtra Blog: https://templatemo.com/tm-553-xtra-blog -->
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta property="og:title" content="2 Harjoitus 1: QGISin käyttöliittymä | Introduction to QGIS" />
+<meta property="og:type" content="book" />
+
+
+
+
+
+<meta name="author" content="Gispo Ltd." />
+
+<meta name="date" content="2021-12-07" />
+
+
+<meta name="description" content="2 Harjoitus 1: QGISin käyttöliittymä | Introduction to QGIS">
+
+<title>2 Harjoitus 1: QGISin käyttöliittymä | Introduction to QGIS</title>
+
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+
+
+
+<link rel="stylesheet" href="custom.css" type="text/css" />
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/hamburgers.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+<div class="main-content">
+<!-- special comment to mark beginning of title section for bookdown -->
+<!-- bookdown comments must be in this order: title, toc, body -->
+
+<div class="main-content-wrapper">
+
+<div class="row">
+<div class="col-sm-12">
+<header class="main-toc sidebar" id="sidebar">
+<div class="sidebar-wrapper">
+
+<button class="navbar-toggle hamburger hamburger--collapse" id="navbar-toggle"
+type="button" onclick="navToggle()" aria-label="Toggle navigation">
+<span class="hamburger-box"><span class="hamburger-inner"></span></span>
+</button>
+
+<div class="sidebar-title-wrapper">
+<img alt="Logo" width="100" src="img/gispo_white_sm.png" class="sidebar-logo">
+<div class="sidebar-title"><h1>Introduction to QGIS</h1></div>
+<div class="abstract-sidebar"><p>A course covering advanced GeoServer topics.</p></div>
+</div>
+
+<nav class="sidebar-nav">
+<div id="TOC" class="toc">
+<ul>
+<li><a href="index.html#introduction-to-qgis"><span class="toc-section-number">1</span> Introduction to QGIS</a>
+<ul>
+<li><a href="index.html#about"><span class="toc-section-number">1.1</span> About</a></li>
+<li><a href="index.html#license-and-permissions"><span class="toc-section-number">1.2</span> License and permissions</a></li>
+</ul></li>
+<li><a href="00_kansi.html#harjoitus-1-qgisin-käyttöliittymä"><span class="toc-section-number">2</span> Harjoitus 1: QGISin käyttöliittymä</a>
+<ul>
+<li><a href="00_kansi.html#valmistautuminen"><span class="toc-section-number">2.0.1</span> Valmistautuminen</a></li>
+<li><a href="00_kansi.html#kurssimateriaalien-lataus"><span class="toc-section-number">2.0.2</span> Kurssimateriaalien lataus</a></li>
+<li><a href="00_kansi.html#qgisin-käyttöliittymä"><span class="toc-section-number">2.0.3</span> QGISin käyttöliittymä</a></li>
+<li><a href="00_kansi.html#kokeile-itse"><span class="toc-section-number">2.0.4</span> Kokeile itse</a></li>
+</ul></li>
+<li><a href="02_env.html#training-environment"><span class="toc-section-number">3</span> Training environment</a>
+<ul>
+<li><a href="03_harjoitus_3.html#harjoitus-3-paikkatietoaineiston-visualisointi"><span class="toc-section-number">3.1</span> Harjoitus 3: Paikkatietoaineiston visualisointi</a></li>
+</ul></li>
+<li><a href="04_harjoitus_4.html#harjoitus-4-paikkatietoaineiston-nimiöinti-ja-luokittelu"><span class="toc-section-number">4</span> Harjoitus 4: Paikkatietoaineiston nimiöinti ja luokittelu</a>
+<ul>
+<li><a href="04_harjoitus_4.html#valmistautuminen-1"><span class="toc-section-number">4.0.1</span> Valmistautuminen</a></li>
+<li><a href="04_harjoitus_4.html#nimiöiden-tyyli--ja-yleisasetukset"><span class="toc-section-number">4.0.2</span> Nimiöiden tyyli- ja yleisasetukset</a></li>
+<li><a href="04_harjoitus_4.html#rasteriaineiston-luokittelut"><span class="toc-section-number">4.0.3</span> Rasteriaineiston luokittelut</a></li>
+<li><a href="04_harjoitus_4.html#lisätehtävä-nimiöiden-piirtäminen"><span class="toc-section-number">4.0.4</span> Lisätehtävä: nimiöiden piirtäminen</a></li>
+</ul></li>
+</ul>
+</div>
+</nav>
+</div>
+</header>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12">
+<div id="harjoitus-1-qgisin-käyttöliittymä" class="section level1" number="2">
+<h1><span class="header-section-number">2</span> Harjoitus 1: QGISin käyttöliittymä</h1>
+<div id="harjoituksen-sisältö" class="section level4" number="2.0.0.1">
+<h4><span class="header-section-number">2.0.0.1</span> Harjoituksen sisältö</h4>
+<p>Harjoituksessa tutustutaan QGIS–ohjelmiston käyttöliittymään ja sen perustoimintoihin.
+#### Harjoituksen tavoite
+Koulutettava oppii käyttämään QGISin käyttöliittymää.</p>
+</div>
+<div id="valmistautuminen" class="section level3" number="2.0.1">
+<h3><span class="header-section-number">2.0.1</span> Valmistautuminen</h3>
+<p>Avaa web-selain ja mene QGISin suomenkielisille web-sivuille.
+&gt; <a href="http://www.qgis.org/fi/site/" class="uri">http://www.qgis.org/fi/site/</a></p>
+<p>Löydät etusivulta linkin, jonka avulla pääset lataamaan QGIS-työpöytäohjelmiston. Lataa sivustolta <strong>QGISin pitkäaikaisversio (long term release)</strong>. Pitkäaikaisversio on stabiilein QGIS-versio, mutta siitä voi puuttua uudempien versioiden uusia ominaisuuksia.
+QGISin voi asentaa Windows-, Linux- tai Mac-käyttöjärjestelmään. Eri järjestelmien QGIS-versioiden välillä huomattavimmat erot ovat väriskeemoissa ja tiedostopoluissa – muuten erot ovat hyvin pieniä.</p>
+</div>
+<div id="kurssimateriaalien-lataus" class="section level3" number="2.0.2">
+<h3><span class="header-section-number">2.0.2</span> Kurssimateriaalien lataus</h3>
+<p>Kouluttaja ohjeistaa sinua lataamaan kurssimateriaalit joko muistitikulta, Google Drivestä tai AWS-palvelimelta. Kopioi kurssimateriaalit koulutuskoneelle haluamaasi kansioon niin, että löydät ne helposti jatkossa. Voit kirjoittaa muistiinpanoja harjoitusten viimeiselle sivulle.
+Kun kurssimateriaalissa viitataan <strong>…/kurssihakemisto/</strong>, tarkoitetaan itse määrittelemääsi kurssihakemiston polkua.</p>
+</div>
+<div id="qgisin-käyttöliittymä" class="section level3" number="2.0.3">
+<h3><span class="header-section-number">2.0.3</span> QGISin käyttöliittymä</h3>
+<p>Käynnistä QGIS. QGISin käyttöliittymä saattaa aueta englanninkielisenä ensimmäisellä käyttökerralla. Voit vaihtaa kielen suomeksi asetuksista <strong>Settings → Options → General → User</strong>
+<img src="GP002_johdanto_qgisin_kayttoon/src/img/harjoitus_1/image15.png" alt="interface_image" />
+<strong>Interface Translation → suomi</strong>. Paina lopuksi OK. Huomaa, että kielen vaihtamisen aktivoimiseksi sinun tulee käynnistää QGIS uudelleen.
+Lisää ensimmäinen vektorimuotoinen paikkatietoaineisto napsauttamalla <strong>Avaa tietolähteiden hallinta –pikakuvakenäppäintä</strong>:
+Löydät saman toiminnon myös Tasot-valikosta <strong>Lisää taso → Lisää vektoritaso…</strong> (Ctrl+Shift+V).
+Valitse avautuvasta ikkunasta vasemmalta puolelta <strong>Vektori-välilehti</strong>. Lisää aineisto kurssin materiaaleista (<strong>…/kurssihakemisto/MML/YK_1M/</strong>). Valitse nyt Maanmittauslaitoksen
+<img src="GP002_johdanto_qgisin_kayttoon/src/img/harjoitus_1/image11.png" alt="aineisto_image" />
+1:1M-aineistosta <strong>TieViiva.shp-tiedosto</strong>. Paina lopuksi <strong>Lisää</strong> ja sulje ikkuna.
+Aineiston pitäisi näkyä seuraavan sivun esimerkin mukaisesti (huom! viivan väri saattaa olla eri).
+<img src="GP002_johdanto_qgisin_kayttoon/src/img/harjoitus_1/image10.png" alt="aineisto_image2" />
+### QGIS-käyttöliittymän osat</p>
+<div id="tasoluettelo" class="section level4" number="2.0.3.1">
+<h4><span class="header-section-number">2.0.3.1</span> 1. Tasoluettelo</h4>
+<p>Tähän osioon tulevat näkyviin paikkatietoaineistot, jotka näkyvät karttaikkunassa. Voit hallita tasojen järjestystä ja näkyvyyttä.</p>
+</div>
+<div id="työkalupalkit" class="section level4" number="2.0.3.2">
+<h4><span class="header-section-number">2.0.3.2</span> 2. Työkalupalkit</h4>
+<p>Työkalupalkit sisältävät erilaisia työkaluja. Omassa tietokoneessasi voi olla näkyvissä enemmän tai vähemmän työkalupalkkeja. Napauttamalla hiiren oikea näppäintä työkalupalkkien päällä, voit piilottaa tai ottaa esiin työkalupalkkeja. Voit myös raahata työkalupalkkeja eri kohtiin.</p>
+</div>
+<div id="karttaikkuna" class="section level4" number="2.0.3.3">
+<h4><span class="header-section-number">2.0.3.3</span> 3. Karttaikkuna</h4>
+<p>Karttaikkunaan piirtyvät ne paikkatietoaineistot, jotka ovat tasoluettelossa aktivoituna näkyväksi. Voit lähentää ja loitontaa karttaa sekä paneroida siinä hiiren avulla (koita myös hiiren scrollia).</p>
+</div>
+<div id="tilapalkki" class="section level4" number="2.0.3.4">
+<h4><span class="header-section-number">2.0.3.4</span> 4. Tilapalkki</h4>
+<p>Tilapalkista näet hiiren kursorin koordinaatit, minkä lisäksi voit muuttaa mittakaavaa ja koordinaattijärjestelmää.
+#### 5. Prosessointi- ja selain-paneeli
+Aikaisemmassa harjoituksessa tutustuttiinkin jo hieman QGISin uuteen Selain-paneeliin, joka aikaisemmissa versioissa on ollut erillisenä ohjelmana. Myös Prosessointityökalut saa kätevästi esille paneeliksi, jolloin ne ovat aina helposti löydettävissä. Prosessointyökaluista löydät esim. vektori- ja rasterianalyysityökalut.</p>
+</div>
+<div id="hakutoiminto" class="section level4" number="2.0.3.5">
+<h4><span class="header-section-number">2.0.3.5</span> 6. Hakutoiminto</h4>
+<p>Joskus on vaikea muistaa, mistä mikäkin työkalu ja toiminto valikosta löytyy. Hakutoiminnolla voit helposti etsiä näitä näppäilemällä CTRL+K ja kirjoittamalla etsimäsi toiminnon hakukenttään.</p>
+</div>
+</div>
+<div id="kokeile-itse" class="section level3" number="2.0.4">
+<h3><span class="header-section-number">2.0.4</span> Kokeile itse</h3>
+<p>Kokeile erilaisia työkaluja ja tarkastele ainakin seuraavien työkalujen toimintaa.
+Työkalupalkin toiminnot (käyttöliittymän yläosassa):
+<img src="GP002_johdanto_qgisin_kayttoon/src/img/harjoitus_1/image3.png" alt="tyokalupalkki" />
+Paikanna edellä näkyneestä työkalurivistä seuraavat työkalut ja tunnista niiden tarkoitukset:
+Zoomaa täydeksi
+<img src="GP002_johdanto_qgisin_kayttoon/src/img/harjoitus_1/image5.png" alt="zoomaa_taydeksi_image" />
+Zoomaa tasoon
+<img src="GP002_johdanto_qgisin_kayttoon/src/img/harjoitus_1/image6.png" alt="zoomaa_tasoon_image" />
+Näytä kohteen tiedot
+<img src="GP002_johdanto_qgisin_kayttoon/src/img/harjoitus_1/image1.png" alt="kohteen_tiedot_image" />
+Avaa attribuuttitaulu
+<img src="GP002_johdanto_qgisin_kayttoon/src/img/harjoitus_1/image2.png" alt="attribuuttitaulu" />
+Mittaa viivan pituus
+<img src="GP002_johdanto_qgisin_kayttoon/src/img/harjoitus_1/image7.png" alt="viivan_pituus_image" /></p>
+<p>Kokeile myös seuraavia tilapalkin toimintoja ja pohdi niiden tarkoituksia työkaluina:
+<img src="GP002_johdanto_qgisin_kayttoon/src/img/harjoitus_1/image8.png" alt="tilapalkki" /></p>
+<p>Tasoluettelon toiminnot (käyttöliittymässä vasemmalla puolella):
+<img src="GP002_johdanto_qgisin_kayttoon/src/img/harjoitus_1/image12.png" alt="tasoluettelo" />
+### Attribuuttitaulu
+Valitse TieViiva-karttataso ja avaa ominaisuustietotaulukko, joko painamalla seuraavaa
+<img src="GP002_johdanto_qgisin_kayttoon/src/img/harjoitus_1/image2.png" alt="tieviiva_image" />
+pikakuvaketta:
+tai painamalla hiiren oikealla näppäimellä karttatason kohdalla sekä valitsemalla <strong>Avaa attribuuttitaulu</strong>.
+Voit järjestää ominaisuustietotaulun minkä tahansa kentän mukaan laskevaan tai nousevaan järjestykseen.
+<img src="GP002_johdanto_qgisin_kayttoon/src/img/harjoitus_1/image14.png" alt="ominaisuustietotaulu" />
+Kun olet tutkinut ominaisuustietotaulukkoa riittävästi, sulje taulukko.</p>
+<p>Tallenna lopuksi aloittamasi QGIS-projekti omaksi projektitiedostokseen kurssihakemistoon, esimerkiksi nimellä <strong>../kurssihakemisto/QGIS_harjoitus_1.qgz</strong>.</p>
+<blockquote>
+<p>Psst! Muista tallentaa QGIS-projekti aina harjoituksen lopuksi.</p>
+</blockquote>
+
+</div>
+</div>
+<p style="text-align: center;">
+<a href="00_kansi.html"><button class="btn btn-default">Previous</button></a>
+<a href="02_env.html"><button class="btn btn-default">Next</button></a>
+</p>
+</div>
+</div>
+
+<footer class="footer text-center">
+
+<div class="footer-container text-center">
+
+<div class="footer-info">
+<h5 class="footer-title">Introduction to QGIS</h5>
+<span class="footer-version">v2021-12-07</span>
+<div class="license"><img src="img/by-nd.svg" width="80px" alt="CC-BY-ND"></div>
+</div>
+
+<div class="footer-info">
+<h5 class="footer-title footer-company">Gispo Ltd.
+<span class="footer-copyright-year">© 2021</span></h5>
+<span class="footer-contact-info">Kalevankatu 31
+<br>00100 Helsinki, Finland
+<br>info@gispo.fi
+</span>
+</div>
+
+</div>
+</div>
+</footer>
+</div>
+
+
+<script src="js/nav-script.js"></script>
+
+</body>
+</html>

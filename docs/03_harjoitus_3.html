@@ -7,7 +7,7 @@
 <meta charset="utf-8" />
 <meta name="generator" content="pandoc" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta property="og:title" content="2.1 Harjoitus 3: Paikkatietoaineiston visualisointi | Introduction to QGIS" />
+<meta property="og:title" content="3.1 Harjoitus 3: Paikkatietoaineiston visualisointi | Introduction to QGIS" />
 <meta property="og:type" content="book" />
 
 
@@ -19,9 +19,9 @@
 <meta name="date" content="2021-12-07" />
 
 
-<meta name="description" content="2.1 Harjoitus 3: Paikkatietoaineiston visualisointi | Introduction to QGIS">
+<meta name="description" content="3.1 Harjoitus 3: Paikkatietoaineiston visualisointi | Introduction to QGIS">
 
-<title>2.1 Harjoitus 3: Paikkatietoaineiston visualisointi | Introduction to QGIS</title>
+<title>3.1 Harjoitus 3: Paikkatietoaineiston visualisointi | Introduction to QGIS</title>
 
 <script src="libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
@@ -68,16 +68,23 @@ type="button" onclick="navToggle()" aria-label="Toggle navigation">
 <li><a href="index.html#about"><span class="toc-section-number">1.1</span> About</a></li>
 <li><a href="index.html#license-and-permissions"><span class="toc-section-number">1.2</span> License and permissions</a></li>
 </ul></li>
-<li><a href="00_kansi.html#training-environment"><span class="toc-section-number">2</span> Training environment</a>
+<li><a href="00_kansi.html#harjoitus-1-qgisin-käyttöliittymä"><span class="toc-section-number">2</span> Harjoitus 1: QGISin käyttöliittymä</a>
 <ul>
-<li><a href="03_harjoitus_3.html#harjoitus-3-paikkatietoaineiston-visualisointi"><span class="toc-section-number">2.1</span> Harjoitus 3: Paikkatietoaineiston visualisointi</a></li>
+<li><a href="00_kansi.html#valmistautuminen"><span class="toc-section-number">2.0.1</span> Valmistautuminen</a></li>
+<li><a href="00_kansi.html#kurssimateriaalien-lataus"><span class="toc-section-number">2.0.2</span> Kurssimateriaalien lataus</a></li>
+<li><a href="00_kansi.html#qgisin-käyttöliittymä"><span class="toc-section-number">2.0.3</span> QGISin käyttöliittymä</a></li>
+<li><a href="00_kansi.html#kokeile-itse"><span class="toc-section-number">2.0.4</span> Kokeile itse</a></li>
 </ul></li>
-<li><a href="04_harjoitus_4.html#harjoitus-4-paikkatietoaineiston-nimiöinti-ja-luokittelu"><span class="toc-section-number">3</span> Harjoitus 4: Paikkatietoaineiston nimiöinti ja luokittelu</a>
+<li><a href="02_env.html#training-environment"><span class="toc-section-number">3</span> Training environment</a>
 <ul>
-<li><a href="04_harjoitus_4.html#valmistautuminen"><span class="toc-section-number">3.0.1</span> Valmistautuminen</a></li>
-<li><a href="04_harjoitus_4.html#nimiöiden-tyyli--ja-yleisasetukset"><span class="toc-section-number">3.0.2</span> Nimiöiden tyyli- ja yleisasetukset</a></li>
-<li><a href="04_harjoitus_4.html#rasteriaineiston-luokittelut"><span class="toc-section-number">3.0.3</span> Rasteriaineiston luokittelut</a></li>
-<li><a href="04_harjoitus_4.html#lisätehtävä-nimiöiden-piirtäminen"><span class="toc-section-number">3.0.4</span> Lisätehtävä: nimiöiden piirtäminen</a></li>
+<li><a href="03_harjoitus_3.html#harjoitus-3-paikkatietoaineiston-visualisointi"><span class="toc-section-number">3.1</span> Harjoitus 3: Paikkatietoaineiston visualisointi</a></li>
+</ul></li>
+<li><a href="04_harjoitus_4.html#harjoitus-4-paikkatietoaineiston-nimiöinti-ja-luokittelu"><span class="toc-section-number">4</span> Harjoitus 4: Paikkatietoaineiston nimiöinti ja luokittelu</a>
+<ul>
+<li><a href="04_harjoitus_4.html#valmistautuminen-1"><span class="toc-section-number">4.0.1</span> Valmistautuminen</a></li>
+<li><a href="04_harjoitus_4.html#nimiöiden-tyyli--ja-yleisasetukset"><span class="toc-section-number">4.0.2</span> Nimiöiden tyyli- ja yleisasetukset</a></li>
+<li><a href="04_harjoitus_4.html#rasteriaineiston-luokittelut"><span class="toc-section-number">4.0.3</span> Rasteriaineiston luokittelut</a></li>
+<li><a href="04_harjoitus_4.html#lisätehtävä-nimiöiden-piirtäminen"><span class="toc-section-number">4.0.4</span> Lisätehtävä: nimiöiden piirtäminen</a></li>
 </ul></li>
 </ul>
 </div>
@@ -88,8 +95,8 @@ type="button" onclick="navToggle()" aria-label="Toggle navigation">
 </div>
 <div class="row">
 <div class="col-sm-12">
-<div id="harjoitus-3-paikkatietoaineiston-visualisointi" class="section level2" number="2.1">
-<h2><span class="header-section-number">2.1</span> Harjoitus 3: Paikkatietoaineiston visualisointi</h2>
+<div id="harjoitus-3-paikkatietoaineiston-visualisointi" class="section level2" number="3.1">
+<h2><span class="header-section-number">3.1</span> Harjoitus 3: Paikkatietoaineiston visualisointi</h2>
 <p>Harjoituksen sisältö
 Harjoituksessa tehdään visualisoinnit sekä vektori- että rasteriaineistosta.
 Harjoituksen tavoite

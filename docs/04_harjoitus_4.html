@@ -7,7 +7,7 @@
 <meta charset="utf-8" />
 <meta name="generator" content="pandoc" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta property="og:title" content="3 Harjoitus 4: Paikkatietoaineiston nimiöinti ja luokittelu | Introduction to QGIS" />
+<meta property="og:title" content="4 Harjoitus 4: Paikkatietoaineiston nimiöinti ja luokittelu | Introduction to QGIS" />
 <meta property="og:type" content="book" />
 
 
@@ -19,9 +19,9 @@
 <meta name="date" content="2021-12-07" />
 
 
-<meta name="description" content="3 Harjoitus 4: Paikkatietoaineiston nimiöinti ja luokittelu | Introduction to QGIS">
+<meta name="description" content="4 Harjoitus 4: Paikkatietoaineiston nimiöinti ja luokittelu | Introduction to QGIS">
 
-<title>3 Harjoitus 4: Paikkatietoaineiston nimiöinti ja luokittelu | Introduction to QGIS</title>
+<title>4 Harjoitus 4: Paikkatietoaineiston nimiöinti ja luokittelu | Introduction to QGIS</title>
 
 <script src="libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
@@ -68,16 +68,23 @@ type="button" onclick="navToggle()" aria-label="Toggle navigation">
 <li><a href="index.html#about"><span class="toc-section-number">1.1</span> About</a></li>
 <li><a href="index.html#license-and-permissions"><span class="toc-section-number">1.2</span> License and permissions</a></li>
 </ul></li>
-<li><a href="00_kansi.html#training-environment"><span class="toc-section-number">2</span> Training environment</a>
+<li><a href="00_kansi.html#harjoitus-1-qgisin-käyttöliittymä"><span class="toc-section-number">2</span> Harjoitus 1: QGISin käyttöliittymä</a>
 <ul>
-<li><a href="03_harjoitus_3.html#harjoitus-3-paikkatietoaineiston-visualisointi"><span class="toc-section-number">2.1</span> Harjoitus 3: Paikkatietoaineiston visualisointi</a></li>
+<li><a href="00_kansi.html#valmistautuminen"><span class="toc-section-number">2.0.1</span> Valmistautuminen</a></li>
+<li><a href="00_kansi.html#kurssimateriaalien-lataus"><span class="toc-section-number">2.0.2</span> Kurssimateriaalien lataus</a></li>
+<li><a href="00_kansi.html#qgisin-käyttöliittymä"><span class="toc-section-number">2.0.3</span> QGISin käyttöliittymä</a></li>
+<li><a href="00_kansi.html#kokeile-itse"><span class="toc-section-number">2.0.4</span> Kokeile itse</a></li>
 </ul></li>
-<li><a href="04_harjoitus_4.html#harjoitus-4-paikkatietoaineiston-nimiöinti-ja-luokittelu"><span class="toc-section-number">3</span> Harjoitus 4: Paikkatietoaineiston nimiöinti ja luokittelu</a>
+<li><a href="02_env.html#training-environment"><span class="toc-section-number">3</span> Training environment</a>
 <ul>
-<li><a href="04_harjoitus_4.html#valmistautuminen"><span class="toc-section-number">3.0.1</span> Valmistautuminen</a></li>
-<li><a href="04_harjoitus_4.html#nimiöiden-tyyli--ja-yleisasetukset"><span class="toc-section-number">3.0.2</span> Nimiöiden tyyli- ja yleisasetukset</a></li>
-<li><a href="04_harjoitus_4.html#rasteriaineiston-luokittelut"><span class="toc-section-number">3.0.3</span> Rasteriaineiston luokittelut</a></li>
-<li><a href="04_harjoitus_4.html#lisätehtävä-nimiöiden-piirtäminen"><span class="toc-section-number">3.0.4</span> Lisätehtävä: nimiöiden piirtäminen</a></li>
+<li><a href="03_harjoitus_3.html#harjoitus-3-paikkatietoaineiston-visualisointi"><span class="toc-section-number">3.1</span> Harjoitus 3: Paikkatietoaineiston visualisointi</a></li>
+</ul></li>
+<li><a href="04_harjoitus_4.html#harjoitus-4-paikkatietoaineiston-nimiöinti-ja-luokittelu"><span class="toc-section-number">4</span> Harjoitus 4: Paikkatietoaineiston nimiöinti ja luokittelu</a>
+<ul>
+<li><a href="04_harjoitus_4.html#valmistautuminen-1"><span class="toc-section-number">4.0.1</span> Valmistautuminen</a></li>
+<li><a href="04_harjoitus_4.html#nimiöiden-tyyli--ja-yleisasetukset"><span class="toc-section-number">4.0.2</span> Nimiöiden tyyli- ja yleisasetukset</a></li>
+<li><a href="04_harjoitus_4.html#rasteriaineiston-luokittelut"><span class="toc-section-number">4.0.3</span> Rasteriaineiston luokittelut</a></li>
+<li><a href="04_harjoitus_4.html#lisätehtävä-nimiöiden-piirtäminen"><span class="toc-section-number">4.0.4</span> Lisätehtävä: nimiöiden piirtäminen</a></li>
 </ul></li>
 </ul>
 </div>
@@ -88,16 +95,16 @@ type="button" onclick="navToggle()" aria-label="Toggle navigation">
 </div>
 <div class="row">
 <div class="col-sm-12">
-<div id="harjoitus-4-paikkatietoaineiston-nimiöinti-ja-luokittelu" class="section level1" number="3">
-<h1><span class="header-section-number">3</span> Harjoitus 4: Paikkatietoaineiston nimiöinti ja luokittelu</h1>
-<div id="harjoituksen-sisältö" class="section level4" number="3.0.0.1">
-<h4><span class="header-section-number">3.0.0.1</span> Harjoituksen sisältö</h4>
+<div id="harjoitus-4-paikkatietoaineiston-nimiöinti-ja-luokittelu" class="section level1" number="4">
+<h1><span class="header-section-number">4</span> Harjoitus 4: Paikkatietoaineiston nimiöinti ja luokittelu</h1>
+<div id="harjoituksen-sisältö-1" class="section level4" number="4.0.0.1">
+<h4><span class="header-section-number">4.0.0.1</span> Harjoituksen sisältö</h4>
 <p>Harjoituksessa tutustutaan aineistojen nimiöinti- ja luokittelutoimintoihin.
 #### Harjoituksen tavoite
 Koulutettava oppii muodostamaan eri tyyppisille paikkatietokohteille tekstitykset ja oppii luokittelemaan paikkatietoaineistoja QGISin työkaluilla.</p>
 </div>
-<div id="valmistautuminen" class="section level3" number="3.0.1">
-<h3><span class="header-section-number">3.0.1</span> Valmistautuminen</h3>
+<div id="valmistautuminen-1" class="section level3" number="4.0.1">
+<h3><span class="header-section-number">4.0.1</span> Valmistautuminen</h3>
 <p>Käynnistä QGIS-ohjelmisto. Avaa edellisen harjoituksen QGIS-projekti ja tallenna se nimellä (<strong>Projekti → Tallenna nimellä…</strong>) “<strong>QGIS_harjoitus_4</strong>”.
 QGIS käyttöliittymässä paikkatietokohteiden tekstitykseen viitataan termillä <strong>Nimiöt</strong> (englanninkielinen termi on “<strong>Labeling</strong>”).
 Avaa <strong>NaturaKohde_ma-aineisto (…/kurssihakemisto/SYKE/Natura2000/)</strong> uuteen projektiin. Avaa sitten <strong>Ominaisuudet-ikkuna</strong> ja valitse <strong>Nimiöt-välilehti</strong>.
@@ -108,8 +115,8 @@ Paina <strong>Käytä</strong>, niin kohteille syntyy nimiöt. Tämä nähdään
 <p class="caption">nimiot</p>
 </div>
 </div>
-<div id="nimiöiden-tyyli--ja-yleisasetukset" class="section level3" number="3.0.2">
-<h3><span class="header-section-number">3.0.2</span> Nimiöiden tyyli- ja yleisasetukset</h3>
+<div id="nimiöiden-tyyli--ja-yleisasetukset" class="section level3" number="4.0.2">
+<h3><span class="header-section-number">4.0.2</span> Nimiöiden tyyli- ja yleisasetukset</h3>
 <p>Nimiöiden tekstien näkymistä kartalla voi määrittää monella eri tavalla. Alla kuvaukset QGISin nimiöiden muokkaamisen alateemoista:</p>
 <p>Teksti
 Määritellään tekstin tyyli, väri ja muita yleisiä ominaisuuksia.
@@ -125,8 +132,8 @@ Sijoittaminen
 Määrittelee tekstien sijoittumista kohteiden suhteen.
 Piirtäminen
 Määrittelee tekstien mittakaavarajoja ja muita tekstien näkyvyyteen liittyviä asioita.</p>
-<div id="nimiön-tekstityyli" class="section level4" number="3.0.2.1">
-<h4><span class="header-section-number">3.0.2.1</span> Nimiön tekstityyli</h4>
+<div id="nimiön-tekstityyli" class="section level4" number="4.0.2.1">
+<h4><span class="header-section-number">4.0.2.1</span> Nimiön tekstityyli</h4>
 <p>Nimiöiden tekstien tyyleille voit asettaa esimerkiksi haluamasi fontin, tyylin ja koon.
 <img src="GP002_johdanto_qgisin_kayttoon/src/img/harjoitus_4/image24.png" alt="tekstin_muotoilu_image" /></p>
 <p>Kokeile erilaisia tekstityylejä. Kokeile nimiöiden varjostamista, minkä avulla voimme korostaa nimiöitä taustalla olevista muista karttaelementeistä. Valitse <strong>Varjo-alateema</strong> ja rastita sitten <strong>Piirrä heittovarjo</strong>. Paina <strong>Käytä</strong>, jotta näkisit tulokset kartalla. Kokeile vaihtaa asetuksia kuten siirtymä, sumennussäde, peittävyys sekä väri, ja katso miten ne vaikuttavat nimiöinnin varjoon. Huomaat muutokset kartalta tai <strong>Esimerkki tekstistä -kentästä</strong>.</p>
@@ -144,8 +151,8 @@ Avaa vielä <strong>Sijoittaminen-alateema</strong> ja valitse <strong>Using per
 <img src="GP002_johdanto_qgisin_kayttoon/src/img/harjoitus_4/image16.png" alt="sijoittaminen_prioriteetti_image" />
 Tällä tavalla annat preferenssin muokkaamasi tason nimiöille suhteessa muiden tasojen nimiöihin ja voit näin järjestää tärkeimpien ja ei niin tärkeiden tasojen nimiöintiä. Paina vielä <strong>OK</strong>.</p>
 </div>
-<div id="nimiöinnit-viivatasoilla" class="section level4" number="3.0.2.2">
-<h4><span class="header-section-number">3.0.2.2</span> Nimiöinnit viivatasoilla</h4>
+<div id="nimiöinnit-viivatasoilla" class="section level4" number="4.0.2.2">
+<h4><span class="header-section-number">4.0.2.2</span> Nimiöinnit viivatasoilla</h4>
 <p>Samalla tavalla kuin juuri määritimme nimiöinnin monikulmiotasolle, voidaan niitä määrittää muillekin vektoriaineistoille. Avaa TieViiva-tason <strong>Ominaisuudet-ikkuna</strong> ja aktivoi nimiöiden käyttö päälle edellisessä harjoituksessa oppimallasi tavalla. Valitse <strong>Nimiöiden perustana -kohdan</strong> alavalikosta käytettäväksi nimiöintisarakkeeksi Tienumero. Paina <strong>Käytä</strong>, ja katso muutokset.
 Avaa vielä nimiöiden <strong>Sijoittaminen-alateema</strong>, ja rastita <strong>Seuraa viivaa</strong> ja <strong>Viivan päällä -toiminnot</strong> päälle. Paina <strong>Käytä</strong>, ja tarkista, että nimiöinti toimii odotetulla tavalla.
 Katso esimerkkiasetukset kuvasta:
@@ -185,8 +192,8 @@ Muuta vielä <strong>Symbolityyliä</strong>. Avaa uudelleen tason ominaisuustie
 <strong>Symbolin valitsija -ikkuna</strong> aukene. Valitse soveltuva kuviointi monikulmioille. Valitse sitten <strong>Yksinkertainen täyttö</strong> symbolitasolle ja aseta <strong>Piirron tyyliksi Ei viivaa</strong>. Paina <strong>OK</strong> ja <strong>OK</strong>. Zoomaa karttaan tutkimaan tulosta ja palaa tyyliasetuksiin, jos haluat tehdä vielä muutoksia.</p>
 </div>
 </div>
-<div id="rasteriaineiston-luokittelut" class="section level3" number="3.0.3">
-<h3><span class="header-section-number">3.0.3</span> Rasteriaineiston luokittelut</h3>
+<div id="rasteriaineiston-luokittelut" class="section level3" number="4.0.3">
+<h3><span class="header-section-number">4.0.3</span> Rasteriaineiston luokittelut</h3>
 <p>Lisää nyt korkeusmalli-rasteriaineisto kurssihakemistosta projektiisi <strong>…/kurssihakemisto/MML/Korkeusmalli_2m/L4133B.asc</strong>. Se on Maanmittauslaitoksen avoin aineisto ja kyseinen aineisto sisältää osan Helsingistä. Kun QGIS kysyy sen kordinaattijärjestelmätietoja, valitse <strong>ETRS-TM35FIN</strong>. Oletuksena korkeusmalli näyttää tällaiselta:
 <img src="GP002_johdanto_qgisin_kayttoon/src/img/harjoitus_4/image23.png" alt="korkeusmalli_image" />
 Huomaa, että QGIS on tunnistanut, että aineisto sisältää jatkuvia arvoja ja on visualisoinut ne yksittäisenä harmaana kanavana. Oletusvärityksellä onnistut erottamaan Pasilan ratapihan. Zoomaa nyt Pasilan harmaana näkyvään alueeseen ja huomaa, että yksittäiset raiteet eivät erotu.
@@ -197,8 +204,8 @@ Katso mallia kuvasta:
 Kokeile myös mitä tapahtuu, jos vaihdat Tilastojen laajuudeksi <strong>Päivitetty karttaikkuna</strong>.</p>
 <p>Psst! Muista tallentaa QGIS-projekti harjoituksen lopuksi.</p>
 </div>
-<div id="lisätehtävä-nimiöiden-piirtäminen" class="section level3" number="3.0.4">
-<h3><span class="header-section-number">3.0.4</span> Lisätehtävä: nimiöiden piirtäminen</h3>
+<div id="lisätehtävä-nimiöiden-piirtäminen" class="section level3" number="4.0.4">
+<h3><span class="header-section-number">4.0.4</span> Lisätehtävä: nimiöiden piirtäminen</h3>
 <p>Loitonna karttanäkymää siten, että kaikki tasojesi kohteet tulevat näkyville. Voit tehdä tämän seuraavan työkalun avulla:
 <img src="GP002_johdanto_qgisin_kayttoon/src/img/harjoitus_4/image15.png" alt="tyokalu_image" />
 Joissakin tapauksissa olisi hyödyllistä määrittää nimiöt eri mittakaavoille erikseen.
