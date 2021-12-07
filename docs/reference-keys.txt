@@ -33,3 +33,8 @@ nimiön-tekstityyli
 nimiöinnit-viivatasoilla
 rasteriaineiston-luokittelut
 lisätehtävä-nimiöiden-piirtäminen
+harjoitus-5-karttatuloste
+harjoituksen-sisältö-4
+valmistautuminen-4
+karttatuloste
+lisätehtävä-kartta-atlas
