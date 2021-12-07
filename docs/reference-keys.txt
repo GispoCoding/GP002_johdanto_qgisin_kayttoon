@@ -3,3 +3,11 @@ about
 license-and-permissions
 training-environment
 harjoitus-3-paikkatietoaineiston-visualisointi
+harjoitus-4-paikkatietoaineiston-nimiöinti-ja-luokittelu
+harjoituksen-sisältö
+valmistautuminen
+nimiöiden-tyyli--ja-yleisasetukset
+nimiön-tekstityyli
+nimiöinnit-viivatasoilla
+rasteriaineiston-luokittelut
+lisätehtävä-nimiöiden-piirtäminen
