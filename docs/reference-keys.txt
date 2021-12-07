@@ -38,3 +38,11 @@ harjoituksen-sisältö-4
 valmistautuminen-4
 karttatuloste
 lisätehtävä-kartta-atlas
+harjoitus-6-paikkatietoaineiston-editointi
+harjoituksen-sisältö-5
+valmistautuminen-5
+vektoriaineiston-geopackage-luominen
+digitoitavan-tason-tietorakenne
+pohjakartan-lisääminen
+digitoinnin-aloittaminen
+lisätehtävä-cad-digitointi
