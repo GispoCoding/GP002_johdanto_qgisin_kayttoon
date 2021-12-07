@@ -2,3 +2,4 @@ introduction-to-qgis
 about
 license-and-permissions
 training-environment
+harjoitus-3-paikkatietoaineiston-visualisointi
