@@ -62,7 +62,7 @@ Psst! Muista tallentaa QGIS-projekti harjoituksen lopuksi.
 
 ##Lisätehtävä: ominaisuustietojen lisääminen ja tarkastelu
 Lopuksi voimme laskea, kuinka suuri osa suhteellisesti (osuus koko pituudesta) tietä nro. 66 osuu kunkin kunnan alueelle. Prosenttilaskun toimittamiseksi tarvitset tiedon tiesegmenttien yhteenlasketusta kokonaispituudesta eli summasta, jonka saat käyttöösi Kenttien tilastolliset tunnusluvut -työkalun avulla: avaa yläpalkista **Prosessointi → Työkalut** ja kirjoita hakukenttään Kenttien tilastolliset tunnusluvut. 
-
+![tilastot](GP002_johdanto_qgisin_kayttoon/src/img/harjoitus_7/image3.png)
 Anna avautuvassa ikkunassa kentäksi, josta tilastot lasketaan, edellisessä tehtävässä laskemasi pituus-kenttä:
 Prosenttilasku tehdään samalla tavalla kuin pituuden tai pinta-alan laskenta eli tehdään uusi sarake, jonka kohteille lasketaan arvot seuraavan funktion avulla (heittomerkkien sisään jäävä sana/merkkijono viittaa sarakkeen nimeen ja ‘summa’ laskemaasi arvoon):
 ("Pituus" / summa)*100
