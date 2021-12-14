@@ -15,6 +15,7 @@ tilapalkki
 prosessointi--ja-selain-paneeli
 hakutoiminto
 kokeile-itse
+attribuuttitaulu
 training-environment
 harjoitus-2-paikkatietoaineistot-ja--palvelut
 harjoituksen-sisältö-1
