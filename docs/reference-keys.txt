@@ -6,10 +6,12 @@ harjoituksen-sisältö
 valmistautuminen
 kurssimateriaalien-lataus
 qgisin-käyttöliittymä
+qgis-käyttöliittymän-osat
 tasoluettelo
 työkalupalkit
 karttaikkuna
 tilapalkki
+prosessointi--ja-selain-paneeli
 hakutoiminto
 kokeile-itse
 training-environment
