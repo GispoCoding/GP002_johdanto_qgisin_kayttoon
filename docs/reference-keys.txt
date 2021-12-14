@@ -27,6 +27,7 @@ monikulmioaineiston-edistynyt-visualisointi
 rasteriaineistojen-visualisointi
 harjoitus-4-paikkatietoaineiston-nimiöinti-ja-luokittelu
 harjoituksen-sisältö-3
+harjoituksen-tavoite
 valmistautuminen-3
 nimiöiden-tyyli--ja-yleisasetukset
 nimiön-tekstityyli
