@@ -15,6 +15,7 @@ kokeile-itse
 training-environment
 harjoitus-2-paikkatietoaineistot-ja--palvelut
 harjoituksen-sisältö-1
+harjoituksen-tavoite
 valmistautuminen-1
 wms-palvelun-lisääminen
 wfs-palvelun-lisääminen
@@ -27,7 +28,7 @@ monikulmioaineiston-edistynyt-visualisointi
 rasteriaineistojen-visualisointi
 harjoitus-4-paikkatietoaineiston-nimiöinti-ja-luokittelu
 harjoituksen-sisältö-3
-harjoituksen-tavoite
+harjoituksen-tavoite-1
 valmistautuminen-3
 nimiöiden-tyyli--ja-yleisasetukset
 nimiön-tekstityyli
