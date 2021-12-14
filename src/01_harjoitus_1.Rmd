@@ -21,15 +21,20 @@ Kun kurssimateriaalissa viitataan **.../kurssihakemisto/**, tarkoitetaan itse m�
 
 ### QGISin käyttöliittymä
 Käynnistä QGIS. QGISin käyttöliittymä saattaa aueta englanninkielisenä ensimmäisellä käyttökerralla. Voit vaihtaa kielen suomeksi asetuksista **Settings → Options → General → User** 
+
 ![interface_image](img/harjoitus_1/image15.png)
+
 **Interface Translation → suomi**. Paina lopuksi OK. Huomaa, että kielen vaihtamisen aktivoimiseksi sinun tulee käynnistää QGIS uudelleen.
 Lisää ensimmäinen vektorimuotoinen paikkatietoaineisto napsauttamalla **Avaa tietolähteiden hallinta –pikakuvakenäppäintä**: 
 Löydät saman toiminnon myös Tasot-valikosta **Lisää taso → Lisää vektoritaso…** (Ctrl+Shift+V).
-Valitse avautuvasta ikkunasta vasemmalta puolelta **Vektori-välilehti**. Lisää aineisto kurssin materiaaleista (**.../kurssihakemisto/MML/YK_1M/**). Valitse nyt Maanmittauslaitoksen 
+Valitse avautuvasta ikkunasta vasemmalta puolelta **Vektori-välilehti**. Lisää aineisto kurssin materiaaleista (**.../kurssihakemisto/MML/YK_1M/**). Valitse nyt Maanmittauslaitoksen 1:1M-aineistosta **TieViiva.shp-tiedosto**. Paina lopuksi **Lisää** ja sulje ikkuna.
+
 ![aineisto_image](img/harjoitus_1/image11.png)
-1:1M-aineistosta **TieViiva.shp-tiedosto**. Paina lopuksi **Lisää** ja sulje ikkuna.
+
 Aineiston pitäisi näkyä seuraavan sivun esimerkin mukaisesti (huom! viivan väri saattaa olla eri).
+
 ![aineisto_image2](img/harjoitus_1/image10.png)
+
 ### QGIS-käyttöliittymän osat
 
 #### 1. Tasoluettelo
@@ -43,6 +48,7 @@ Karttaikkunaan piirtyvät ne paikkatietoaineistot, jotka ovat tasoluettelossa ak
 
 #### 4. Tilapalkki
 Tilapalkista näet hiiren kursorin koordinaatit, minkä lisäksi voit muuttaa mittakaavaa ja koordinaattijärjestelmää.
+
 #### 5. Prosessointi- ja selain-paneeli
 Aikaisemmassa harjoituksessa tutustuttiinkin jo hieman QGISin uuteen Selain-paneeliin, joka aikaisemmissa versioissa on ollut erillisenä ohjelmana. Myös Prosessointityökalut saa kätevästi esille paneeliksi, jolloin ne ovat aina helposti löydettävissä. Prosessointyökaluista löydät esim. vektori- ja rasterianalyysityökalut.
 
