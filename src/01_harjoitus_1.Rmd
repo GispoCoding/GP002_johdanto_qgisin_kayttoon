@@ -56,25 +56,40 @@ Joskus on vaikea muistaa, mistä mikäkin työkalu ja toiminto valikosta löytyy
 ### Kokeile itse
 Kokeile erilaisia työkaluja ja tarkastele ainakin seuraavien työkalujen toimintaa.
 Työkalupalkin toiminnot (käyttöliittymän yläosassa):
+
 ![tyokalupalkki](img/harjoitus_1/image3.png)
+
 Paikanna edellä näkyneestä työkalurivistä seuraavat työkalut ja tunnista niiden tarkoitukset:
+
 Zoomaa täydeksi
+
 ![zoomaa_taydeksi_image](img/harjoitus_1/image5.png)
+
 Zoomaa tasoon
+
 ![zoomaa_tasoon_image](img/harjoitus_1/image6.png)
+
 Näytä kohteen tiedot
+
 ![kohteen_tiedot_image](img/harjoitus_1/image1.png)
+
 Avaa attribuuttitaulu
+
 ![attribuuttitaulu](img/harjoitus_1/image2.png)
+
 Mittaa viivan pituus 
+
 ![viivan_pituus_image](img/harjoitus_1/image7.png)
 
 
 Kokeile myös seuraavia tilapalkin toimintoja ja pohdi niiden tarkoituksia työkaluina:
+
 ![tilapalkki](img/harjoitus_1/image8.png)
 
 Tasoluettelon toiminnot (käyttöliittymässä vasemmalla puolella):
+
 ![tasoluettelo](img/harjoitus_1/image12.png)
+
 ### Attribuuttitaulu
 Valitse TieViiva-karttataso ja avaa ominaisuustietotaulukko, joko painamalla  pikakuvaketta
 ![tieviiva_image](img/harjoitus_1/image2.png)
