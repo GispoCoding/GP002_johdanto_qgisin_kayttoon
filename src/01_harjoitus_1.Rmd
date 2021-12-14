@@ -21,7 +21,7 @@ Kun kurssimateriaalissa viitataan **.../kurssihakemisto/**, tarkoitetaan itse m�
 
 ### QGISin käyttöliittymä
 Käynnistä QGIS. QGISin käyttöliittymä saattaa aueta englanninkielisenä ensimmäisellä käyttökerralla. Voit vaihtaa kielen suomeksi asetuksista **Settings → Options → General → User** 
-![interface_image](GP002_johdanto_qgisin_kayttoon/src/img/harjoitus_1/image15.png)
+![interface_image](img/harjoitus_1/image15.png)
 **Interface Translation → suomi**. Paina lopuksi OK. Huomaa, että kielen vaihtamisen aktivoimiseksi sinun tulee käynnistää QGIS uudelleen.
 Lisää ensimmäinen vektorimuotoinen paikkatietoaineisto napsauttamalla **Avaa tietolähteiden hallinta –pikakuvakenäppäintä**: 
 Löydät saman toiminnon myös Tasot-valikosta **Lisää taso → Lisää vektoritaso…** (Ctrl+Shift+V).
