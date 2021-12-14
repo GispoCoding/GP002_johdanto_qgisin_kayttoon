@@ -2,6 +2,7 @@
 
 #### Harjoituksen sisältö
 Harjoituksessa tutustutaan aineistojen nimiöinti- ja luokittelutoimintoihin.
+
 #### Harjoituksen tavoite
 Koulutettava oppii muodostamaan eri tyyppisille paikkatietokohteille tekstitykset ja oppii luokittelemaan paikkatietoaineistoja QGISin työkaluilla.
 
