@@ -2,14 +2,13 @@
 
 #### Harjoituksen sisältö
 Harjoituksessa tutustutaan QGIS–ohjelmiston käyttöliittymään ja sen perustoimintoihin.
+
 #### Harjoituksen tavoite
 Koulutettava oppii käyttämään QGISin käyttöliittymää.
-
 
 ### Valmistautuminen
 Avaa web-selain ja mene QGISin suomenkielisille web-sivuille. 
 > http://www.qgis.org/fi/site/
-
 
 Löydät etusivulta linkin, jonka avulla pääset lataamaan QGIS-työpöytäohjelmiston. Lataa sivustolta **QGISin pitkäaikaisversio (long term release)**. Pitkäaikaisversio on stabiilein QGIS-versio, mutta siitä voi puuttua uudempien versioiden uusia ominaisuuksia.
 QGISin voi asentaa Windows-, Linux- tai Mac-käyttöjärjestelmään. Eri järjestelmien QGIS-versioiden välillä huomattavimmat erot ovat väriskeemoissa ja tiedostopoluissa – muuten erot ovat hyvin pieniä.
@@ -77,14 +76,14 @@ Kokeile myös seuraavia tilapalkin toimintoja ja pohdi niiden tarkoituksia työk
 Tasoluettelon toiminnot (käyttöliittymässä vasemmalla puolella):
 ![tasoluettelo](img/harjoitus_1/image12.png)
 ### Attribuuttitaulu
-Valitse TieViiva-karttataso ja avaa ominaisuustietotaulukko, joko painamalla seuraavaa 
+Valitse TieViiva-karttataso ja avaa ominaisuustietotaulukko, joko painamalla  pikakuvaketta
 ![tieviiva_image](img/harjoitus_1/image2.png)
-pikakuvaketta:
 tai painamalla hiiren oikealla näppäimellä karttatason kohdalla sekä valitsemalla **Avaa attribuuttitaulu**.
 Voit järjestää ominaisuustietotaulun minkä tahansa kentän mukaan laskevaan tai nousevaan järjestykseen.
-![ominaisuustietotaulu](img/harjoitus_1/image14.png)
-Kun olet tutkinut ominaisuustietotaulukkoa riittävästi, sulje taulukko.
 
+![ominaisuustietotaulu](img/harjoitus_1/image14.png)
+
+Kun olet tutkinut ominaisuustietotaulukkoa riittävästi, sulje taulukko.
 
 Tallenna lopuksi aloittamasi QGIS-projekti omaksi projektitiedostokseen kurssihakemistoon, esimerkiksi nimellä **../kurssihakemisto/QGIS_harjoitus_1.qgz**.
 
