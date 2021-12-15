@@ -1,24 +1,25 @@
 # Harjoitus 1: QGISin käyttöliittymä
 
-#### Harjoituksen sisältö
+## Harjoituksen sisältö
+
 Harjoituksessa tutustutaan QGIS–ohjelmiston käyttöliittymään ja sen perustoimintoihin.
 
-#### Harjoituksen tavoite
+## Harjoituksen tavoite
+
 Koulutettava oppii käyttämään QGISin käyttöliittymää.
 
-### Valmistautuminen
+## Valmistautuminen
 Avaa web-selain ja mene QGISin suomenkielisille web-sivuille. 
 > http://www.qgis.org/fi/site/
 
 Löydät etusivulta linkin, jonka avulla pääset lataamaan QGIS-työpöytäohjelmiston. Lataa sivustolta **QGISin pitkäaikaisversio (long term release)**. Pitkäaikaisversio on stabiilein QGIS-versio, mutta siitä voi puuttua uudempien versioiden uusia ominaisuuksia.
 QGISin voi asentaa Windows-, Linux- tai Mac-käyttöjärjestelmään. Eri järjestelmien QGIS-versioiden välillä huomattavimmat erot ovat väriskeemoissa ja tiedostopoluissa – muuten erot ovat hyvin pieniä.
 
-### Kurssimateriaalien lataus
+## Kurssimateriaalien lataus
 Kouluttaja ohjeistaa sinua lataamaan kurssimateriaalit joko muistitikulta, Google Drivestä tai AWS-palvelimelta. Kopioi kurssimateriaalit koulutuskoneelle haluamaasi kansioon niin, että löydät ne helposti jatkossa. Voit kirjoittaa muistiinpanoja harjoitusten viimeiselle sivulle.
 Kun kurssimateriaalissa viitataan **.../kurssihakemisto/**, tarkoitetaan itse määrittelemääsi kurssihakemiston polkua.
 
-
-### QGISin käyttöliittymä
+## QGISin käyttöliittymä
 Käynnistä QGIS. QGISin käyttöliittymä saattaa aueta englanninkielisenä ensimmäisellä käyttökerralla. Voit vaihtaa kielen suomeksi asetuksista **Settings → Options → General → User Interface Translation → suomi**. Paina lopuksi **OK**. 
 
 ![](img/harjoitus_1/image15.png)
@@ -34,27 +35,27 @@ Aineiston pitäisi näkyä seuraavan sivun esimerkin mukaisesti (huom! viivan v�
 
 ![](img/harjoitus_1/image10.png)
 
-### QGIS-käyttöliittymän osat
+## QGIS-käyttöliittymän osat
 
-#### 1. Tasoluettelo
+1. Tasoluettelo
 Tähän osioon tulevat näkyviin paikkatietoaineistot, jotka näkyvät karttaikkunassa. Voit hallita tasojen järjestystä ja näkyvyyttä.
 
-#### 2. Työkalupalkit
+2. Työkalupalkit
 Työkalupalkit sisältävät erilaisia työkaluja. Omassa tietokoneessasi voi olla näkyvissä enemmän tai vähemmän työkalupalkkeja. Napauttamalla hiiren oikea näppäintä työkalupalkkien päällä, voit piilottaa tai ottaa esiin työkalupalkkeja. Voit myös raahata työkalupalkkeja eri kohtiin.
 
-#### 3. Karttaikkuna
+3. Karttaikkuna
 Karttaikkunaan piirtyvät ne paikkatietoaineistot, jotka ovat tasoluettelossa aktivoituna näkyväksi. Voit lähentää ja loitontaa karttaa sekä paneroida siinä hiiren avulla (koita myös hiiren scrollia). 
 
-#### 4. Tilapalkki
+4. Tilapalkki
 Tilapalkista näet hiiren kursorin koordinaatit, minkä lisäksi voit muuttaa mittakaavaa ja koordinaattijärjestelmää.
 
-#### 5. Prosessointi- ja selain-paneeli
+5. Prosessointi- ja selain-paneeli
 Aikaisemmassa harjoituksessa tutustuttiinkin jo hieman QGISin uuteen Selain-paneeliin, joka aikaisemmissa versioissa on ollut erillisenä ohjelmana. Myös Prosessointityökalut saa kätevästi esille paneeliksi, jolloin ne ovat aina helposti löydettävissä. Prosessointyökaluista löydät esim. vektori- ja rasterianalyysityökalut.
 
-#### 6. Hakutoiminto
+6. Hakutoiminto
 Joskus on vaikea muistaa, mistä mikäkin työkalu ja toiminto valikosta löytyy. Hakutoiminnolla voit helposti etsiä näitä näppäilemällä CTRL+K ja kirjoittamalla etsimäsi toiminnon hakukenttään.
 
-### Kokeile itse
+## Kokeile itse
 Kokeile erilaisia työkaluja ja tarkastele ainakin seuraavien työkalujen toimintaa.
 Työkalupalkin toiminnot (käyttöliittymän yläosassa):
 
@@ -62,26 +63,15 @@ Työkalupalkin toiminnot (käyttöliittymän yläosassa):
 
 Paikanna edellä näkyneestä työkalurivistä seuraavat työkalut ja tunnista niiden tarkoitukset:
 
-Zoomaa täydeksi
+![](img/harjoitus_1/image5.png) Zoomaa täydeksi
 
-![](img/harjoitus_1/image5.png)
+![](img/harjoitus_1/image6.png) Zoomaa tasoon
 
-Zoomaa tasoon
+![](img/harjoitus_1/image1.png) Näytä kohteen tiedot
 
-![](img/harjoitus_1/image6.png)
+![](img/harjoitus_1/image2.png) Avaa attribuuttitaulu
 
-Näytä kohteen tiedot
-
-![](img/harjoitus_1/image1.png)
-
-Avaa attribuuttitaulu
-
-![](img/harjoitus_1/image2.png)
-
-Mittaa viivan pituus 
-
-![](img/harjoitus_1/image7.png)
-
+![](img/harjoitus_1/image7.png) Mittaa viivan pituus
 
 Kokeile myös seuraavia tilapalkin toimintoja ja pohdi niiden tarkoituksia työkaluina:
 
@@ -92,10 +82,7 @@ Tasoluettelon toiminnot (käyttöliittymässä vasemmalla puolella):
 ![](img/harjoitus_1/image12.png)
 
 ### Attribuuttitaulu
-Valitse TieViiva-karttataso ja avaa ominaisuustietotaulukko, joko painamalla  pikakuvaketta
-
-![](img/harjoitus_1/image2.png)
-
+Valitse TieViiva-karttataso ja avaa ominaisuustietotaulukko, joko painamalla  pikakuvaketta ![](img/harjoitus_1/image2.png) 
 tai painamalla hiiren oikealla näppäimellä karttatason kohdalla sekä valitsemalla **Avaa attribuuttitaulu**.
 Voit järjestää ominaisuustietotaulun minkä tahansa kentän mukaan laskevaan tai nousevaan järjestykseen.
 
