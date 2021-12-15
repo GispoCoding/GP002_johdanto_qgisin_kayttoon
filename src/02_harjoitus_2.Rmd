@@ -31,7 +31,9 @@ http://kartta.hel.fi/ws/geoserver/avoindata/wms
 ![Helsingin_WMS_palvelu_image](img/harjoitus_2/image4.png)
 
 Palvelun määrityksen jälkeen paina OK. Paina vielä **Yhdistä**. Näin otamme yhteyden WMS-palveluun ja saamme alle listan palvelusta saatavilla olevista karttatasoista. Valitse Ajantasa_asemakaava tai haluamasi muu karttataso ja paina Lisää. Huomaa, että voit joutua odottamaan hetken, kun karttatasoa ladataan palvelimelta.
+
 ![lista_palveluista_image](img/harjoitus_2/image3.png)
+
 Luo nyt muutama WMS-palveluyhteys lisää. Voit hakea ja kopioida suoraan niin WMS- kuin WFS-palveluiden URL-osoitteita Gispon ylläpitämässä vapaasti käytettävästä rajapintaluettelosta seuraavan osoitteen takaa (https://goo.gl/g6Frmg tai https://gispohelp.zendesk.com/hc/fi/articles/208159815). 
 Listaamme myös alle muutaman WMS-palvelun URL-osoitteen:
 
