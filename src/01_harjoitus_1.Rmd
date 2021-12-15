@@ -21,17 +21,18 @@ Kun kurssimateriaalissa viitataan **.../kurssihakemisto/**, tarkoitetaan itse m�
 ### QGISin käyttöliittymä
 Käynnistä QGIS. QGISin käyttöliittymä saattaa aueta englanninkielisenä ensimmäisellä käyttökerralla. Voit vaihtaa kielen suomeksi asetuksista **Settings → Options → General → User Interface Translation → suomi**. Paina lopuksi **OK**. 
 
-![interface_image](img/harjoitus_1/image15.png)
+![](img/harjoitus_1/image15.png)
+
 Huomaa, että kielen vaihtamisen aktivoimiseksi sinun tulee käynnistää QGIS uudelleen.
 Lisää ensimmäinen vektorimuotoinen paikkatietoaineisto napsauttamalla **Avaa tietolähteiden hallinta –pikakuvakenäppäintä**: 
 Löydät saman toiminnon myös Tasot-valikosta **Lisää taso → Lisää vektoritaso…** (Ctrl+Shift+V).
 Valitse avautuvasta ikkunasta vasemmalta puolelta **Vektori-välilehti**. Lisää aineisto kurssin materiaaleista (**.../kurssihakemisto/MML/YK_1M/**). Valitse nyt Maanmittauslaitoksen 1:1M-aineistosta **TieViiva.shp-tiedosto**. Paina lopuksi **Lisää** ja sulje ikkuna.
 
-![aineisto_image](img/harjoitus_1/image11.png)
+![](img/harjoitus_1/image11.png)
 
 Aineiston pitäisi näkyä seuraavan sivun esimerkin mukaisesti (huom! viivan väri saattaa olla eri).
 
-![aineisto_image2](img/harjoitus_1/image10.png)
+![](img/harjoitus_1/image10.png)
 
 ### QGIS-käyttöliittymän osat
 
@@ -57,46 +58,48 @@ Joskus on vaikea muistaa, mistä mikäkin työkalu ja toiminto valikosta löytyy
 Kokeile erilaisia työkaluja ja tarkastele ainakin seuraavien työkalujen toimintaa.
 Työkalupalkin toiminnot (käyttöliittymän yläosassa):
 
-![tyokalupalkki](img/harjoitus_1/image3.png)
+![](img/harjoitus_1/image3.png)
 
 Paikanna edellä näkyneestä työkalurivistä seuraavat työkalut ja tunnista niiden tarkoitukset:
 
 Zoomaa täydeksi
 
-![zoomaa_taydeksi_image](img/harjoitus_1/image5.png)
+![](img/harjoitus_1/image5.png)
 
 Zoomaa tasoon
 
-![zoomaa_tasoon_image](img/harjoitus_1/image6.png)
+![](img/harjoitus_1/image6.png)
 
 Näytä kohteen tiedot
 
-![kohteen_tiedot_image](img/harjoitus_1/image1.png)
+![](img/harjoitus_1/image1.png)
 
 Avaa attribuuttitaulu
 
-![attribuuttitaulu](img/harjoitus_1/image2.png)
+![](img/harjoitus_1/image2.png)
 
 Mittaa viivan pituus 
 
-![viivan_pituus_image](img/harjoitus_1/image7.png)
+![](img/harjoitus_1/image7.png)
 
 
 Kokeile myös seuraavia tilapalkin toimintoja ja pohdi niiden tarkoituksia työkaluina:
 
-![tilapalkki](img/harjoitus_1/image8.png)
+![](img/harjoitus_1/image8.png)
 
 Tasoluettelon toiminnot (käyttöliittymässä vasemmalla puolella):
 
-![tasoluettelo](img/harjoitus_1/image12.png)
+![](img/harjoitus_1/image12.png)
 
 ### Attribuuttitaulu
 Valitse TieViiva-karttataso ja avaa ominaisuustietotaulukko, joko painamalla  pikakuvaketta
-![tieviiva_image](img/harjoitus_1/image2.png)
+
+![](img/harjoitus_1/image2.png)
+
 tai painamalla hiiren oikealla näppäimellä karttatason kohdalla sekä valitsemalla **Avaa attribuuttitaulu**.
 Voit järjestää ominaisuustietotaulun minkä tahansa kentän mukaan laskevaan tai nousevaan järjestykseen.
 
-![ominaisuustietotaulu](img/harjoitus_1/image14.png)
+![](img/harjoitus_1/image14.png)
 
 Kun olet tutkinut ominaisuustietotaulukkoa riittävästi, sulje taulukko.
 
