@@ -81,7 +81,6 @@ Harjoituksessa käytettävän aineiston on tuottanut Helsingin seudun ympärist�
 
 ![](img/harjoitus_4/image25.png)
 
-
 Ominaisuustietotauluissa sarakkeiden nimet ovat usein lyhennetyssä muodossa. Sarakkeiden merkitystä on tyypillisesti hiukan vaikea päätellä lyhenteistä. Tässä tapauksessa silmiinpistävää on lisäksi, että taulukossa luku 99 toistuu useaan otteeseen. Metatietojen avulla voimme kuitenkin selvittää muun muassa, miten ASUKKAITA sarakkeen tiedot on laskettu sekä millä tavalla tiedot on poistettu ruuduissa, joissa asuu 0-4 asukasta. IKA-sarakkeet sisältävät asukkaiden määrät ikäluokittain, mutta niille on annettu arvo 99 aina kun ruudukon asukasmäärä on ollut alle 100.
 Tarkastele aineistoa myös kartalla. Huomaatko yhden ruudun, joka näyttää sijaitsevan kaukana kaakossa keskellä merta?
 
@@ -138,7 +137,6 @@ Kokeile myös mitä tapahtuu, jos vaihdat Tilastojen laajuudeksi **Päivitetty k
 Psst! Muista tallentaa QGIS-projekti harjoituksen lopuksi.
 
 
-
 ### Lisätehtävä: nimiöiden piirtäminen
 Loitonna karttanäkymää siten, että kaikki tasojesi kohteet tulevat näkyville. Voit tehdä tämän seuraavan työkalun avulla: 
 
@@ -155,7 +153,7 @@ Voit myös testata muita tekstittämiseen liittyviä edistyneempiä toimia. Voit
 
 ![](img/harjoitus_4/image20.png)
 
-Kokeile yhdistää kaksi saraketta samaan nimiöön **|| -merkin** avulla esimerkiksi seuraavalla tavalla: "**sarake1 || sarake2**". Uuden rivin saat komennolla **‘\\n’** . Huomaa, miten **Tuloksen esikatselu -kohtaan** tulee esille nimiöinnin oletettu tulos (aineistosta otetuilla esimerkkiarvoilla). 
+Kokeile yhdistää kaksi saraketta samaan nimiöön **|| -merkin** avulla esimerkiksi seuraavalla tavalla: "**sarake1 || sarake2**". Uuden rivin saat komennolla **``‘\n’``** . Huomaa, miten **Tuloksen esikatselu -kohtaan** tulee esille nimiöinnin oletettu tulos (aineistosta otetuilla esimerkkiarvoilla). 
 
 ![](img/harjoitus_4/image1.png)
 
