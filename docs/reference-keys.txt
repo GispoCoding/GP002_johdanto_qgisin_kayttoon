@@ -38,6 +38,7 @@ valmistautuminen-3
 nimiöiden-tyyli--ja-yleisasetukset
 nimiön-tekstityyli
 nimiöinnit-viivatasoilla
+vektoriaineiston-luokittelut
 rasteriaineiston-luokittelut
 lisätehtävä-nimiöiden-piirtäminen
 harjoitus-5-karttatuloste
