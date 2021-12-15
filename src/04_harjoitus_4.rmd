@@ -57,7 +57,7 @@ Tulos voi näyttää oudolta, etenkin jos karttaikkunan mittakaavaa on asetettu 
 
 Etsi vielä **Sijoittaminen → Prioriteetti** ja määritä se **Korkeaksi**.
 
-![](GP002_johdanto_qgisin_kayttoon/src/img/harjoitus_4/image16.png)
+![](img/harjoitus_4/image16.png)
 
 Tällä tavalla annat preferenssin muokkaamasi tason nimiöille suhteessa muiden tasojen nimiöihin ja voit näin järjestää tärkeimpien ja ei niin tärkeiden tasojen nimiöintiä. Paina vielä **OK**.
 
@@ -155,7 +155,7 @@ Voit myös testata muita tekstittämiseen liittyviä edistyneempiä toimia. Voit
 
 ![](img/harjoitus_4/image20.png)
 
-Kokeile yhdistää kaksi saraketta samaan nimiöön **|| -merkin** avulla esimerkiksi seuraavalla tavalla: "**sarake1 || sarake2**". Uuden rivin saat komennolla **‘\n’** . Huomaa, miten **Tuloksen esikatselu -kohtaan** tulee esille nimiöinnin oletettu tulos (aineistosta otetuilla esimerkkiarvoilla). 
+Kokeile yhdistää kaksi saraketta samaan nimiöön **|| -merkin** avulla esimerkiksi seuraavalla tavalla: "**sarake1 || sarake2**". Uuden rivin saat komennolla **‘\\n’** . Huomaa, miten **Tuloksen esikatselu -kohtaan** tulee esille nimiöinnin oletettu tulos (aineistosta otetuilla esimerkkiarvoilla). 
 
 ![](img/harjoitus_4/image1.png)
 
