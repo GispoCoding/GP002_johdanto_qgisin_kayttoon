@@ -32,8 +32,10 @@ Vedä tulosalueelle suorakulmio, karttanäkymän mukainen kartta piirtyy näytö
 ![](img/harjoitus_5/image2.png)
 
 Valitse **Elementin ominaisuudet -välilehti** ja muuta kartan parametrejä seuraavasti:
+
 - Kartan mittakaavaksi 1:200 000
 - Valitse Kehys (piirtää kartalle reunaviivat)
+
 Huomaa, että karttatulosteen hallinnassa on mahdollisuus siirtää yksittäisiä kohteita (nimikkeitä) tai muokata kartan sijaintia.
 Kohteen ollessa valittuna, voit siirtää sitä tulosteella seuraavan työkalun avulla:
 
