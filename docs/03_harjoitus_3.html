@@ -141,37 +141,22 @@ type="button" onclick="navToggle()" aria-label="Toggle navigation">
 <h3><span class="header-section-number">5.0.2</span> Vektoriaineistojen visualisointi</h3>
 <p>Aloita tutkimalla edellisessä harjoituksessa avattua tiestötasoa. Jos teit uuden QGIS-projektitiedoston, lisää taso painamalla <strong>Lisää vektoritaso -painiketta</strong> ja selaamalla tiedostoon <strong>…/kurssihakemisto/MML/YK_1M/TieViiva.shp</strong>.
 Paina hiiren oikealla painikkeella tason nimeä (TieViiva) tasoluettelossa. Valitse valikosta <strong>Ominaisuudet</strong>:</p>
-<div class="figure">
-<img src="img/harjoitus_3/image4.png" alt="" />
-<p class="caption">tasoluettelo_image</p>
-</div>
+<p><img src="img/harjoitus_3/image4.png" /></p>
 <p><strong>Tason ominaisuudet</strong> -ikkuna aukeaa. Huomaa vasemmalla oleva sivupalkki, josta löytyy eri ominaisuudet jaoteltuna aihekohtaisesti. Samaisessa sivupalkissa on <strong>Kuvaustekniikka-alamenu</strong>, jonka valittuasi pääset muokkaamaan tason tyyliominaisuuksia:</p>
-<div class="figure">
-<img src="img/harjoitus_3/image12.png" alt="" />
-<p class="caption">kuvaustekniikka_alamenu_image</p>
-</div>
+<p><img src="img/harjoitus_3/image12.png" /></p>
 <p>Vaihda <strong>Väri- ja Leveys-arvot</strong>, ja paina <strong>Käytä</strong>. Sillä tavalla saat näkyviin tekemäsi muutokset sulkematta <strong>Tason ominaisuudet -ikkunaa</strong>. Avaa vielä jokin <strong>symbolikirjasto</strong>, esimerkiksi <strong>Suosikit</strong>, ja muuta viivan tyyliksi jokin sinua miellyttävä tyyli. Paina sitten <strong>OK</strong>, ikkuna sulkeutuu ja tiestö-taso näkyy nyt määrittämäsi visualisointityylin tavalla.
 Muut paikkatietoaineistojen visualisoinnin työkalut saa käyttöön samalla tavalla, avaamalla hiiren oikealla <strong>Properties</strong> ja sivupalkista <strong>Kuvaustekniikka</strong>. Eri vektoriaineistotyypeillä (piste, viiva, monikulmio) on erilaiset kuvaustekniikan työkalut, vaikkakin ne muistuttavat paljon toisiaan. Esimerkiksi pistetasolle ei voida tehdä samoja tyylittelyjä kuin viiva- tai monikulmiotasolle. Rasteriaineistojen työkalut taas eroavat melko paljon vektoriaineistojen työkaluista. Katsomme näitä myöhemmin tässä harjoituksessa.
 Lisätään nyt toinen vektorimuotoinen aineisto QGIS-projektiimme.
 Käytä samaa työkalua kuin edellisessä harjoituksessa: avaa siis uusi taso painamalla <strong>Lisää vektoritaso</strong> -näppäintä. Etsi <strong>…/kurssihakemisto/NaturalEarth/ne_10m_populated_places/</strong> hakemistosta aineisto nimellä <strong>ne_10m_populated_places_suomi.shp</strong>. Tämä aineisto sisältää NaturalEarth-kaupunkiaineiston Suomesta.
 Avaa pistetason kuvaustekniikkaikkuna samalla tavalla kuin äsken viivatason yhteydessä. Huomaa erot viiva- ja pistetason kuvaustekniikan määrittelyissä:</p>
-<div class="figure">
-<img src="img/harjoitus_3/image7.png" alt="" />
-<p class="caption">pistetaso_image</p>
-</div>
+<p><img src="img/harjoitus_3/image7.png" /></p>
 <p>Vaihda pisteen <strong>Väri</strong> ja <strong>Koko</strong> ja paina taas <strong>Käytä</strong>.** Pikanäppäimellä F7** saat avatuksi <strong>Tason tyylit -ikkunan</strong>, joka on jatkuvasti avoinna karttaikkunan oikeassa laidassa. Tällöin voit helposti vaihtaa kaikkien tasojen kuvaustekniikkaa ja näet heti, miltä uusi tyyli näyttää. Vaihda symbolia ja kokeile myös, miten <strong>Kierto</strong> vaikuttaa symbolin näkymiseen.
 Toistetaan samat asiat vielä monikulmiotason kanssa. Avaa nyt toinen NaturalEarth-aineisto, jossa on Suomen alue erotettuna. Etsi <strong>ne_10m_admin_0_countries</strong>-hakemistosta <strong>ne_10m_admin_0_countries_suomi.shp</strong></p>
-<div class="figure">
-<img src="img/harjoitus_3/image1.png" alt="" />
-<p class="caption">vari_ja_symbolit_image</p>
-</div>
+<p><img src="img/harjoitus_3/image1.png" /></p>
 <p>ja lisää aineisto projektiin. Avaa sen kuvaustekniikkaikkuna ja huomaa erot verrattuna piste- ja viiva-aineistojen ominaisuuksiin.
 Muokkaa tason väriä <strong>Väri-kohdasta</strong> ja valitse tasolle jokin symboli haluamastasi kirjastosta. Voit myös kokeilla eri <strong>Peittävyys-arvoja</strong>. Paina Käytä ja kun olet testannut tarpeeksi, paina <strong>OK</strong>.
 Saattaa olla, että aineistotasot peittävät toisensa vaikka siten, että monikulmio aineisto peittää muut sen alle jäävät aineistot. Kokeile muuttaa tasojen keskinäistä järjestystä ja siten tasojen näkymistä raahaamalla/vetämällä tasot uuteen järjestykseen <strong>Tasoluettelossa</strong>. Useimmiten monikulmiotasot on hyvä jättää alimmiksi tasoiksi. Jos kartalla halutaan visualisoida jotakin rasterikuvaa, kannattaa se/ne yleensä pitää myös alimpina tasoina. Uudelleen järjestettynä karttasi näyttää tältä:</p>
-<div class="figure">
-<img src="img/harjoitus_3/image2.png" alt="" />
-<p class="caption">rasterikuva_image</p>
-</div>
+<p><img src="img/harjoitus_3/image2.png" /></p>
 <p>Voit myös piilottaa tai näyttää tasoja painamalla tason nimen vasemmalla puolella olevaa ruutua.</p>
 </div>
 <div id="monikulmioaineiston-edistynyt-visualisointi" class="section level3" number="5.0.3">
@@ -181,25 +166,16 @@ Ensimmäiseksi muutamme vektoriaineiston väriä. Avaa tason <strong>Properties 
 Valittuasi sopivan värin, paina <strong>OK</strong>.
 Paina sen jälkeen <strong>Properties-ikkunasta Käytä</strong>. Näin <strong>Properties-ikkuna</strong> pysyy auki ja voit katsoa tyylien muutoksia karttanäkymässä.
 Kun olet valinnut haluamasi värin, paina <strong>OK</strong>.</p>
-<div class="figure">
-<img src="img/harjoitus_3/image5.png" alt="" />
-<p class="caption">vari_ikkuna_image</p>
-</div>
+<p><img src="img/harjoitus_3/image5.png" /></p>
 <p>Avaa uudelleen tason <strong>Properties-ikkuna</strong>. <strong>Kuvaustekniikka-asetuksista</strong>, valitse ensin <strong>Simple fill</strong> oheisen kuvan mukaisesti:</p>
-<div class="figure">
-<img src="img/harjoitus_3/image9.png" alt="" />
-<p class="caption">simple_fill_image</p>
-</div>
+<p><img src="img/harjoitus_3/image9.png" /></p>
 <p>Sen jälkeen valitse reunaviiva katkoviivaksi kohdasta <strong>Piirron tyyli</strong>. Viivan paksuudeksi voit määritellä 0,8 millimetriä.
 Lopuksi voit vielä määritellä <strong>Tason renderöinti -kohdasta</strong> (valikko aukeaa pientä nuolta klikkaamalla) <strong>Peittävyys-kohtaan</strong> arvoksi 70%.</p>
 </div>
 <div id="rasteriaineistojen-visualisointi" class="section level3" number="5.0.4">
 <h3><span class="header-section-number">5.0.4</span> Rasteriaineistojen visualisointi</h3>
 <p>Tutustutaan nyt rasteriaineistoihin. Avaa uusi, tyhjä QGIS-projekti ja lisää uusi aineisto napauttamalla <strong>Lisää</strong> rasteritaso –pikakuvaketta vasemmasta sivupaneelista:</p>
-<div class="figure">
-<img src="img/harjoitus_3/image3.png" alt="" />
-<p class="caption">rasteritaso_image</p>
-</div>
+<p><img src="img/harjoitus_3/image3.png" /></p>
 <p>Etsi datahakemistosta <strong>Yleiskarttarasteri_1milj.png</strong>, joka on <strong>…/kurssihakemisto/MML/</strong>-kansiossa. QGIS ilmoittaa, että aineiston koordinaattijärjestelmä on tuntematon, ja olettaa koordinaattijärjestelmäksi WGS84. Aseta rasteriaineiston koordinaattijärjestelmäksi <strong>ETRS89- / ETRS-TM35FIN</strong>. Klikkaa tason nimeä hiiren oikealla napilla, valitse <strong>Properties</strong> ja <strong>Lähde-välilehti</strong>. Etsi tasokoordinaattijärjestelmä (projisoidut koordinaattijärjestelmät) <strong>EPSG:3067 - ETRS89- / ETRS-TM35FIN</strong> ja paina <strong>OK</strong>:</p>
 <div class="figure">
 <img src="img/harjoitus_3/image11.png" alt="" />
@@ -207,10 +183,7 @@ Lopuksi voit vielä määritellä <strong>Tason renderöinti -kohdasta</strong> 
 </div>
 <p>Tämä rasteriaineisto on MML:n tuottama taustakartta, johon on sisällytetty Suomen tiet, kaupungit ja muita yleiskartan tarkoitusta ajavia aineistoja. Käytetty visualisointi on tuttu paperikartoilta.
 Avaa nyt rasteritason <strong>Kuvaustekniikka-ikkuna</strong> samalla tavalla kuin vektoriaineistojen kanssa. Huomaa erot työkaluissa ja ominaisuuksissa rasteri- ja vektoriaineistojen välillä.</p>
-<div class="figure">
-<img src="img/harjoitus_3/image8.png" alt="" />
-<p class="caption">rasteritason_kuvaustekniikka_ikkuna_image</p>
-</div>
+<p><img src="img/harjoitus_3/image8.png" /></p>
 <p>Kokeile vaihtaa rasterin kuvaustekniikan asetuksia. <strong>Renderöintitapa</strong> sisältää erilaisia rasteriaineistojen visualisointikeinoja, esimerkiksi <strong>Multiband color -visualisointitavassa</strong> käytetään kolmea eri näkyvän valon kanavaa (R=red, G=green, B=Blue eli RGB) rasterikuvan visualisoimiseen. Väriarvoja muokkaamalla voidaan muokata tapaa, jolla rasterikuvan pikselit näkyvät kartalla. Lisäämänne rasteriaineiston (yleiskarttarasteri) visualisointi on asetettu siten, että se näyttää parhaimmalta, jos kanavat asetetaan seuraavalla tavalla: punainen kanava on kanava 1, vihreä kanava on kanava 2 ja sininen kanava on kanava 3.
 On tärkeä hahmottaa tapa ja logiikka, jolla rasteriaineistoja visualisoidaan. Kokeile nyt vaihtaa kanavien järjestystä. Muista, että painamalla <strong>Käytä</strong> voit kurkistaa muutoksiin. Voit sillä tavalla kokeilla eri asetuksia sulkematta <strong>Tason ominaisuudet → Kuvaustekniikka-ikkunaa</strong>.
 Eri kanavien kuvaustekniikoiden muuttamisella on merkitystä esimerkiksi orto- ja satelliittikuvia tarkasteltaessa. Visualisoimalla näkyvän valon kanavat eri tavoin voidaan havaita ilmakuvista jotain, joka muuten jäisi huomaamatta. Lisäksi satelliittikuva-aineistot saattavat sisältää muitakin kuin näkyvän valon aallonpituuksia, esimerkiksi lähi-infrapunakanavan, joka täytyy visualisoida jollain näkyvällä värillä ennen kuin sitä voidaan tarkastella.</p>
