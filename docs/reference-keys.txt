@@ -55,3 +55,4 @@ digitoitavan-tason-tietorakenne
 pohjakartan-lisääminen
 digitoinnin-aloittaminen
 lisätehtävä-cad-digitointi
+lisätehtävä-ominaisuustietojen-lisääminen
