@@ -8,7 +8,6 @@ Harjoituksessa tutustutaan QGISin erilaisiin paikkatietoanalyyseihin.
 
 Koulutettava oppii käyttämään eri aineistoille tarkoitettuja paikkatietoanalyysejä tarkoituksenmukaisesti.
 
-
 ##Valmistautuminen
 
 Luo uusi QGIS-projekti ja tallenna se nimellä (**Projekti → Tallenna nimellä…) “QGIS_harjoitus_7”**. 
@@ -35,7 +34,6 @@ Suomalaiset koordinaattijärjestelmät (vanhat ja uudet) ovat pääosin hyvin tu
 OIKEAT EPSG-koodit: EPSG:3873 - EPSG:3885
 
 VIRHEELLISET EPSG-koodit: EPSG:3126 -  EPSG:3138
-
 
 ##Vektorianalyysit
 
