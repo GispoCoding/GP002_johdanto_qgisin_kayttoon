@@ -11,53 +11,78 @@ Käynnistä QGIS-ohjelmisto. Avaa edellisen harjoituksen QGIS-projekti ja tallen
 
 ### Karttatuloste
 Uuden tulosteen muodostaminen voidaan aloittaa kahdella tavalla, valitse **Projekti → Uusi taitto** tai paina työkalua:  
-![uusi_taitto_image](img/harjoitus_5/image22.png)
+
+![](img/harjoitus_5/image22.png)
+
 Ensimmäisenä kysytään uuden taiton nimeä. Anna taitolle jokin sitä hyvin kuvaava nimi. Taittoa varten avautuu uusi ikkuna.
-![uusi_taitto_ikkuna_image](img/harjoitus_5/image9.png)
+
+![](img/harjoitus_5/image9.png)
+
 Paina tulosalueella hiiren oikealla näppäimellä ja valitse **Sivun ominaisuudet**. Tarkista **Elementin ominaisuudet -välilehdestä** oikeasta paneelista, että paperin kooksi A4, suunta **Vaaka** ja **Taitto-välilehdestä**, että viennin resoluutio on 300 dpi.
-Tämän jälkeen voimme sijoittaa karttanäkymän tulosteelle, valitse työkalupalkista työkalu: 
-![karttanakyma_tuloste_image](img/harjoitus_5/image1.png)
+Tämän jälkeen voimme sijoittaa karttanäkymän tulosteelle, valitse työkalupalkista työkalu:
+
+![](img/harjoitus_5/image1.png)
+
 Vedä tulosalueelle suorakulmio, karttanäkymän mukainen kartta piirtyy näytölle.
-![karttanakyma_image](img/harjoitus_5/image2.png)
+
+![](img/harjoitus_5/image2.png)
+
 Valitse **Elementin ominaisuudet -välilehti** ja muuta kartan parametrejä seuraavasti:
 - Kartan mittakaavaksi 1:200 000
 - Valitse Kehys (piirtää kartalle reunaviivat)
 Huomaa, että karttatulosteen hallinnassa on mahdollisuus siirtää yksittäisiä kohteita (nimikkeitä) tai muokata kartan sijaintia.
 Kohteen ollessa valittuna, voit siirtää sitä tulosteella seuraavan työkalun avulla:
 
+![](img/harjoitus_5/image16.png)
 
-![valitse_siirra_image](img/harjoitus_5/image16.png)
 Valitse/siirrä elementtiä.
 
+![](img/harjoitus_5/image21.png)
 
-![siirra_sisaltoa_image](img/harjoitus_5/image21.png)
 Siirrä elementin sisältöä (esimerkiksi kartan sisältöä).
 
+![](img/harjoitus_5/image19.png)
 
-![zoomaa_taiton_nakymassa_image](img/harjoitus_5/image19.png)
 Zoomaa taiton näkymässä.
 
-
 QGISin avulla voit muokata karttatulosteesi ulkoasua. Otsikko tai muu teksti voidaan lisätä **Lisää uusi nimiö** -työkalulla: 
-![lisaa_uusi_nimio_image](img/harjoitus_5/image7.png)
-Lisää uusi selite käyttäen: 
-![lisaa_uusi_selite_image](img/harjoitus_5/image8.png)
+
+![](img/harjoitus_5/image7.png)
+
+Lisää uusi selite käyttäen:
+
+![](img/harjoitus_5/image8.png)
+
 Ja lisää uusi mittakaava käyttäen: 
-![lisaa_uusi_mittakaava_image](img/harjoitus_5/image20.png)
+
+![](img/harjoitus_5/image20.png)
+
 Huomaa, että näiden taiton elementtien ominaisuuksia voit muokata oikeanpuoleisen sivupalkin **Elementin ominaisuudet -välilehden** avulla.
 Tekstiä voi muokata tekstinkäsittelyohjelmista tutuilla työkaluilla:
-![tekstinmuokkaus_image](img/harjoitus_5/image25.png)
+
+![](img/harjoitus_5/image25.png)
+
 Voit myös muokata selitteen ominaisuuksia. Huomaa, että sinun on poistettava kohdan **Päivitä automaattisesti** rasti.
 Pohjoisnuolen lisääminen tapahtuu lisäämällä kuva tällä työkalulla (vasemmasta palkista): 
-![phjoisnuoli_image](img/harjoitus_5/image14.png)
+
+![](img/harjoitus_5/image14.png)
+
 Valitse sen jälkeen **Elementin ominaisuudet -ikkunasta** mieleisesi pohjoisnuoli-kuva (selaa sisältöä alaspäin, jos et heti näe nuolia).
-![nuolet_image](img/harjoitus_5/image13.png)
+
+![](img/harjoitus_5/image13.png)
+
 Lopputulos voi olla esimerkiksi seuraavanlainen:
-![lopputulos_image](img/harjoitus_5/image10.png)
+
+![](img/harjoitus_5/image10.png)
+
 Halutessasi voit tallentaa käyttämäsi tulostemallin (layout englanniksi) ja hyödyntää sitä jatkossa seuraavien karttatulosteiden tekemiseen. Voit esimerkiksi muotoilla kollegoidesi käyttöön karttatulostemallin organisaatiollesi (logot, värit, tekstin paikka, jne.). Tämä onnistuu **Tallenna malliksi -työkalulla**: 
-![tallenna_malliksi](img/harjoitus_5/image26.png)
+
+![](img/harjoitus_5/image26.png)
+
 Lopputuloksen voit tulostaa tiedostoksi (kuvaksi tai pdf:ksi) tai tulostimeen. 
-![tulostis_image](img/harjoitus_5/image15.jpg)
+
+![](img/harjoitus_5/image15.jpg)
+
 Sopiva resoluutio karttatulosteellesi riippuu kartan käyttötarkoituksesta, mutta oletusarvoinen 300 dpi tallentaa resoluutioltaan hyvinkin tarkkoja kuvia. Voit valita arvoksi vaikkapa 200 dpi. 
 
 > Psst! Muista tallentaa QGIS-projekti harjoituksen lopuksi.
@@ -74,25 +99,39 @@ Nyt projektissa on tasoina ainakin väestöruutuaineisto ja postinumeroalueet. V
 Avaa uusi tuloste ja aseta sen sommittelu haluamaasi kokoon (esimerkiksi A5 tai käyttäjävalintainen). Lisää tulosteelle kartta, johon piirtyvät karttaikkunassa näkyvät projektin tasot. Lisää otsikko, selite ja muut karttatulosteen graafiset tai kartografiset elementit (kuten logo tai pohjoisnuoli) totuttuun tapaan.
 Kannattaa lähentää karttanäkymä n. yhden postinumeroalueen laajuiseksi (esim. 1:25 000), sillä lopputuloksessa kartta-atlaksen karttalehdet automaattisesti kohdentuvat postinumeroialueiden kokoon.
 Sitten aloitetaan kartta-atlaksen tuottaminen. Aktivoimme tulosteelle kartta-atlastilan oikean ominaisuuspalkin Atlaksen luonti-välilehdestä kuvan osoittamalla tavalla. Karttalehtijakotasoksi valitsemme tason, jonka alueisiin kartta-atlas perustuu. Tässä tapauksessa se on postinumeroalueet-taso. 
-![postinumeroalueet_taso_image](img/harjoitus_5/image18.png)
 
-Varmista, että karttakomponentti on valittuna, valitse se **Valitse/Siirrä elementti -työkalulla** vasemmasta työpalkista ja klikkaamalla kartta aktiiviseksi: 
-![valitse_siirra2_image](img/harjoitus_5/image3.png)
+![](img/harjoitus_5/image18.png)
+
+Varmista, että karttakomponentti on valittuna, valitse se **Valitse/Siirrä elementti -työkalulla** vasemmasta työpalkista ja klikkaamalla kartta aktiiviseksi:
+
+![](img/harjoitus_5/image3.png)
+
 Muokkaamme kartta-atlasasetuksia oikean puolen sivupalkissa **Elementin ominaisuudet → Atlas ohjaa tätä**.
-![atlas_ohjaa_tata_image](img/harjoitus_5/image6.png)
+
+![](img/harjoitus_5/image6.png)
+
 Tämän jälkeen voimme esikatsella kartta-atlastamme **Esikatsele Atlasta -työkalulla** (käyttöliittymän ylhäällä oikealla):
-![esikatsele_atlasta_image](img/harjoitus_5/image4.jpg)
+
+![](img/harjoitus_5/image4.jpg)
+
 Esikatselun avulla voit vilkaista, miltä kartta-atlas näyttäisi tulostaessa. Käytä nuolia esikatselutyöpalkista Huomaa, että voit tehdä samanaikaisesti muutoksia karttatulosteen tyyliasetuksiin tai vaikkapa tason luokitteluväreihin.
 Jos haluat voit lisätä tulosteeseen myös yleiskatsauskarttanäkymän, joka helpottaa kohteen sijainnin määrittämistä kartta-atlaksessa. Yleiskatsaus eli indeksikartta ilmaisee, millä alueella kartalla liikutaan.
 Lisää sitä varten tulosteeseen pienempi karttaikkuna, jota käytetään indeksikarttana. Valitse **yleiskatsauskartan Elementin omaisuudet -paneelista Yleiskatsaukset** ja määritä asetukset kuvan mukaisesti:
-![yleiskatsaukset_image](img/harjoitus_5/image12.png)
+
+![](img/harjoitus_5/image12.png)
+
 Voit myös muuttaa indeksikartan **Kehyksen tyylin**.
 Kun olet valmis, voit tulostaa kartta-atlaksen **Vie atlas kuvina -työkalulla**. Huomaa, että jokaisesta kartta-atlaksen syntyy kuva eli tulostamisessa voi kestää.
-![vie_atlas_image](img/harjoitus_5/image11.png)
+
+![](img/harjoitus_5/image11.png)
+
 Voit tulostaa atlaksen yksittäisinä kuvina tai yhteen tiedostoon PDF-formaatissa. Yhteen tiedostoon tallentaminen onnistuu aktivoimalla **Yhden tiedoston vienti jos mahdollista -asetuksen Atlaksen luonti** -välilehdessä:
-![yhden_tiedoston_vienti](img/harjoitus_5/image23.png)
+
+![](img/harjoitus_5/image23.png)
+
 Kartta-atlastuloste voisi näyttää esimerkiksi tältä:
-![kartta-atlastuloste](img/harjoitus_5/image24.jpg)
+
+![](img/harjoitus_5/image24.jpg)
 
 Kuvan esimerkissä on käyttöön otettu myös yleiskatsauskarttanäkymä (vasen alareuna) ja taustakarttana käytetty OpenStreetMap Finlandin WMS-palvelua avaa.fi-julkaisualustan kautta (http://avaa.tdata.fi/openstreetmap). Huomaa, kuinka yleiskarttanäkymän pieni vaaleanpunainen neliö vaihtaa paikkaa sitä mukaa kun kohdennetun kartan alue vaihtuu.
 
