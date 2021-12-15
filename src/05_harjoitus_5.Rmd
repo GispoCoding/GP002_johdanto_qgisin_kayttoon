@@ -33,28 +33,19 @@ Valitse **Elementin ominaisuudet -välilehti** ja muuta kartan parametrejä seur
 Huomaa, että karttatulosteen hallinnassa on mahdollisuus siirtää yksittäisiä kohteita (nimikkeitä) tai muokata kartan sijaintia.
 Kohteen ollessa valittuna, voit siirtää sitä tulosteella seuraavan työkalun avulla:
 
-![](img/harjoitus_5/image16.png)
+![](img/harjoitus_5/image16.png) Valitse/siirrä elementtiä.
 
-Valitse/siirrä elementtiä.
+![](img/harjoitus_5/image21.png) Siirrä elementin sisältöä (esimerkiksi kartan sisältöä).
 
-![](img/harjoitus_5/image21.png)
-
-Siirrä elementin sisältöä (esimerkiksi kartan sisältöä).
-
-![](img/harjoitus_5/image19.png)
-
-Zoomaa taiton näkymässä.
+![](img/harjoitus_5/image19.png) Zoomaa taiton näkymässä.
 
 QGISin avulla voit muokata karttatulosteesi ulkoasua. Otsikko tai muu teksti voidaan lisätä **Lisää uusi nimiö** -työkalulla: 
-
 ![](img/harjoitus_5/image7.png)
 
 Lisää uusi selite käyttäen:
-
 ![](img/harjoitus_5/image8.png)
 
 Ja lisää uusi mittakaava käyttäen: 
-
 ![](img/harjoitus_5/image20.png)
 
 Huomaa, että näiden taiton elementtien ominaisuuksia voit muokata oikeanpuoleisen sivupalkin **Elementin ominaisuudet -välilehden** avulla.
@@ -64,7 +55,6 @@ Tekstiä voi muokata tekstinkäsittelyohjelmista tutuilla työkaluilla:
 
 Voit myös muokata selitteen ominaisuuksia. Huomaa, että sinun on poistettava kohdan **Päivitä automaattisesti** rasti.
 Pohjoisnuolen lisääminen tapahtuu lisäämällä kuva tällä työkalulla (vasemmasta palkista): 
-
 ![](img/harjoitus_5/image14.png)
 
 Valitse sen jälkeen **Elementin ominaisuudet -ikkunasta** mieleisesi pohjoisnuoli-kuva (selaa sisältöä alaspäin, jos et heti näe nuolia).
@@ -76,7 +66,6 @@ Lopputulos voi olla esimerkiksi seuraavanlainen:
 ![](img/harjoitus_5/image10.png)
 
 Halutessasi voit tallentaa käyttämäsi tulostemallin (layout englanniksi) ja hyödyntää sitä jatkossa seuraavien karttatulosteiden tekemiseen. Voit esimerkiksi muotoilla kollegoidesi käyttöön karttatulostemallin organisaatiollesi (logot, värit, tekstin paikka, jne.). Tämä onnistuu **Tallenna malliksi -työkalulla**: 
-
 ![](img/harjoitus_5/image26.png)
 
 Lopputuloksen voit tulostaa tiedostoksi (kuvaksi tai pdf:ksi) tai tulostimeen. 
@@ -93,24 +82,27 @@ QGIS mahdollistaa myös kartta-atlaksen tekemisen. Kartta-atlas on ns. karttakir
 - Lataa ensiksi postinumeroalueet paikkatietoaineiston avoindata.fi-sivustolta: 
   https://www.avoindata.fi/data/fi/dataset/paakaupunkiseudun-postinumeroalueet
   Lataa aineisto haluamassasi muodossa kurssikansioosi ja lisää se oppimallasi tavalla QGIS-projektiin.
+  
 TAI
 - **Lisää .../kurssihakemisto/HSY/Postinumeroalueet_2019.gpkg** eli HSY:n postinumeroaineisto QGIS-projektiisi. Psst! Tämä aineisto on tallennettu koordinaattijärjestelmässä EPSG: 3067! 
+
 Nyt projektissa on tasoina ainakin väestöruutuaineisto ja postinumeroalueet. Voit myös lisätä muita haluamiasi tasoja projektiin (esimerkiksi tieviivat). 
-Avaa uusi tuloste ja aseta sen sommittelu haluamaasi kokoon (esimerkiksi A5 tai käyttäjävalintainen). Lisää tulosteelle kartta, johon piirtyvät karttaikkunassa näkyvät projektin tasot. Lisää otsikko, selite ja muut karttatulosteen graafiset tai kartografiset elementit (kuten logo tai pohjoisnuoli) totuttuun tapaan.
-Kannattaa lähentää karttanäkymä n. yhden postinumeroalueen laajuiseksi (esim. 1:25 000), sillä lopputuloksessa kartta-atlaksen karttalehdet automaattisesti kohdentuvat postinumeroialueiden kokoon.
+Avaa uusi tuloste ja aseta sen sommittelu haluamaasi kokoon (esimerkiksi A5). 
+
+Lisää tulosteelle kartta, johon piirtyvät karttaikkunassa näkyvät projektin tasot. Lisää otsikko, selite ja muut karttatulosteen graafiset tai kartografiset elementit (kuten logo tai pohjoisnuoli) totuttuun tapaan. Lähennä karttanäkymä n. yhden postinumeroalueen laajuiseksi (esim. 1:25 000), sillä lopputuloksessa kartta-atlaksen karttalehdet automaattisesti kohdentuvat postinumeroialueiden kokoon.
+
 Sitten aloitetaan kartta-atlaksen tuottaminen. Aktivoimme tulosteelle kartta-atlastilan oikean ominaisuuspalkin Atlaksen luonti-välilehdestä kuvan osoittamalla tavalla. Karttalehtijakotasoksi valitsemme tason, jonka alueisiin kartta-atlas perustuu. Tässä tapauksessa se on postinumeroalueet-taso. 
 
 ![](img/harjoitus_5/image18.png)
 
 Varmista, että karttakomponentti on valittuna, valitse se **Valitse/Siirrä elementti -työkalulla** vasemmasta työpalkista ja klikkaamalla kartta aktiiviseksi:
-
 ![](img/harjoitus_5/image3.png)
 
 Muokkaamme kartta-atlasasetuksia oikean puolen sivupalkissa **Elementin ominaisuudet → Atlas ohjaa tätä**.
 
 ![](img/harjoitus_5/image6.png)
 
-Tämän jälkeen voimme esikatsella kartta-atlastamme **Esikatsele Atlasta -työkalulla** (käyttöliittymän ylhäällä oikealla):
+Tämän jälkeen voimme esikatsella kartta-atlastamme **Esikatsele Atlasta -työkalulla** (käyttöliittymän yläreunassa):
 
 ![](img/harjoitus_5/image4.jpg)
 
