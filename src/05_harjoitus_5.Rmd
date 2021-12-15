@@ -1,15 +1,19 @@
 # Harjoitus 5: Karttatuloste
 
-#### Harjoituksen sisältö
+## Harjoituksen sisältö
+
 Harjoituksessa tehdään karttatuloste.
-#### Harjoituksen tavoite
+
+## Harjoituksen tavoite
+
 Koulutettava oppii laatimaan karttatulosteen halutussa mittakaavassa sekä tehdä tulosteesta PDF-tiedoston.
 
+## Valmistautuminen
 
-### Valmistautuminen
 Käynnistä QGIS-ohjelmisto. Avaa edellisen harjoituksen QGIS-projekti ja tallenna se nimellä (**Projekti → Tallenna nimellä…**) “**QGIS_harjoitus_5**”.
 
-### Karttatuloste
+## Karttatuloste
+
 Uuden tulosteen muodostaminen voidaan aloittaa kahdella tavalla, valitse **Projekti → Uusi taitto** tai paina työkalua:  
 
 ![](img/harjoitus_5/image22.png)
@@ -76,8 +80,7 @@ Sopiva resoluutio karttatulosteellesi riippuu kartan käyttötarkoituksesta, mut
 
 > Psst! Muista tallentaa QGIS-projekti harjoituksen lopuksi.
 
-
-### Lisätehtävä: kartta-atlas
+## Lisätehtävä: kartta-atlas
 QGIS mahdollistaa myös kartta-atlaksen tekemisen. Kartta-atlas on ns. karttakirja, jonka avulla voidaan tuottaa automatisoidusti paljon karttoja samasta teemasta. Seuraavassa esimerkissä tuotamme kartta-atlaksen Helsingin postinumeroalueista tutkien niitä väestön jakautumisen näkökulmasta. Tavoitteenamme on tuottaa 173 karttaa, jotka kattavat kaikki pääkaupunkiseudun postinumeroalueet.
 - Lataa ensiksi postinumeroalueet paikkatietoaineiston avoindata.fi-sivustolta: 
   https://www.avoindata.fi/data/fi/dataset/paakaupunkiseudun-postinumeroalueet
@@ -126,4 +129,3 @@ Kartta-atlastuloste voisi näyttää esimerkiksi tältä:
 ![](img/harjoitus_5/image24.jpg)
 
 Kuvan esimerkissä on käyttöön otettu myös yleiskatsauskarttanäkymä (vasen alareuna) ja taustakarttana käytetty OpenStreetMap Finlandin WMS-palvelua avaa.fi-julkaisualustan kautta (http://avaa.tdata.fi/openstreetmap). Huomaa, kuinka yleiskarttanäkymän pieni vaaleanpunainen neliö vaihtaa paikkaa sitä mukaa kun kohdennetun kartan alue vaihtuu.
-
