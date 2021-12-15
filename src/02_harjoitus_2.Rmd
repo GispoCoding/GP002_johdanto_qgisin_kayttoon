@@ -16,7 +16,7 @@ Avaa edellisen harjoituksen QGIS-projekti ja tallenna se nimellä (**Projekti �
 ### WMS-palvelun lisääminen
 Seuraavaksi lisäämme WMS (Web Map Service) -palveluiden avulla muutaman aineiston projektiin. Valitse WMS-palveluiden lisäystyökalu Tietolähteiden hallinta -ikkunan välilehdeltä.
 
-![WMS_lisaystyokalu](img/harjoitus_2/image6.png)
+!(img/harjoitus_2/image6.png)
 
 Tämä työkalu avaa WMS-palvelujen käyttö- ja määrityslomakkeen. Koneessasi saattaa olla jo määriteltynä useita WMS-palveluja. Saat ne auki alasvetovalikosta.
 Tässä harjoituksessa lisäämme muutaman uuden WMS-palvelun, joten valitse **Uusi** avautuneesta ikkunasta:
