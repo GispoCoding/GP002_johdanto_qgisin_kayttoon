@@ -58,9 +58,7 @@ Asetuksissa määritetään tarttumiseen käytettävä yksikkö (metri) ja etäi
 
 ![](img/harjoitus_6/image7.png)
 
-Klikkaa seuraavaksi **Lisää monikulmiokohde -työkalua**  ja aloita digitointi. 
-
-![](img/harjoitus_6/image17.png)
+Klikkaa seuraavaksi **Lisää monikulmiokohde -työkalua**  ![](img/harjoitus_6/image17.png)  ja aloita digitointi. 
 
 Muista, että voit muokata **Tarttumisen asetuksia** palaamalla yllä kuvattuun ikkunaan ja jättämällä se ikkunan sivuun muokataksesi asetuksia nopeasti. Digitoi nyt 5-8 polygonia. Kun olet valmis, klikkaa jälleen kynä-ikonia lopettaaksesi ja tallentaaksesi editoinnin. 
 
@@ -99,7 +97,6 @@ Seuraavaksi laskemme pinta-alan ominaisuustietoja edellä muodostettuun paikkati
 
 Laita muokkaustila taas päälle kynäikonista  ja muokkaa muutamaa Nimi-kentän alueen nimeä samalla tavalla kun tekisit laskentataulussa (tuplaklikkaamalla). Huomaa, että muokkaaminen on mahdollista vain jos muokkaustila on päällä.
 Avaa nyt **Kentän arvojen laskin -työkalu** seuraavan pikakuvakkeen avulla: 
-
 ![](img/harjoitus_6/image5.jpg)
 
 Tällä toiminnolla voimme luoda uusia tai päivittää jo olemassa olevia ominaisuustietotaulun kenttiä.  Pinta-alan laskentaa varten muunnetaan neliömetrit neliökilmetreiksi jakamalla pinta-ala 1 000 000:lla. Kirjoitetaan **Lauseke-kenttään** kaava **$area / 1000000**.
