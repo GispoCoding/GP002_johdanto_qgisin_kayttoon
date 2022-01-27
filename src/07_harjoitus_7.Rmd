@@ -1,18 +1,20 @@
-#Harjoitus 7: Paikkatietoanalyysit
+# Harjoitus 7: Paikkatietoanalyysit
 
-##Harjoituksen sisältö
+## Harjoituksen sisältö
 
 Harjoituksessa tutustutaan QGISin erilaisiin paikkatietoanalyyseihin.
 
-##Harjoituksen tavoite
+## Harjoituksen tavoite
 
 Koulutettava oppii käyttämään eri aineistoille tarkoitettuja paikkatietoanalyysejä tarkoituksenmukaisesti.
 
-##Valmistautuminen
+## Valmistautuminen
 
 Luo uusi QGIS-projekti ja tallenna se nimellä (**Projekti → Tallenna nimellä…) “QGIS_harjoitus_7”**. 
-Lisää projektiin **kunta1000k_2017.gpkg**-tiedosto (**.../kurssihakemisto/Tilastokeskus/kunnat2017/**), jossa on Suomen kuntarajat. 
-Lisää karttaprojektiin vielä Maanmittauslaitoksen 1:1M yleiskartan **TieViiva-aineisto** (kansiosta **.../kurssihakemisto/MML/YK_1M/**).
+Lisää projektiin seuraavat tasot:
+* **.../kurssihakemisto/Tilastokeskus/kunnat2017/kunta1000k_2017.gpkg**, jossa on Suomen kuntarajat 
+* **.../kurssihakemisto/MML/YK_1M/TieViiva.shp**
+
 Voit asettaa kunnat-monikulmion täytevärin pois ja saada siten tieviiva-aineiston paremmin näkyviin:
 
 ![](img/harjoitus_7/image14.gif)
@@ -35,7 +37,7 @@ OIKEAT EPSG-koodit: EPSG:3873 - EPSG:3885
 
 VIRHEELLISET EPSG-koodit: EPSG:3126 -  EPSG:3138
 
-##Vektorianalyysit
+## Vektorianalyysit
 
 Tässä harjoituksessa on tarkoitus etsiä ne kunnat, joiden alueella kulkee suomalainen versio kuuluisasta Route 66 -tiestä. Lyhyesti harjoituksen kulku on seuraava:
 - Valitaan tieaineistosta ne tieviivat, joiden numero on 66
@@ -81,11 +83,14 @@ Lopuksi voimme laskea, kuinka pitkä pätkä tietä nro. 66 osuu kunkin kunnan a
 
 ![](img/harjoitus_7/image7.png)
 
-Psst! Muista tallentaa QGIS-projekti harjoituksen lopuksi.
+:::{.note-box}
+**Psst! Muista tallentaa QGIS-projekti harjoituksen lopuksi.** 
+:::
 
-##Lisätehtävä: ominaisuustietojen lisääminen ja tarkastelu
 
-Lopuksi voimme laskea, kuinka suuri osa suhteellisesti (osuus koko pituudesta) tietä nro. 66 osuu kunkin kunnan alueelle. Prosenttilaskun toimittamiseksi tarvitset tiedon tiesegmenttien yhteenlasketusta kokonaispituudesta eli summasta, jonka saat käyttöösi Kenttien tilastolliset tunnusluvut -työkalun avulla: avaa yläpalkista **Prosessointi → Työkalut** ja kirjoita etsi hakukentän avulla työkalu **Kenttien tilastolliset tunnusluvut**. 
+## Lisätehtävä: ominaisuustietojen lisääminen ja tarkastelu
+
+Voidaan vielä laskea, kuinka suuri osa suhteellisesti (osuus koko pituudesta) tietä nro. 66 osuu kunkin kunnan alueelle. Prosenttilaskun toimittamiseksi tarvitset tiedon tiesegmenttien yhteenlasketusta kokonaispituudesta eli summasta, jonka saat käyttöösi Kenttien tilastolliset tunnusluvut -työkalun avulla: avaa yläpalkista **Prosessointi → Työkalut** ja kirjoita etsi hakukentän avulla työkalu **Kenttien tilastolliset tunnusluvut**. 
 
 ![](img/harjoitus_7/image3.png)
 
