@@ -10,7 +10,11 @@ Koulutettava oppii käyttämään QGISin käyttöliittymää.
 
 ## Valmistautuminen
 Avaa web-selain ja mene QGISin suomenkielisille web-sivuille. 
-> http://www.qgis.org/fi/site/
+
+:::{.note-box}
+[http://www.qgis.org/fi/site/](http://www.qgis.org/fi/site/)
+:::
+
 
 Löydät etusivulta linkin, jonka avulla pääset lataamaan QGIS-työpöytäohjelmiston. Lataa sivustolta **QGISin pitkäaikaisversio (long term release)**. Pitkäaikaisversio on stabiilein QGIS-versio, mutta siitä voi puuttua uudempien versioiden uusia ominaisuuksia.
 QGISin voi asentaa Windows-, Linux- tai Mac-käyttöjärjestelmään. Eri järjestelmien QGIS-versioiden välillä huomattavimmat erot ovat väriskeemoissa ja tiedostopoluissa – muuten erot ovat hyvin pieniä.
@@ -22,14 +26,14 @@ Kun kurssimateriaalissa viitataan **.../kurssihakemisto/**, tarkoitetaan itse m�
 ## QGISin käyttöliittymä
 Käynnistä QGIS. QGISin käyttöliittymä saattaa aueta englanninkielisenä ensimmäisellä käyttökerralla. Voit vaihtaa kielen suomeksi asetuksista **Settings → Options → General → User Interface Translation → suomi**. Paina lopuksi **OK**. 
 
-![](img/harjoitus_1/image15.png)
+![](img/harjoitus_1/image15.png){width=70%}
 
 Huomaa, että kielen vaihtamisen aktivoimiseksi sinun tulee käynnistää QGIS uudelleen.
 Lisää ensimmäinen vektorimuotoinen paikkatietoaineisto napsauttamalla **Avaa tietolähteiden hallinta –pikakuvakenäppäintä**: 
 Löydät saman toiminnon myös Tasot-valikosta **Lisää taso → Lisää vektoritaso…** (Ctrl+Shift+V).
 Valitse avautuvasta ikkunasta vasemmalta puolelta **Vektori-välilehti**. Lisää aineisto kurssin materiaaleista (**.../kurssihakemisto/MML/YK_1M/**). Valitse nyt Maanmittauslaitoksen 1:1M-aineistosta **TieViiva.shp-tiedosto**. Paina lopuksi **Lisää** ja sulje ikkuna.
 
-![](img/harjoitus_1/image11.png)
+![](img/harjoitus_1/image11.png){width=70%}
 
 Aineiston pitäisi näkyä seuraavan sivun esimerkin mukaisesti (huom! viivan väri saattaa olla eri).
 
@@ -37,22 +41,22 @@ Aineiston pitäisi näkyä seuraavan sivun esimerkin mukaisesti (huom! viivan v�
 
 ## QGIS-käyttöliittymän osat
 
-1. Tasoluettelo
+**1. Tasoluettelo**
 Tähän osioon tulevat näkyviin paikkatietoaineistot, jotka näkyvät karttaikkunassa. Voit hallita tasojen järjestystä ja näkyvyyttä.
 
-2. Työkalupalkit
+**2. Työkalupalkit**
 Työkalupalkit sisältävät erilaisia työkaluja. Omassa tietokoneessasi voi olla näkyvissä enemmän tai vähemmän työkalupalkkeja. Napauttamalla hiiren oikea näppäintä työkalupalkkien päällä, voit piilottaa tai ottaa esiin työkalupalkkeja. Voit myös raahata työkalupalkkeja eri kohtiin.
 
-3. Karttaikkuna
+**3. Karttaikkuna**
 Karttaikkunaan piirtyvät ne paikkatietoaineistot, jotka ovat tasoluettelossa aktivoituna näkyväksi. Voit lähentää ja loitontaa karttaa sekä paneroida siinä hiiren avulla (koita myös hiiren scrollia). 
 
-4. Tilapalkki
+**4. Tilapalkki**
 Tilapalkista näet hiiren kursorin koordinaatit, minkä lisäksi voit muuttaa mittakaavaa ja koordinaattijärjestelmää.
 
-5. Prosessointi- ja selain-paneeli
+**5. Prosessointi- ja selain-paneeli**
 Aikaisemmassa harjoituksessa tutustuttiinkin jo hieman QGISin uuteen Selain-paneeliin, joka aikaisemmissa versioissa on ollut erillisenä ohjelmana. Myös Prosessointityökalut saa kätevästi esille paneeliksi, jolloin ne ovat aina helposti löydettävissä. Prosessointyökaluista löydät esim. vektori- ja rasterianalyysityökalut.
 
-6. Hakutoiminto
+**6. Hakutoiminto**
 Joskus on vaikea muistaa, mistä mikäkin työkalu ja toiminto valikosta löytyy. Hakutoiminnolla voit helposti etsiä näitä näppäilemällä CTRL+K ja kirjoittamalla etsimäsi toiminnon hakukenttään.
 
 ## Kokeile itse
@@ -62,17 +66,15 @@ Työkalupalkin toiminnot (käyttöliittymän yläosassa):
 ![](img/harjoitus_1/image3.png)
 
 Paikanna edellä näkyneestä työkalurivistä seuraavat työkalut ja tunnista niiden tarkoitukset:
+ 
+|:---------------------:|:-------------------------------:|
+| Zoomaa täydeksi       | ![](img/harjoitus_1/image5.png) |
+| Zoomaa tasoon         | ![](img/harjoitus_1/image6.png) |
+| Näytä kohteen tiedot  | ![](img/harjoitus_1/image1.png) | 
+| Avaa attribuuttitaulu | ![](img/harjoitus_1/image2.png) | 
+| Mittaa viivan pituus  | ![](img/harjoitus_1/image7.png) | 
 
-![](img/harjoitus_1/image5.png) Zoomaa täydeksi
-
-![](img/harjoitus_1/image6.png) Zoomaa tasoon
-
-![](img/harjoitus_1/image1.png) Näytä kohteen tiedot
-
-![](img/harjoitus_1/image2.png) Avaa attribuuttitaulu
-
-![](img/harjoitus_1/image7.png) Mittaa viivan pituus
-
+ 
 Kokeile myös seuraavia tilapalkin toimintoja ja pohdi niiden tarkoituksia työkaluina:
 
 ![](img/harjoitus_1/image8.png)
@@ -82,8 +84,7 @@ Tasoluettelon toiminnot (käyttöliittymässä vasemmalla puolella):
 ![](img/harjoitus_1/image12.png)
 
 ### Attribuuttitaulu
-Valitse TieViiva-karttataso ja avaa ominaisuustietotaulukko, joko painamalla  pikakuvaketta ![](img/harjoitus_1/image2.png) 
-tai painamalla hiiren oikealla näppäimellä karttatason kohdalla sekä valitsemalla **Avaa attribuuttitaulu**.
+Valitse TieViiva-karttataso ja avaa ominaisuustietotaulukko, joko painamalla  pikakuvaketta ![](img/harjoitus_1/image2.png) tai painamalla hiiren oikealla näppäimellä karttatason kohdalla sekä valitsemalla **Avaa attribuuttitaulu**.
 Voit järjestää ominaisuustietotaulun minkä tahansa kentän mukaan laskevaan tai nousevaan järjestykseen.
 
 ![](img/harjoitus_1/image14.png)
@@ -92,6 +93,9 @@ Kun olet tutkinut ominaisuustietotaulukkoa riittävästi, sulje taulukko.
 
 Tallenna lopuksi aloittamasi QGIS-projekti omaksi projektitiedostokseen kurssihakemistoon, esimerkiksi nimellä **../kurssihakemisto/QGIS_harjoitus_1.qgz**.
 
-> Psst! Muista tallentaa QGIS-projekti aina harjoituksen lopuksi.
+:::{.hint-box}
+**Psst! Muista tallentaa QGIS-projekti aina harjoituksen lopuksi.** 
+:::
+
 
 
