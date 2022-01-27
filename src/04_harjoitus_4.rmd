@@ -10,8 +10,19 @@ Koulutettava oppii muodostamaan eri tyyppisille paikkatietokohteille tekstitykse
 
 ## Valmistautuminen
 Käynnistä QGIS-ohjelmisto. Avaa edellisen harjoituksen QGIS-projekti ja tallenna se nimellä (**Projekti → Tallenna nimellä…**) “**QGIS_harjoitus_4**”.
+Avaa projektiin seuraavat aineistot:
+
+* **.../kurssihakemisto/SYKE/Natura2000/naturakohde_ma.shp**
+* **.../kurssihakemisto/MML/YK_1M/TieViiva.shp**
+* **.../kurssihakemisto/HSY/Vaestotietoruudukko_2019.gpkg**
+* **.../kurssihakemisto/MML/Korkeusmalli_2m/L4133B.asc**
+
+Aseta aluksi **naturakohde_ma** -taso näkyviin ja muut näkymättömäksi
+
+## Nimiöt
+
 QGIS käyttöliittymässä paikkatietokohteiden tekstitykseen viitataan termillä **Nimiöt** (englanninkielinen termi on “**Labeling**”).
-Avaa **NaturaKohde_ma-aineisto (.../kurssihakemisto/SYKE/Natura2000/)** uuteen projektiin. Avaa sitten **Ominaisuudet-ikkuna** ja valitse **Nimiöt-välilehti**.
+Avaa **Naturakohde-tason Ominaisuudet-ikkuna** ja valitse **Nimiöt-välilehti**.
 Valitse **Single labels** ja **Nimiöiden perustana -alasvetovalikosta** nimiöinnissä käytettävän sarakkeen nimi, esim. “Nimi”.
 Paina **Käytä**, niin kohteille syntyy nimiöt. Tämä nähdään nyt karttaikkunasta, johon nimiöt ovat jo päivittyneet:
 
@@ -20,23 +31,16 @@ Paina **Käytä**, niin kohteille syntyy nimiöt. Tämä nähdään nyt karttaik
 ## Nimiöiden tyyli- ja yleisasetukset
 Nimiöiden tekstien näkymistä kartalla voi määrittää monella eri tavalla. Alla kuvaukset QGISin nimiöiden muokkaamisen alateemoista:
 
-Teksti: Määritellään tekstin tyyli, väri ja muita yleisiä ominaisuuksia.
-
-Muotoilu: Voit muodostaa useampirivisiä tekstejä, keskittää tekstiä ja määritellä lukujen muotoa.
-
-Vyöhyke: Luodaan tekstiä korostavat puskurit (tekstin reunukset).
-
-Maski: Tekstiä korostavat puskurit, joiden vaikutusta alla oleviin tasoihin voi säädellä Tason ominaisuuksien **Masks** -välilehdellä.
-
-Tausta: Tekstin taustalle voi piirtää suorakulmion tai muun muodon.
-
-Varjo: Teksteille voidaan muodostaa varjo.
-
-Sijoittaminen: Määrittelee tekstien sijoittumista kohteiden suhteen.
-
-Piirtäminen: Määrittelee tekstien mittakaavarajoja ja muita tekstien näkyvyyteen liittyviä asioita.
-
-Callouts: Voit siirtää nimiöitä karttanäkymässä vapaasti (Nimiöiden asetukset -työkalupalkin avulla) ja yhdistää tekstit niihin liittyviin kohteisiin viivalla.
+|:------------:|:--------------------------------------------------------------------------------------------|
+|Teksti | Määritellään tekstin tyyli, väri ja muita yleisiä ominaisuuksia |
+| Muotoilu | Voit muodostaa useampirivisiä tekstejä, keskittää tekstiä ja määritellä lukujen muotoa |
+| Vyöhyke  |  Luodaan tekstiä korostavat puskurit (tekstin reunukset)|
+| Maski | Tekstiä korostavat puskurit, joiden vaikutusta alla oleviin tasoihin voi säädellä Tason ominaisuuksien **Masks** -välilehdellä|
+| Tausta | Tekstin taustalle voi piirtää suorakulmion tai muun muodon|
+| Varjo | Teksteille voidaan muodostaa varjo|
+| Sijoittaminen | Määrittelee tekstien sijoittumista kohteiden suhteen|
+| Piirtäminen | Määrittelee tekstien mittakaavarajoja ja muita tekstien näkyvyyteen liittyviä asioita|
+| Callouts | Voit siirtää nimiöitä karttanäkymässä vapaasti (Nimiöiden asetukset -työkalupalkin avulla) ja yhdistää tekstit niihin liittyviin kohteisiin viivalla|
 
  
 ## Nimiön tekstityyli
@@ -81,31 +85,30 @@ Rastita vielä päälle **Yhdistä kytketyt viivat** välttääksesi kopioidut n
 
 ## Vektoriaineiston luokittelut 
 
-Lisää **.../kurssihakemisto/HSY/Vaestotietoruudukko_2019.gpkg** eli HSY:n väestöruutuaineisto projektiisi. 
-Se on vektoriaineisto, tällä kertaa kuitenkin geopackage-formaatissa. Voit lisätä sen projektiin **Tietolähteiden hallinta -työkalulla**.
+**Väestötietoruudukko.gpkg** on vektoriaineisto, tällä kertaa kuitenkin geopackage-formaatissa. Voit lisätä sen projektiin **Tietolähteiden hallinta -työkalulla**.
 Tutustu ensin aineistoon. Avaa **Attribuuttitaulu** painamalla aineistotason nimen päällä hiiren oikealla näppäimellä. Ominaisuustietojen ymmärtämiseksi on hyvä tarkastella taulun sisältöä sekä tutustua samalla aineiston metatietoihin (tietoa aineistosta). Metatiedot löytyvät usein aineistontuottajan nettisivuilta tai paikkatietojen löytämiseen tarkoitetuista hakemistoista. Metatiedot kertovat mm. ketä aineiston on tuottanut, mihin tarkoitukseen se on tehty, millä mittakaavalla ja missä koordinaattijärjestelmässä. 
 Harjoituksessa käytettävän aineiston on tuottanut Helsingin seudun ympäristöpalvelut, sen metatiedot löytyvät samasta kansiosta, **Vaestoruudukko.pdf** -tiedostosta. Avaa Vaestoruudukko.pdf-tiedosto ja tutustu eri kenttien (sarakkeiden) kuvauksiin. Sivun lopussa asiaa on hieman avattu.
 
-![](img/harjoitus_4/image25.png)
+![](img/harjoitus_4/image25.png){width:60%}
 
 Ominaisuustietotauluissa sarakkeiden nimet ovat usein lyhennetyssä muodossa. Sarakkeiden merkitystä on tyypillisesti hiukan vaikea päätellä lyhenteistä. Tässä tapauksessa silmiinpistävää on lisäksi, että taulukossa luku 99 toistuu useaan otteeseen. Metatietojen avulla voimme kuitenkin selvittää muun muassa, miten ASUKKAITA sarakkeen tiedot on laskettu sekä millä tavalla tiedot on poistettu ruuduissa, joissa asuu 0-4 asukasta. IKA-sarakkeet sisältävät asukkaiden määrät ikäluokittain, mutta niille on annettu arvo 99 aina kun ruudukon asukasmäärä on ollut alle 100.
 
 Tarkastele aineistoa myös kartalla. Huomaatko yhden ruudun, joka näyttää sijaitsevan kaukana kaakossa keskellä merta?
 
-![](img/harjoitus_4/image18.png)
+![](img/harjoitus_4/image18.png){width:60%}
 
 Irralliseen ruutuun on tässä aineistossa sijoitettu kaikki ne pk-seudun asukkaat, joilla ei ole vakituista kotiosoitetta. Info-työkalulla nähdään, että tämän ruudun asukasmäärä on kymmenkertaisesti suurempi kuin minkään muun aineiston ruudun. Se siis vääristää luokittelua ja aineistosta laskettuja tilastoja (mm. keskimääräinen asukastiheys ruutua kohti).
 
 Suodatetaan tämä ruutu pois aineistosta: laita editointi päälle ja klikkaa tason nimeä hiiren oikealla ja valitse **Suodata…** Kirjoita (tai valitse tietokentistä ja operaattoreista klikkaamalla) suodatuslausekkeeksi **ASUKKAITA < 5000**. Voit testata suodatuksen toimivuutta klikkaamalla **Testaa**.
 
-![](img/harjoitus_4/image21.png)
+![](img/harjoitus_4/image21.png){width:70%}
 
 Nyt QGIS näyttää aineistostasi vain ne ruudut, jotka täyttävät annetun ehdon eli joiden kokonaisasukasmäärä on alle 5000.
 Paikkatietoineiston ymmärtäminen ennen sen käsittelyä on välttämätöntä. Voimme nyt esimerkiksi päättää, että haluamme tuottaa teemakartan ASUKKAITA-sarakkeen tietojen pohjalta. Näin pystymme myös paremmin tulkitsemaan karttaa ja valitsemaan visualisointia varten sopivat asetukset.
 Avaa tason ominaisuudet ja valitse tason kuvaustekniikaksi **Porrastettu**.
 Aseta vielä oheisen kuvan mukaiset **Sarake-, Liukuväri-, Tila- ja Luokat-määrittelyt**.
 
-![](img/harjoitus_4/image3.png)
+![](img/harjoitus_4/image3.png){width:60%}
 
 Kun olet saanut ne asetettua, paina **Luokittele**, niin luokitus tulee näkyviin.
 Voit myös muokata manuaalisesti arvovälejä kaksoisklikkaamalla **Arvot-saraketta** tai luokkien nimiä kaksoisklikkaamalla **Selite-saraketta**. Luokkien nimet näkyvät **Tasot-paneelissa** ja myös karttatulosteen selitteessä.
@@ -121,7 +124,7 @@ Kokeile myös vaihtaa  luokkien lukumäärää, luokitustapoja ja värityksiä, 
 
 Voit vertailla eri luokittelumenetelmiä ja tutkia aineiston jakaumaa histogrammin avulla. Histogrammi löytyy omalta välilehdeltään. Paina **Load values** saadaksesi histogrammin ja luokkien rajat näkyviin.
 
-![](img/harjoitus_4/image22.png)
+![](img/harjoitus_4/image22.png){width:60%}
 
 ![](img/harjoitus_4/image6.png)
 
@@ -129,7 +132,7 @@ Muuta vielä **Symbolityyliä**. Avaa uudelleen tason ominaisuustiedot ja paina 
 **Symbolin valitsija -ikkuna** aukene. Valitse soveltuva kuviointi monikulmioille. Valitse sitten **Yksinkertainen täyttö** symbolitasolle ja aseta **Piirron tyyliksi Ei viivaa**. Paina **OK** ja **OK**. Zoomaa karttaan tutkimaan tulosta ja palaa tyyliasetuksiin, jos haluat tehdä vielä muutoksia.
 
 ## Rasteriaineiston luokittelut 
-Lisää nyt korkeusmalli-rasteriaineisto kurssihakemistosta projektiisi **.../kurssihakemisto/MML/Korkeusmalli_2m/L4133B.asc**. Se on Maanmittauslaitoksen avoin aineisto ja kyseinen aineisto sisältää osan  Helsingistä. Kun QGIS kysyy sen kordinaattijärjestelmätietoja, valitse **ETRS-TM35FIN**. Oletuksena korkeusmalli näyttää tällaiselta: 
+Laita nyt näkyviin projektin rasterikuva **L4233B**. Se on Maanmittauslaitoksen avoin aineisto ja kyseinen aineisto sisältää osan  Helsingistä. Kun QGIS kysyy sen kordinaattijärjestelmätietoja, valitse **ETRS-TM35FIN**. Oletuksena korkeusmalli näyttää tällaiselta: 
 
 ![](img/harjoitus_4/image23.png)
 
