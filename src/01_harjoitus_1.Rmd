@@ -20,8 +20,17 @@ Löydät etusivulta linkin, jonka avulla pääset lataamaan QGIS-työpöytäohje
 QGISin voi asentaa Windows-, Linux- tai Mac-käyttöjärjestelmään. Eri järjestelmien QGIS-versioiden välillä huomattavimmat erot ovat väriskeemoissa ja tiedostopoluissa – muuten erot ovat hyvin pieniä.
 
 ## Kurssimateriaalien lataus
-Kouluttaja ohjeistaa sinua lataamaan kurssimateriaalit joko muistitikulta, Google Drivestä tai AWS-palvelimelta. Kopioi kurssimateriaalit koulutuskoneelle haluamaasi kansioon niin, että löydät ne helposti jatkossa. Voit kirjoittaa muistiinpanoja harjoitusten viimeiselle sivulle.
-Kun kurssimateriaalissa viitataan **.../kurssihakemisto/**, tarkoitetaan itse määrittelemääsi kurssihakemiston polkua.
+Kurssilla tarvittavat paikkatieto-aineistot on ladattavissa Google Drivestä linkistä
+
+:::{.note-box}
+[Kurssihakemisto.zip](https://drive.google.com/file/d/141J1hHF4KfN9XVv3SJn93cTv1_QZMo5p/view?usp=sharing)
+:::
+
+Avaa yllä oleva linkki ja klikkaa **Lataa**. Tämä lataa aineistot kokonaisuudessaan pakattuna zip-tiedostona **Kurssihakemisto.zip**. 
+Pura kurssimateriaalit omalle tietokoneellesi haluamaasi kansioon niin, että löydät ne helposti harjoituksia tehdessä. Kun kurssimateriaalissa viitataan **../kurssihakemisto/**, tarkoitetaan itse määrittelemääsi kurssihakemiston polkua. Kysy tarvittaessa apua kouluttajalta.
+
+<!--Kouluttaja ohjeistaa sinua lataamaan kurssimateriaalit joko muistitikulta, Google Drivestä tai AWS-palvelimelta. Kopioi kurssimateriaalit koulutuskoneelle haluamaasi kansioon niin, että löydät ne helposti jatkossa. Voit kirjoittaa muistiinpanoja harjoitusten viimeiselle sivulle.
+Kun kurssimateriaalissa viitataan **.../kurssihakemisto/**, tarkoitetaan itse määrittelemääsi kurssihakemiston polkua.-->
 
 ## QGISin käyttöliittymä
 Käynnistä QGIS. QGISin käyttöliittymä saattaa aueta englanninkielisenä ensimmäisellä käyttökerralla. Voit vaihtaa kielen suomeksi asetuksista **Settings → Options → General → User Interface Translation → suomi**. Paina lopuksi **OK**. 
