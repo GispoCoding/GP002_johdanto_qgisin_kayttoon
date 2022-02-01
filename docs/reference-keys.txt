@@ -1,6 +1,11 @@
-introduction-to-qgis
-about
-license-and-permissions
+johdanto-qgisin-käyttöön
+tervetuloa-qgis-peruskurssille
+qgisin-taustaa
+miksi-qgis
+lukuohje
+mistä-lisätietoja
+virheet
+lisenssi-ja-oikeudet
 harjoitus-1-qgisin-käyttöliittymä
 harjoituksen-sisältö
 harjoituksen-tavoite

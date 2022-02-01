@@ -7,7 +7,7 @@
 <meta charset="utf-8" />
 <meta name="generator" content="pandoc" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta property="og:title" content="2 Harjoitus 1: QGISin käyttöliittymä | Introduction to QGIS" />
+<meta property="og:title" content="2 Harjoitus 1: QGISin käyttöliittymä | Johdanto QGISin käyttöön - Harjoitukset" />
 <meta property="og:type" content="book" />
 
 
@@ -16,12 +16,12 @@
 
 <meta name="author" content="Gispo Ltd." />
 
-<meta name="date" content="2022-01-27" />
+<meta name="date" content="2022-02-01" />
 
 
-<meta name="description" content="2 Harjoitus 1: QGISin käyttöliittymä | Introduction to QGIS">
+<meta name="description" content="2 Harjoitus 1: QGISin käyttöliittymä | Johdanto QGISin käyttöön - Harjoitukset">
 
-<title>2 Harjoitus 1: QGISin käyttöliittymä | Introduction to QGIS</title>
+<title>2 Harjoitus 1: QGISin käyttöliittymä | Johdanto QGISin käyttöön - Harjoitukset</title>
 
 <script src="libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
@@ -56,17 +56,22 @@ type="button" onclick="navToggle()" aria-label="Toggle navigation">
 
 <div class="sidebar-title-wrapper">
 <img alt="Logo" width="100" src="img/gispo_white_sm.png" class="sidebar-logo">
-<div class="sidebar-title"><h1>Introduction to QGIS</h1></div>
-<div class="abstract-sidebar"><p>A course covering advanced GeoServer topics.</p></div>
+<div class="sidebar-title"><h1>Johdanto QGISin käyttöön - Harjoitukset</h1></div>
+<div class="abstract-sidebar"><p>Peruskurssi QGIS-ohjelmiston perusteisiin</p></div>
 </div>
 
 <nav class="sidebar-nav">
 <div id="TOC" class="toc">
 <ul>
-<li><a href="index.html#introduction-to-qgis"><span class="toc-section-number">1</span> Introduction to QGIS</a>
+<li><a href="index.html#johdanto-qgisin-käyttöön"><span class="toc-section-number">1</span> Johdanto QGISin käyttöön</a>
 <ul>
-<li><a href="index.html#about"><span class="toc-section-number">1.1</span> About</a></li>
-<li><a href="index.html#license-and-permissions"><span class="toc-section-number">1.2</span> License and permissions</a></li>
+<li><a href="index.html#tervetuloa-qgis-peruskurssille"><span class="toc-section-number">1.1</span> Tervetuloa QGIS-peruskurssille!</a></li>
+<li><a href="index.html#qgisin-taustaa"><span class="toc-section-number">1.2</span> QGISin taustaa</a></li>
+<li><a href="index.html#miksi-qgis"><span class="toc-section-number">1.3</span> Miksi QGIS?</a></li>
+<li><a href="index.html#lukuohje"><span class="toc-section-number">1.4</span> Lukuohje</a></li>
+<li><a href="index.html#mistä-lisätietoja"><span class="toc-section-number">1.5</span> Mistä lisätietoja?</a></li>
+<li><a href="index.html#virheet"><span class="toc-section-number">1.6</span> Virheet</a></li>
+<li><a href="index.html#lisenssi-ja-oikeudet"><span class="toc-section-number">1.7</span> Lisenssi ja oikeudet</a></li>
 </ul></li>
 <li><a href="00_kansi.html#harjoitus-1-qgisin-käyttöliittymä"><span class="toc-section-number">2</span> Harjoitus 1: QGISin käyttöliittymä</a>
 <ul>
@@ -181,8 +186,14 @@ QGISin voi asentaa Windows-, Linux- tai Mac-käyttöjärjestelmään. Eri järje
 </div>
 <div id="kurssimateriaalien-lataus" class="section level2" number="2.4">
 <h2><span class="header-section-number">2.4</span> Kurssimateriaalien lataus</h2>
-<p>Kouluttaja ohjeistaa sinua lataamaan kurssimateriaalit joko muistitikulta, Google Drivestä tai AWS-palvelimelta. Kopioi kurssimateriaalit koulutuskoneelle haluamaasi kansioon niin, että löydät ne helposti jatkossa. Voit kirjoittaa muistiinpanoja harjoitusten viimeiselle sivulle.
-Kun kurssimateriaalissa viitataan <strong>…/kurssihakemisto/</strong>, tarkoitetaan itse määrittelemääsi kurssihakemiston polkua.</p>
+<p>Kurssilla tarvittavat paikkatieto-aineistot on ladattavissa Google Drivestä linkistä</p>
+<div class="note-box">
+<p><a href="https://drive.google.com/file/d/141J1hHF4KfN9XVv3SJn93cTv1_QZMo5p/view?usp=sharing">Kurssihakemisto.zip</a></p>
+</div>
+<p>Avaa yllä oleva linkki ja klikkaa <strong>Lataa</strong>. Tämä lataa aineistot kokonaisuudessaan pakattuna zip-tiedostona <strong>Kurssihakemisto.zip</strong>.
+Pura kurssimateriaalit omalle tietokoneellesi haluamaasi kansioon niin, että löydät ne helposti harjoituksia tehdessä. Kun kurssimateriaalissa viitataan <strong>../kurssihakemisto/</strong>, tarkoitetaan itse määrittelemääsi kurssihakemiston polkua. Kysy tarvittaessa apua kouluttajalta.</p>
+<!--Kouluttaja ohjeistaa sinua lataamaan kurssimateriaalit joko muistitikulta, Google Drivestä tai AWS-palvelimelta. Kopioi kurssimateriaalit koulutuskoneelle haluamaasi kansioon niin, että löydät ne helposti jatkossa. Voit kirjoittaa muistiinpanoja harjoitusten viimeiselle sivulle.
+Kun kurssimateriaalissa viitataan **.../kurssihakemisto/**, tarkoitetaan itse määrittelemääsi kurssihakemiston polkua.-->
 </div>
 <div id="qgisin-käyttöliittymä" class="section level2" number="2.5">
 <h2><span class="header-section-number">2.5</span> QGISin käyttöliittymä</h2>
@@ -253,8 +264,8 @@ Voit järjestää ominaisuustietotaulun minkä tahansa kentän mukaan laskevaan 
 <div class="footer-container text-center">
 
 <div class="footer-info">
-<h5 class="footer-title">Introduction to QGIS</h5>
-<span class="footer-version">v2022-01-27</span>
+<h5 class="footer-title">Johdanto QGISin käyttöön - Harjoitukset</h5>
+<span class="footer-version">v2022-02-01</span>
 <div class="license"><img src="img/by-nd.svg" width="80px" alt="CC-BY-ND"></div>
 </div>
 
