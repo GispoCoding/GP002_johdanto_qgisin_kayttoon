@@ -15,7 +15,6 @@ qgisin-käyttöliittymä
 qgis-käyttöliittymän-osat
 kokeile-itse
 attribuuttitaulu
-training-environment
 harjoitus-2-paikkatietoaineistot-ja--palvelut
 harjoituksen-sisältö-1
 harjoituksen-tavoite-1
