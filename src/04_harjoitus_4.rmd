@@ -31,8 +31,9 @@ Paina **Käytä**, niin kohteille syntyy nimiöt. Tämä nähdään nyt karttaik
 ## Nimiöiden tyyli- ja yleisasetukset
 Nimiöiden tekstien näkymistä kartalla voi määrittää monella eri tavalla. Alla kuvaukset QGISin nimiöiden muokkaamisen alateemoista:
 
-|Teksti | Määritellään tekstin tyyli, väri ja muita yleisiä ominaisuuksia |
+|              |                               |
 |:------------:|:--------------------------------------------------------------------------------------------------------------------------|
+|Teksti | Määritellään tekstin tyyli, väri ja muita yleisiä ominaisuuksia |
 | Muotoilu | Voit muodostaa useampirivisiä tekstejä, keskittää tekstiä ja määritellä lukujen muotoa |
 | Vyöhyke  |  Luodaan tekstiä korostavat puskurit (tekstin reunukset)|
 | Maski | Tekstiä korostavat puskurit, joiden vaikutusta alla oleviin tasoihin voi säädellä Tason ominaisuuksien **Masks** -välilehdellä|
