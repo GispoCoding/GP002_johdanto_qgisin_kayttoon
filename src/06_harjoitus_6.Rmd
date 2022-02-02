@@ -15,7 +15,7 @@ Luodaan uusi GeoPackage-aineisto valitsemalla työkalupalkista Uusi **GeoPackage
 
 ![](img/harjoitus_6/image21.png)
 
-Tee alla näkyvät valinnat **GeoPackage-ikkunaan**. Muista nimetä aineisto sopivalla tavalla (tässä esim. alueet), valitse **Geometriatyyppi-kohtaan MultiPolygoni**, valitse koordinaattijärjestelmäksi ETRS89 / TM35FIN(E,N) EPSG:3067 (harjoittelemme digitointia Espoossa käytössämme Suomen valtakunnallinen tasokoordinaattijärjestelmä TM35FIN). Muista vielä lopuksi lisätä **Nimi-attribuutti Lisää ominaisuustietolistaan -toiminnolla**.
+Tee alla näkyvät valinnat **GeoPackage-ikkunaan**. Muista nimetä aineisto sopivalla tavalla (tässä esim. alueet), valitse **Geometriatyyppi-kohtaan MultiPolygoni** ja valitse koordinaattijärjestelmäksi ETRS89 / TM35FIN(E,N) EPSG:3067. Lisää lopuksi Nimi-attribuutti **Lisää ominaisuustietolistaan -toiminnolla**. Paina **OK**.
 
 ![](img/harjoitus_6/image14.png)
 
@@ -24,7 +24,9 @@ Avaa juuri luomasi tason attribuuttitaulukko ja tarkista, että se on tyhjä. Ta
 ![](img/harjoitus_6/image4.png)
 
 **Fid-kenttä** muodostuu automaattisesti ja **Nimi-kentän** loimme itse äskeisessä määrittelyikkunassa.
-Tarkastellaan nyt attribuutteja lähemmin **Tason ominaisuudet -ikkunassa**. Avaa juuri luomasi Alueet-tason Tason ominaisuudet -ikkuna ja valitse vasemmalta **Attribuutit (aikaisemmin Fields)**. Attribuutit-välilehdessä pystytään muokkaamaan attribuuttitaulun tietorakennetta. Aseta muokkaus päälle klikkaamalla kynäikonia. Uuden kentän pystyt lisäämään **Uusi kenttä -painikkeesta**, joka on varustettu keltaisella tähti-ikonilla. 
+Tarkastellaan nyt attribuutteja lähemmin **Tason ominaisuudet -ikkunassa**. 
+
+Avaa juuri luomasi Alueet-tason **Tason ominaisuudet** -ikkuna ja valitse vasemmalta **Attribuutit**. Attribuutit-välilehdessä pystytään muokkaamaan attribuuttitaulun tietorakennetta. Aseta muokkaus päälle klikkaamalla kynäikonia. Uuden kentän pystyt lisäämään **Uusi kenttä -painikkeesta**, joka on varustettu keltaisella tähti-ikonilla. 
 Anna uudelle kentälle nimi “**aluetyyppi**” ja aseta tyypiksi “**Teksti**” ylläolevan kuvan mukaisesti. Klikkaa **OK** lisätäksesi uuden kentän listaan. Klikkaa tämän jälkeen uudestaan kynäikonia lopettaaksesi muokkauksen ja tallenna muutokset.
 
 ![](img/harjoitus_6/image1.png)
