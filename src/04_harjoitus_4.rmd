@@ -12,17 +12,17 @@ Koulutettava oppii muodostamaan eri tyyppisille paikkatietokohteille tekstitykse
 Käynnistä QGIS-ohjelmisto. Avaa edellisen harjoituksen QGIS-projekti ja tallenna se nimellä (**Projekti → Tallenna nimellä…**) “**QGIS_harjoitus_4**”.
 Avaa projektiin seuraavat aineistot:
 
-* **.../kurssihakemisto/SYKE/Natura2000/naturakohde_ma.shp**
+* **.../kurssihakemisto/SYKE/Natura2000/NaturaKohde_ma.shp**
 * **.../kurssihakemisto/MML/YK_1M/TieViiva.shp**
 * **.../kurssihakemisto/HSY/Vaestotietoruudukko_2019.gpkg**
 * **.../kurssihakemisto/MML/Korkeusmalli_2m/L4133B.asc**
 
-Aseta aluksi **naturakohde_ma** -taso näkyviin ja muut näkymättömäksi
+Aseta aluksi **NaturaKohde_ma** -taso näkyviin ja muut näkymättömäksi
 
 ## Nimiöt
 
 QGIS käyttöliittymässä paikkatietokohteiden tekstitykseen viitataan termillä **Nimiöt** (englanninkielinen termi on “**Labeling**”).
-Avaa **Naturakohde-tason Ominaisuudet-ikkuna** ja valitse **Nimiöt-välilehti**.
+Avaa **NaturaKohde-tason Ominaisuudet-ikkuna** ja valitse **Nimiöt-välilehti**.
 Valitse **Single labels** ja **Nimiöiden perustana -alasvetovalikosta** nimiöinnissä käytettävän sarakkeen nimi, esim. “Nimi”.
 Paina **Käytä**, niin kohteille syntyy nimiöt. Tämä nähdään nyt karttaikkunasta, johon nimiöt ovat jo päivittyneet:
 
@@ -31,8 +31,8 @@ Paina **Käytä**, niin kohteille syntyy nimiöt. Tämä nähdään nyt karttaik
 ## Nimiöiden tyyli- ja yleisasetukset
 Nimiöiden tekstien näkymistä kartalla voi määrittää monella eri tavalla. Alla kuvaukset QGISin nimiöiden muokkaamisen alateemoista:
 
-|:------------:|:--------------------------------------------------------------------------------------------|
 |Teksti | Määritellään tekstin tyyli, väri ja muita yleisiä ominaisuuksia |
+|:------------:|:--------------------------------------------------------------------------------------------------------------------------|
 | Muotoilu | Voit muodostaa useampirivisiä tekstejä, keskittää tekstiä ja määritellä lukujen muotoa |
 | Vyöhyke  |  Luodaan tekstiä korostavat puskurit (tekstin reunukset)|
 | Maski | Tekstiä korostavat puskurit, joiden vaikutusta alla oleviin tasoihin voi säädellä Tason ominaisuuksien **Masks** -välilehdellä|
@@ -89,26 +89,26 @@ Rastita vielä päälle **Yhdistä kytketyt viivat** välttääksesi kopioidut n
 Tutustu ensin aineistoon. Avaa **Attribuuttitaulu** painamalla aineistotason nimen päällä hiiren oikealla näppäimellä. Ominaisuustietojen ymmärtämiseksi on hyvä tarkastella taulun sisältöä sekä tutustua samalla aineiston metatietoihin (tietoa aineistosta). Metatiedot löytyvät usein aineistontuottajan nettisivuilta tai paikkatietojen löytämiseen tarkoitetuista hakemistoista. Metatiedot kertovat mm. ketä aineiston on tuottanut, mihin tarkoitukseen se on tehty, millä mittakaavalla ja missä koordinaattijärjestelmässä. 
 Harjoituksessa käytettävän aineiston on tuottanut Helsingin seudun ympäristöpalvelut, sen metatiedot löytyvät samasta kansiosta, **Vaestoruudukko.pdf** -tiedostosta. Avaa Vaestoruudukko.pdf-tiedosto ja tutustu eri kenttien (sarakkeiden) kuvauksiin. Sivun lopussa asiaa on hieman avattu.
 
-![](img/harjoitus_4/image25.png){width:60%}
+![](img/harjoitus_4/image25.png){width=60%}
 
 Ominaisuustietotauluissa sarakkeiden nimet ovat usein lyhennetyssä muodossa. Sarakkeiden merkitystä on tyypillisesti hiukan vaikea päätellä lyhenteistä. Tässä tapauksessa silmiinpistävää on lisäksi, että taulukossa luku 99 toistuu useaan otteeseen. Metatietojen avulla voimme kuitenkin selvittää muun muassa, miten ASUKKAITA sarakkeen tiedot on laskettu sekä millä tavalla tiedot on poistettu ruuduissa, joissa asuu 0-4 asukasta. IKA-sarakkeet sisältävät asukkaiden määrät ikäluokittain, mutta niille on annettu arvo 99 aina kun ruudukon asukasmäärä on ollut alle 100.
 
 Tarkastele aineistoa myös kartalla. Huomaatko yhden ruudun, joka näyttää sijaitsevan kaukana kaakossa keskellä merta?
 
-![](img/harjoitus_4/image18.png){width:60%}
+![](img/harjoitus_4/image18.png){width=60%}
 
 Irralliseen ruutuun on tässä aineistossa sijoitettu kaikki ne pk-seudun asukkaat, joilla ei ole vakituista kotiosoitetta. Info-työkalulla nähdään, että tämän ruudun asukasmäärä on kymmenkertaisesti suurempi kuin minkään muun aineiston ruudun. Se siis vääristää luokittelua ja aineistosta laskettuja tilastoja (mm. keskimääräinen asukastiheys ruutua kohti).
 
 Suodatetaan tämä ruutu pois aineistosta: laita editointi päälle ja klikkaa tason nimeä hiiren oikealla ja valitse **Suodata…** Kirjoita (tai valitse tietokentistä ja operaattoreista klikkaamalla) suodatuslausekkeeksi **ASUKKAITA < 5000**. Voit testata suodatuksen toimivuutta klikkaamalla **Testaa**.
 
-![](img/harjoitus_4/image21.png){width:70%}
+![](img/harjoitus_4/image21.png){width=70%}
 
 Nyt QGIS näyttää aineistostasi vain ne ruudut, jotka täyttävät annetun ehdon eli joiden kokonaisasukasmäärä on alle 5000.
 Paikkatietoineiston ymmärtäminen ennen sen käsittelyä on välttämätöntä. Voimme nyt esimerkiksi päättää, että haluamme tuottaa teemakartan ASUKKAITA-sarakkeen tietojen pohjalta. Näin pystymme myös paremmin tulkitsemaan karttaa ja valitsemaan visualisointia varten sopivat asetukset.
 Avaa tason ominaisuudet ja valitse tason kuvaustekniikaksi **Porrastettu**.
 Aseta vielä oheisen kuvan mukaiset **Sarake-, Liukuväri-, Tila- ja Luokat-määrittelyt**.
 
-![](img/harjoitus_4/image3.png){width:60%}
+![](img/harjoitus_4/image3.png){width=60%}
 
 Kun olet saanut ne asetettua, paina **Luokittele**, niin luokitus tulee näkyviin.
 Voit myös muokata manuaalisesti arvovälejä kaksoisklikkaamalla **Arvot-saraketta** tai luokkien nimiä kaksoisklikkaamalla **Selite-saraketta**. Luokkien nimet näkyvät **Tasot-paneelissa** ja myös karttatulosteen selitteessä.
@@ -124,7 +124,7 @@ Kokeile myös vaihtaa  luokkien lukumäärää, luokitustapoja ja värityksiä, 
 
 Voit vertailla eri luokittelumenetelmiä ja tutkia aineiston jakaumaa histogrammin avulla. Histogrammi löytyy omalta välilehdeltään. Paina **Load values** saadaksesi histogrammin ja luokkien rajat näkyviin.
 
-![](img/harjoitus_4/image22.png){width:60%}
+![](img/harjoitus_4/image22.png){width=60%}
 
 ![](img/harjoitus_4/image6.png)
 
@@ -150,7 +150,7 @@ Psst! Muista tallentaa QGIS-projekti harjoituksen lopuksi.
 ## Lisätehtävä: nimiöiden piirtäminen
 Loitonna karttanäkymää siten, että kaikki tasojesi kohteet tulevat näkyville. Voit tehdä tämän seuraavan työkalun avulla: 
 
-![](img/harjoitus_4/image15.png)
+![](img/harjoitus_4/image15.jpg)
 
 Joissakin tapauksissa olisi hyödyllistä määrittää nimiöt eri mittakaavoille erikseen.
 Avaa taas **NaturaKohde_ma-tason ominaisuudet** ja valitse **Nimiöt-sivupalkista** ja **Piirtäminen-alateema**. Rastita **Show all labels for this layer (including colliding labels)**, varmista, ettei mittakaavaperusteinen näkyvyys ole valittuna ja paina **Käytä**. Nimiöiden piirtämiseen menee hetki, koska kaikki kartalla näkyvät monikulmiot nimetään. Kun kartta on piirtynyt huomaat, ettei kannata nimiöidä kaikkia monikulmioita kyseisellä mittakaavalla. Rastita tämä asetus pois päältä ja paina Käytä. Huomaa, että oletuksena QGIS jättää piirtämättä toisiinsa törmäävät nimiöt.
@@ -158,7 +158,7 @@ Rastita päälle **Mittakaavaperusteinen näkyvyys** ja laita **Maksimi-kentän 
 
 ![](img/harjoitus_4/image12.png)
 
-Paina OK. Natura-kohteiden nimiöt eivät enää näy 1:500 000 mittakaavan ulkopuolella. Lähennä karttaan, kunnes nimiöt näkyvät uudelleen. 
+Paina **OK**. Natura-kohteiden nimiöt eivät enää näy 1:500 000 mittakaavan ulkopuolella. Lähennä karttaan, kunnes nimiöt näkyvät uudelleen. 
 Voit myös testata muita tekstittämiseen liittyviä edistyneempiä toimia. Voit muun muassa ohjata nimiöiden tekstejä lausekepohjaisesti käyttämällä merkkijonoja QGISin lauseke-työkalulla:
 
 ![](img/harjoitus_4/image20.png)
