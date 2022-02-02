@@ -30,7 +30,7 @@ http://kartta.hel.fi/ws/geoserver/avoindata/wms
 
 ![](img/harjoitus_2/image4.png)
 
-Palvelun määrityksen jälkeen paina OK. Paina vielä **Yhdistä**. Näin otamme yhteyden WMS-palveluun ja saamme alle listan palvelusta saatavilla olevista karttatasoista. Valitse **Ajantasa_asemakaava** tai haluamasi muu karttataso ja paina **Lisää**. Huomaa, että voit joutua odottamaan hetken, kun karttatasoa ladataan palvelimelta.
+Palvelun määrityksen jälkeen paina **OK**. Paina vielä **Yhdistä**. Näin otamme yhteyden WMS-palveluun ja saamme alle listan palvelusta saatavilla olevista karttatasoista. Valitse **Ajantasa_asemakaava** tai haluamasi muu karttataso ja paina **Lisää**. Huomaa, että voit joutua odottamaan hetken, kun karttatasoa ladataan palvelimelta.
 
 ![](img/harjoitus_2/image3.png){width=70%}
 
@@ -71,7 +71,7 @@ Yllä olevassa kuvassa näkyy vain yksi taso, mutta sinulla on varmasti jo useam
 
 Voit myös kysellä ja filtteröidä rajapintapalveluita QGISin SQL-lauseke-toiminnolla. Toiminto löytyy samasta ikkunasta, josta WFS-tasoja voidaan lisätä kunkin palveluyhteyden osalta. Seuraavassa animaatiossa ladataan Tilastokeskuksen ylläpitämästä paikkatietopalvelusta vain vakavuuden “2” liikenneonnettomuudet vuodelta 2015 QGISiin.
 
-Lisätään Tilastokeskuksen tieliikenteen **WFS-rajapinnasta** http://geo.stat.fi/geoserver/tieliikenne/wfs vektoritaso **Tieliikenneonnettomuudet 2017**. 
+Lisää Tilastokeskuksen tieliikenteen **WFS-rajapinnasta** http://geo.stat.fi/geoserver/tieliikenne/wfs vektoritaso **Tieliikenneonnettomuudet 2017**. 
 
 ![](img/harjoitus_2/image5.png)
 
