@@ -179,17 +179,17 @@ type="button" onclick="navToggle()" aria-label="Toggle navigation">
 <p>Käynnistä QGIS-ohjelmisto. Avaa edellisen harjoituksen QGIS-projekti ja tallenna se nimellä (<strong>Projekti → Tallenna nimellä…</strong>) “<strong>QGIS_harjoitus_4</strong>”.
 Avaa projektiin seuraavat aineistot:</p>
 <ul>
-<li><strong>…/kurssihakemisto/SYKE/Natura2000/naturakohde_ma.shp</strong></li>
+<li><strong>…/kurssihakemisto/SYKE/Natura2000/NaturaKohde_ma.shp</strong></li>
 <li><strong>…/kurssihakemisto/MML/YK_1M/TieViiva.shp</strong></li>
 <li><strong>…/kurssihakemisto/HSY/Vaestotietoruudukko_2019.gpkg</strong></li>
 <li><strong>…/kurssihakemisto/MML/Korkeusmalli_2m/L4133B.asc</strong></li>
 </ul>
-<p>Aseta aluksi <strong>naturakohde_ma</strong> -taso näkyviin ja muut näkymättömäksi</p>
+<p>Aseta aluksi <strong>NaturaKohde_ma</strong> -taso näkyviin ja muut näkymättömäksi</p>
 </div>
 <div id="nimiöt" class="section level2" number="5.4">
 <h2><span class="header-section-number">5.4</span> Nimiöt</h2>
 <p>QGIS käyttöliittymässä paikkatietokohteiden tekstitykseen viitataan termillä <strong>Nimiöt</strong> (englanninkielinen termi on “<strong>Labeling</strong>”).
-Avaa <strong>Naturakohde-tason Ominaisuudet-ikkuna</strong> ja valitse <strong>Nimiöt-välilehti</strong>.
+Avaa <strong>NaturaKohde-tason Ominaisuudet-ikkuna</strong> ja valitse <strong>Nimiöt-välilehti</strong>.
 Valitse <strong>Single labels</strong> ja <strong>Nimiöiden perustana -alasvetovalikosta</strong> nimiöinnissä käytettävän sarakkeen nimi, esim. “Nimi”.
 Paina <strong>Käytä</strong>, niin kohteille syntyy nimiöt. Tämä nähdään nyt karttaikkunasta, johon nimiöt ovat jo päivittyneet:</p>
 <p><img src="img/harjoitus_4/image11.png" /></p>
@@ -197,16 +197,52 @@ Paina <strong>Käytä</strong>, niin kohteille syntyy nimiöt. Tämä nähdään
 <div id="nimiöiden-tyyli--ja-yleisasetukset" class="section level2" number="5.5">
 <h2><span class="header-section-number">5.5</span> Nimiöiden tyyli- ja yleisasetukset</h2>
 <p>Nimiöiden tekstien näkymistä kartalla voi määrittää monella eri tavalla. Alla kuvaukset QGISin nimiöiden muokkaamisen alateemoista:</p>
-<p>|:————:|:——————————————————————————————–|
-|Teksti | Määritellään tekstin tyyli, väri ja muita yleisiä ominaisuuksia |
-| Muotoilu | Voit muodostaa useampirivisiä tekstejä, keskittää tekstiä ja määritellä lukujen muotoa |
-| Vyöhyke | Luodaan tekstiä korostavat puskurit (tekstin reunukset)|
-| Maski | Tekstiä korostavat puskurit, joiden vaikutusta alla oleviin tasoihin voi säädellä Tason ominaisuuksien <strong>Masks</strong> -välilehdellä|
-| Tausta | Tekstin taustalle voi piirtää suorakulmion tai muun muodon|
-| Varjo | Teksteille voidaan muodostaa varjo|
-| Sijoittaminen | Määrittelee tekstien sijoittumista kohteiden suhteen|
-| Piirtäminen | Määrittelee tekstien mittakaavarajoja ja muita tekstien näkyvyyteen liittyviä asioita|
-| Callouts | Voit siirtää nimiöitä karttanäkymässä vapaasti (Nimiöiden asetukset -työkalupalkin avulla) ja yhdistää tekstit niihin liittyviin kohteisiin viivalla|</p>
+<table>
+<colgroup>
+<col width="10%" />
+<col width="89%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Teksti</th>
+<th align="left">Määritellään tekstin tyyli, väri ja muita yleisiä ominaisuuksia</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">Muotoilu</td>
+<td align="left">Voit muodostaa useampirivisiä tekstejä, keskittää tekstiä ja määritellä lukujen muotoa</td>
+</tr>
+<tr class="even">
+<td align="center">Vyöhyke</td>
+<td align="left">Luodaan tekstiä korostavat puskurit (tekstin reunukset)</td>
+</tr>
+<tr class="odd">
+<td align="center">Maski</td>
+<td align="left">Tekstiä korostavat puskurit, joiden vaikutusta alla oleviin tasoihin voi säädellä Tason ominaisuuksien <strong>Masks</strong> -välilehdellä</td>
+</tr>
+<tr class="even">
+<td align="center">Tausta</td>
+<td align="left">Tekstin taustalle voi piirtää suorakulmion tai muun muodon</td>
+</tr>
+<tr class="odd">
+<td align="center">Varjo</td>
+<td align="left">Teksteille voidaan muodostaa varjo</td>
+</tr>
+<tr class="even">
+<td align="center">Sijoittaminen</td>
+<td align="left">Määrittelee tekstien sijoittumista kohteiden suhteen</td>
+</tr>
+<tr class="odd">
+<td align="center">Piirtäminen</td>
+<td align="left">Määrittelee tekstien mittakaavarajoja ja muita tekstien näkyvyyteen liittyviä asioita</td>
+</tr>
+<tr class="even">
+<td align="center">Callouts</td>
+<td align="left">Voit siirtää nimiöitä karttanäkymässä vapaasti (Nimiöiden asetukset -työkalupalkin avulla) ja yhdistää tekstit niihin liittyviin kohteisiin viivalla</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div id="nimiön-tekstityyli" class="section level2" number="5.6">
 <h2><span class="header-section-number">5.6</span> Nimiön tekstityyli</h2>
@@ -239,18 +275,18 @@ Rastita vielä päälle <strong>Yhdistä kytketyt viivat</strong> välttääkses
 <p><strong>Väestötietoruudukko.gpkg</strong> on vektoriaineisto, tällä kertaa kuitenkin geopackage-formaatissa. Voit lisätä sen projektiin <strong>Tietolähteiden hallinta -työkalulla</strong>.
 Tutustu ensin aineistoon. Avaa <strong>Attribuuttitaulu</strong> painamalla aineistotason nimen päällä hiiren oikealla näppäimellä. Ominaisuustietojen ymmärtämiseksi on hyvä tarkastella taulun sisältöä sekä tutustua samalla aineiston metatietoihin (tietoa aineistosta). Metatiedot löytyvät usein aineistontuottajan nettisivuilta tai paikkatietojen löytämiseen tarkoitetuista hakemistoista. Metatiedot kertovat mm. ketä aineiston on tuottanut, mihin tarkoitukseen se on tehty, millä mittakaavalla ja missä koordinaattijärjestelmässä.
 Harjoituksessa käytettävän aineiston on tuottanut Helsingin seudun ympäristöpalvelut, sen metatiedot löytyvät samasta kansiosta, <strong>Vaestoruudukko.pdf</strong> -tiedostosta. Avaa Vaestoruudukko.pdf-tiedosto ja tutustu eri kenttien (sarakkeiden) kuvauksiin. Sivun lopussa asiaa on hieman avattu.</p>
-<p><img src="img/harjoitus_4/image25.png" />{width:60%}</p>
+<p><img src="img/harjoitus_4/image25.png" style="width:60.0%" /></p>
 <p>Ominaisuustietotauluissa sarakkeiden nimet ovat usein lyhennetyssä muodossa. Sarakkeiden merkitystä on tyypillisesti hiukan vaikea päätellä lyhenteistä. Tässä tapauksessa silmiinpistävää on lisäksi, että taulukossa luku 99 toistuu useaan otteeseen. Metatietojen avulla voimme kuitenkin selvittää muun muassa, miten ASUKKAITA sarakkeen tiedot on laskettu sekä millä tavalla tiedot on poistettu ruuduissa, joissa asuu 0-4 asukasta. IKA-sarakkeet sisältävät asukkaiden määrät ikäluokittain, mutta niille on annettu arvo 99 aina kun ruudukon asukasmäärä on ollut alle 100.</p>
 <p>Tarkastele aineistoa myös kartalla. Huomaatko yhden ruudun, joka näyttää sijaitsevan kaukana kaakossa keskellä merta?</p>
-<p><img src="img/harjoitus_4/image18.png" />{width:60%}</p>
+<p><img src="img/harjoitus_4/image18.png" style="width:60.0%" /></p>
 <p>Irralliseen ruutuun on tässä aineistossa sijoitettu kaikki ne pk-seudun asukkaat, joilla ei ole vakituista kotiosoitetta. Info-työkalulla nähdään, että tämän ruudun asukasmäärä on kymmenkertaisesti suurempi kuin minkään muun aineiston ruudun. Se siis vääristää luokittelua ja aineistosta laskettuja tilastoja (mm. keskimääräinen asukastiheys ruutua kohti).</p>
 <p>Suodatetaan tämä ruutu pois aineistosta: laita editointi päälle ja klikkaa tason nimeä hiiren oikealla ja valitse <strong>Suodata…</strong> Kirjoita (tai valitse tietokentistä ja operaattoreista klikkaamalla) suodatuslausekkeeksi <strong>ASUKKAITA &lt; 5000</strong>. Voit testata suodatuksen toimivuutta klikkaamalla <strong>Testaa</strong>.</p>
-<p><img src="img/harjoitus_4/image21.png" />{width:70%}</p>
+<p><img src="img/harjoitus_4/image21.png" style="width:70.0%" /></p>
 <p>Nyt QGIS näyttää aineistostasi vain ne ruudut, jotka täyttävät annetun ehdon eli joiden kokonaisasukasmäärä on alle 5000.
 Paikkatietoineiston ymmärtäminen ennen sen käsittelyä on välttämätöntä. Voimme nyt esimerkiksi päättää, että haluamme tuottaa teemakartan ASUKKAITA-sarakkeen tietojen pohjalta. Näin pystymme myös paremmin tulkitsemaan karttaa ja valitsemaan visualisointia varten sopivat asetukset.
 Avaa tason ominaisuudet ja valitse tason kuvaustekniikaksi <strong>Porrastettu</strong>.
 Aseta vielä oheisen kuvan mukaiset <strong>Sarake-, Liukuväri-, Tila- ja Luokat-määrittelyt</strong>.</p>
-<p><img src="img/harjoitus_4/image3.png" />{width:60%}</p>
+<p><img src="img/harjoitus_4/image3.png" style="width:60.0%" /></p>
 <p>Kun olet saanut ne asetettua, paina <strong>Luokittele</strong>, niin luokitus tulee näkyviin.
 Voit myös muokata manuaalisesti arvovälejä kaksoisklikkaamalla <strong>Arvot-saraketta</strong> tai luokkien nimiä kaksoisklikkaamalla <strong>Selite-saraketta</strong>. Luokkien nimet näkyvät <strong>Tasot-paneelissa</strong> ja myös karttatulosteen selitteessä.
 Paina <strong>Käytä</strong>, niin näet muutokset kartalla. Karttanäytölle pitäisi muodostua jokseenkin tämän näköinen tilastoteemakartta.</p>
@@ -260,7 +296,7 @@ Palaa vielä <strong>Kuvaustekniikka-asetuksiin</strong> ja kokeile <strong>Tila
 Kokeile myös vaihtaa luokkien lukumäärää, luokitustapoja ja värityksiä, kunnes löydät mielestäsi sopivan tuloksen.</p>
 <p><img src="img/harjoitus_4/image17.png" /></p>
 <p>Voit vertailla eri luokittelumenetelmiä ja tutkia aineiston jakaumaa histogrammin avulla. Histogrammi löytyy omalta välilehdeltään. Paina <strong>Load values</strong> saadaksesi histogrammin ja luokkien rajat näkyviin.</p>
-<p><img src="img/harjoitus_4/image22.png" />{width:60%}</p>
+<p><img src="img/harjoitus_4/image22.png" style="width:60.0%" /></p>
 <p><img src="img/harjoitus_4/image6.png" /></p>
 <p>Muuta vielä <strong>Symbolityyliä</strong>. Avaa uudelleen tason ominaisuustiedot ja paina <strong>Muuta…</strong>
 <strong>Symbolin valitsija -ikkuna</strong> aukene. Valitse soveltuva kuviointi monikulmioille. Valitse sitten <strong>Yksinkertainen täyttö</strong> symbolitasolle ja aseta <strong>Piirron tyyliksi Ei viivaa</strong>. Paina <strong>OK</strong> ja <strong>OK</strong>. Zoomaa karttaan tutkimaan tulosta ja palaa tyyliasetuksiin, jos haluat tehdä vielä muutoksia.</p>
@@ -280,12 +316,12 @@ Kokeile myös mitä tapahtuu, jos vaihdat Tilastojen laajuudeksi <strong>Päivit
 <div id="lisätehtävä-nimiöiden-piirtäminen" class="section level2" number="5.10">
 <h2><span class="header-section-number">5.10</span> Lisätehtävä: nimiöiden piirtäminen</h2>
 <p>Loitonna karttanäkymää siten, että kaikki tasojesi kohteet tulevat näkyville. Voit tehdä tämän seuraavan työkalun avulla:</p>
-<p><img src="img/harjoitus_4/image15.png" /></p>
+<p><img src="img/harjoitus_4/image15.jpg" /></p>
 <p>Joissakin tapauksissa olisi hyödyllistä määrittää nimiöt eri mittakaavoille erikseen.
 Avaa taas <strong>NaturaKohde_ma-tason ominaisuudet</strong> ja valitse <strong>Nimiöt-sivupalkista</strong> ja <strong>Piirtäminen-alateema</strong>. Rastita <strong>Show all labels for this layer (including colliding labels)</strong>, varmista, ettei mittakaavaperusteinen näkyvyys ole valittuna ja paina <strong>Käytä</strong>. Nimiöiden piirtämiseen menee hetki, koska kaikki kartalla näkyvät monikulmiot nimetään. Kun kartta on piirtynyt huomaat, ettei kannata nimiöidä kaikkia monikulmioita kyseisellä mittakaavalla. Rastita tämä asetus pois päältä ja paina Käytä. Huomaa, että oletuksena QGIS jättää piirtämättä toisiinsa törmäävät nimiöt.
 Rastita päälle <strong>Mittakaavaperusteinen näkyvyys</strong> ja laita <strong>Maksimi-kentän arvoksi</strong> 500 000:</p>
 <p><img src="img/harjoitus_4/image12.png" /></p>
-<p>Paina OK. Natura-kohteiden nimiöt eivät enää näy 1:500 000 mittakaavan ulkopuolella. Lähennä karttaan, kunnes nimiöt näkyvät uudelleen.
+<p>Paina <strong>OK</strong>. Natura-kohteiden nimiöt eivät enää näy 1:500 000 mittakaavan ulkopuolella. Lähennä karttaan, kunnes nimiöt näkyvät uudelleen.
 Voit myös testata muita tekstittämiseen liittyviä edistyneempiä toimia. Voit muun muassa ohjata nimiöiden tekstejä lausekepohjaisesti käyttämällä merkkijonoja QGISin lauseke-työkalulla:</p>
 <p><img src="img/harjoitus_4/image20.png" /></p>
 <p>Kokeile yhdistää kaksi saraketta samaan nimiöön <strong>|| -merkin</strong> avulla esimerkiksi seuraavalla tavalla: “<strong>sarake1 || sarake2</strong>”. Uuden rivin saat komennolla <strong><code>‘\n’</code></strong> . Huomaa, miten <strong>Tuloksen esikatselu -kohtaan</strong> tulee esille nimiöinnin oletettu tulos (aineistosta otetuilla esimerkkiarvoilla).</p>
