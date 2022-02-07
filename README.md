@@ -28,7 +28,7 @@ Open Powershell as an administrator and run the command `Set-ExecutionPolicy Rem
 
 ## Rendering
 
-The [index.Rmd](src/index.Rmd) file is a special file that always gets rendered first
+The [index.Rmd](src/index.Rmd) file is special file that always gets rendered first
 Other Rmd files get rendered in alphabetic order to separate pages.
 Use the YAML header section (separated by `---`) of index.Rmd to define a author, title, and abstract for the materials.
 
