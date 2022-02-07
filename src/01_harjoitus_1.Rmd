@@ -1,14 +1,14 @@
 # Harjoitus 1: QGISin käyttöliittymä
 
-## Harjoituksen sisältö
+**Harjoituksen sisältö**
 
 Harjoituksessa tutustutaan QGIS–ohjelmiston käyttöliittymään ja sen perustoimintoihin.
 
-## Harjoituksen tavoite
+**Harjoituksen tavoite**
 
 Koulutettava oppii käyttämään QGISin käyttöliittymää.
 
-## Valmistautuminen
+**Valmistautuminen**
 Avaa web-selain ja mene QGISin suomenkielisille web-sivuille. 
 
 :::{.note-box}
@@ -29,8 +29,10 @@ Kurssilla tarvittavat paikkatieto-aineistot on ladattavissa Google Drivestä lin
 Avaa yllä oleva linkki ja klikkaa **Lataa**. Tämä lataa aineistot kokonaisuudessaan pakattuna zip-tiedostona **Kurssihakemisto.zip**. 
 Pura kurssimateriaalit omalle tietokoneellesi haluamaasi kansioon niin, että löydät ne helposti harjoituksia tehdessä. Kun kurssimateriaalissa viitataan **../kurssihakemisto/**, tarkoitetaan itse määrittelemääsi kurssihakemiston polkua. Kysy tarvittaessa apua kouluttajalta.
 
-<!--Kouluttaja ohjeistaa sinua lataamaan kurssimateriaalit joko muistitikulta, Google Drivestä tai AWS-palvelimelta. Kopioi kurssimateriaalit koulutuskoneelle haluamaasi kansioon niin, että löydät ne helposti jatkossa. Voit kirjoittaa muistiinpanoja harjoitusten viimeiselle sivulle.
-Kun kurssimateriaalissa viitataan **.../kurssihakemisto/**, tarkoitetaan itse määrittelemääsi kurssihakemiston polkua.-->
+:::{.hint-box}
+Kouluttaja ohjeistaa sinua lataamaan kurssimateriaalit joko muistitikulta, Google Drivestä tai AWS-palvelimelta. Kopioi kurssimateriaalit koulutuskoneelle haluamaasi kansioon niin, että löydät ne helposti jatkossa. Voit kirjoittaa muistiinpanoja harjoitusten viimeiselle sivulle.
+Kun kurssimateriaalissa viitataan **.../kurssihakemisto/**, tarkoitetaan itse määrittelemääsi kurssihakemiston polkua.
+:::
 
 ## QGISin käyttöliittymä
 Käynnistä QGIS. QGISin käyttöliittymä saattaa aueta englanninkielisenä ensimmäisellä käyttökerralla. Voit vaihtaa kielen suomeksi asetuksista **Settings → Options → General → User Interface Translation → suomi**. Paina lopuksi **OK**. 
@@ -80,7 +82,7 @@ Paikanna edellä näkyneestä työkalurivistä seuraavat työkalut ja tunnista n
 <!--| Zoomaa täydeksi       | ![](img/harjoitus_1/image5.png) |-->
 |                       |                                 |
 |:---------------------:|:-------------------------------:|
-| Zoomaa täydeksi       | ![](img/harjoitus_1/image5.png)
+| Zoomaa täydeksi       | ![](img/harjoitus_1/image5.png) |
 | Zoomaa tasoon         | ![](img/harjoitus_1/image6.png) |
 | Näytä kohteen tiedot  | ![](img/harjoitus_1/image1.png) | 
 | Avaa attribuuttitaulu | ![](img/harjoitus_1/image2.png) | 
