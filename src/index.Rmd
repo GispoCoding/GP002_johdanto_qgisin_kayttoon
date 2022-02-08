@@ -22,13 +22,16 @@ documentclass: book
 # Johdanto QGISin käyttöön
 
 **Tervetuloa QGIS-peruskurssille!**
+
 Tämän kurssin tarkoituksena on opastaa sinut QGIS–ohjelmiston käyttöön. Muiden paikkatieto-ohjelmistojen käyttökokemus ei ole välttämätöntä koulutukseen osallistumisel­le. Toki niistä on paljon hyötyä. Kysy rohkeasti opettajalta lisätietoja, jos käytetty terminologia tai joku muu asia jää epäselväksi.
 
 **QGISin taustaa**
+
 QGIS (alkuperäiseltä nimeltään Quantum GIS) on yhteisöllisesti kehitetty avoimen lähdekoodin paikkatieto-ohjelmisto. QGISin kehittäminen on alkanut heinäkuussa 2002, jonka jälkeen kehitystyöhön on osallistunut yli 150 sovelluskehittäjää. QGISin käyttäjämäärää on hyvin vaikea arvioida, sillä ohjelmistoa ei tarvitse rekisteröidä ja sitä voi jakaa edelleen vapaasti. Karkeasti arvioiden voidaan kuitenkin todeta, että QGIS-ohjelmiston eri versioilla on yli miljoona käyttäjää maailmanlaajuisesti.
 QGIS–ohjelmisto ja sen lisäosat muodostavat kattavan ohjelmistoperheen paikkatietojen keräämiseen, mallintamiseen, analysointiin, visualisointiin ja jakeluun. Tämän kurssin aikana käsittelemme vain murto-osaa QGISin kaikista toiminnallisuuksista.
 
 **Miksi QGIS?**
+
 Perimmäinen syy QGISin käyttöön on tietysti paikkatietoaineistojen hyödyntäminen. Paikkatietoja voi hyödyntää monilla avoimen ja suljetun lähdekoodin ohjelmistolla, mutta tässä muutamia perusteluja juuri QGIS-ohjelmiston käytölle:
 
 * **QGIS on ilmainen.** Voit ladata ja asentaa QGIS ilman lisenssi- tai käyttömaksuja. Käyttöön ei sisälly mitään maksuja.
@@ -76,8 +79,7 @@ Psst! Tietoa GeoServeristä löydät internetistä.
 :::
 
 
-
-**Mistä lisätietoja?
+**Mistä lisätietoja?**
 
 
 Ohessa muutamia web-sivustoja, joista saat lisätietoja:
@@ -96,11 +98,11 @@ http://www.osgeo.fi
 :::
 
 
-**Virheet
+**Virheet**
 
 Jos havaitset materiaalissa virheitä, niin pyydämme ilmoittamaan niistä kouluttajalle tai sähköpostilla osoitteeseen info@gispo.fi .
 
-**Lisenssi ja oikeudet
+**Lisenssi ja oikeudet**
 
 Nämä materiaalit on kehittänyt "Johdanto QGISin käyttöön"-kurssille Gispo Oy. Materiaalit on lisensoitu
 seuraavalla lisenssillä: [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/) 
