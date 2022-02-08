@@ -98,11 +98,11 @@ http://www.osgeo.fi
 
 ## Virheet
 
-Jos havaitset materiaalissa virheitä, niin pyydämme ilmoittamaan niistä kouluttajalle tai sähköpostilla info@gispo.fi-osoitteeseen.
+Jos havaitset materiaalissa virheitä, niin pyydämme ilmoittamaan niistä kouluttajalle tai sähköpostilla osoitteeseen info@gispo.fi .
 
 ## Lisenssi ja oikeudet
 
-Nämä materiaalit on kehitetty "Johdanto paikkatietoon ja QGISin käyttöön"-kurssille Gispo Oy:n toimesta. Materiaalit on lisensoitu
+Nämä materiaalit on kehittänyt "Johdanto QGISin käyttöön"-kurssille Gispo Oy. Materiaalit on lisensoitu
 seuraavalla lisenssillä: [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/) 
 
 <!--
