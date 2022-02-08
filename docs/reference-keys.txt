@@ -1,11 +1,4 @@
 johdanto-qgisin-käyttöön
-tervetuloa-qgis-peruskurssille
-qgisin-taustaa
-miksi-qgis
-lukuohje
-mistä-lisätietoja
-virheet
-lisenssi-ja-oikeudet
 harjoitus-1-qgisin-käyttöliittymä
 kurssimateriaalien-lataus
 qgisin-käyttöliittymä

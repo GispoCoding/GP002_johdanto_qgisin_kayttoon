@@ -63,16 +63,7 @@ type="button" onclick="navToggle()" aria-label="Toggle navigation">
 <nav class="sidebar-nav">
 <div id="TOC" class="toc">
 <ul>
-<li><a href="index.html#johdanto-qgisin-käyttöön"><span class="toc-section-number">1</span> Johdanto QGISin käyttöön</a>
-<ul>
-<li><a href="index.html#tervetuloa-qgis-peruskurssille"><span class="toc-section-number">1.1</span> Tervetuloa QGIS-peruskurssille!</a></li>
-<li><a href="index.html#qgisin-taustaa"><span class="toc-section-number">1.2</span> QGISin taustaa</a></li>
-<li><a href="index.html#miksi-qgis"><span class="toc-section-number">1.3</span> Miksi QGIS?</a></li>
-<li><a href="index.html#lukuohje"><span class="toc-section-number">1.4</span> Lukuohje</a></li>
-<li><a href="index.html#mistä-lisätietoja"><span class="toc-section-number">1.5</span> Mistä lisätietoja?</a></li>
-<li><a href="index.html#virheet"><span class="toc-section-number">1.6</span> Virheet</a></li>
-<li><a href="index.html#lisenssi-ja-oikeudet"><span class="toc-section-number">1.7</span> Lisenssi ja oikeudet</a></li>
-</ul></li>
+<li><a href="index.html#johdanto-qgisin-käyttöön"><span class="toc-section-number">1</span> Johdanto QGISin käyttöön</a></li>
 <li><a href="01_harjoitus_1.html#harjoitus-1-qgisin-käyttöliittymä"><span class="toc-section-number">2</span> Harjoitus 1: QGISin käyttöliittymä</a>
 <ul>
 <li><a href="01_harjoitus_1.html#kurssimateriaalien-lataus"><span class="toc-section-number">2.1</span> Kurssimateriaalien lataus</a></li>
@@ -176,18 +167,13 @@ type="button" onclick="navToggle()" aria-label="Toggle navigation">
 <!-- Harjoitukset -->
 <div id="johdanto-qgisin-käyttöön" class="section level1" number="1">
 <h1><span class="header-section-number">1</span> Johdanto QGISin käyttöön</h1>
-<div id="tervetuloa-qgis-peruskurssille" class="section level2" number="1.1">
-<h2><span class="header-section-number">1.1</span> Tervetuloa QGIS-peruskurssille!</h2>
-<p>Tämän kurssin tarkoituksena on opastaa sinut QGIS–ohjelmiston käyttöön. Muiden paikkatieto-ohjelmistojen käyttökokemus ei ole välttämätöntä koulutukseen osallistumisel­le. Toki niistä on paljon hyötyä. Kysy rohkeasti opettajalta lisätietoja, jos käytetty terminologia tai joku muu asia jää epäselväksi.</p>
-</div>
-<div id="qgisin-taustaa" class="section level2" number="1.2">
-<h2><span class="header-section-number">1.2</span> QGISin taustaa</h2>
-<p>QGIS (alkuperäiseltä nimeltään Quantum GIS) on yhteisöllisesti kehitetty avoimen lähdekoodin paikkatieto-ohjelmisto. QGISin kehittäminen on alkanut heinäkuussa 2002, jonka jälkeen kehitystyöhön on osallistunut yli 150 sovelluskehittäjää. QGISin käyttäjämäärää on hyvin vaikea arvioida, sillä ohjelmistoa ei tarvitse rekisteröidä ja sitä voi jakaa edelleen vapaasti. Karkeasti arvioiden voidaan kuitenkin todeta, että QGIS-ohjelmiston eri versioilla on yli miljoona käyttäjää maailmanlaajuisesti.
+<p><strong>Tervetuloa QGIS-peruskurssille!</strong>
+Tämän kurssin tarkoituksena on opastaa sinut QGIS–ohjelmiston käyttöön. Muiden paikkatieto-ohjelmistojen käyttökokemus ei ole välttämätöntä koulutukseen osallistumisel­le. Toki niistä on paljon hyötyä. Kysy rohkeasti opettajalta lisätietoja, jos käytetty terminologia tai joku muu asia jää epäselväksi.</p>
+<p><strong>QGISin taustaa</strong>
+QGIS (alkuperäiseltä nimeltään Quantum GIS) on yhteisöllisesti kehitetty avoimen lähdekoodin paikkatieto-ohjelmisto. QGISin kehittäminen on alkanut heinäkuussa 2002, jonka jälkeen kehitystyöhön on osallistunut yli 150 sovelluskehittäjää. QGISin käyttäjämäärää on hyvin vaikea arvioida, sillä ohjelmistoa ei tarvitse rekisteröidä ja sitä voi jakaa edelleen vapaasti. Karkeasti arvioiden voidaan kuitenkin todeta, että QGIS-ohjelmiston eri versioilla on yli miljoona käyttäjää maailmanlaajuisesti.
 QGIS–ohjelmisto ja sen lisäosat muodostavat kattavan ohjelmistoperheen paikkatietojen keräämiseen, mallintamiseen, analysointiin, visualisointiin ja jakeluun. Tämän kurssin aikana käsittelemme vain murto-osaa QGISin kaikista toiminnallisuuksista.</p>
-</div>
-<div id="miksi-qgis" class="section level2" number="1.3">
-<h2><span class="header-section-number">1.3</span> Miksi QGIS?</h2>
-<p>Perimmäinen syy QGISin käyttöön on tietysti paikkatietoaineistojen hyödyntäminen. Paikkatietoja voi hyödyntää monilla avoimen ja suljetun lähdekoodin ohjelmistolla, mutta tässä muutamia perusteluja juuri QGIS-ohjelmiston käytölle:</p>
+<p><strong>Miksi QGIS?</strong>
+Perimmäinen syy QGISin käyttöön on tietysti paikkatietoaineistojen hyödyntäminen. Paikkatietoja voi hyödyntää monilla avoimen ja suljetun lähdekoodin ohjelmistolla, mutta tässä muutamia perusteluja juuri QGIS-ohjelmiston käytölle:</p>
 <ul>
 <li><strong>QGIS on ilmainen.</strong> Voit ladata ja asentaa QGIS ilman lisenssi- tai käyttömaksuja. Käyttöön ei sisälly mitään maksuja.</li>
 <li><strong>QGIS on vapaa.</strong> Jos tarvitset QGISiin lisää ominaisuuksia, sinulla on täysi vapaus laajentaa ja muuttaa QGISiä. Sinun ei tarvitse odottaa seuraavaa versioita ja toivoa, että tarvitsemasi ominaisuudet ovat sisällytetty mukaan. Jos osaat ohjelmoida, voit lisätä ominaisuudet itse. Voit myös rahoittaa uusien ominaisuuksien kehittämistä osaksi QGISiä.</li>
@@ -196,9 +182,7 @@ QGIS–ohjelmisto ja sen lisäosat muodostavat kattavan ohjelmistoperheen paikka
 <li><strong>QGIS on järjestelmäriippumaton.</strong> QGISiä voi käyttää Windows-, Linux- ja Mac-käyttöjärjestelmissä.</li>
 <li><strong>QGIS on suomenkielinen.</strong> QGIS-käyttöliittymä on suomennettu. Myös ruotsinkielinen versio on käytettävissä ilman lisäkustannuksia. Käyttöohjeita, web-sivustoja ja muita materiaaleja kehitetään ja suomennetaan jatkuvasti.</li>
 </ul>
-</div>
-<div id="lukuohje" class="section level2" number="1.4">
-<h2><span class="header-section-number">1.4</span> Lukuohje</h2>
+<p><strong>Lukuohje</strong></p>
 <p><strong>Web-selaimessa</strong> suoritettavat komennot on merkitty seuraavasti:</p>
 <div class="note-box">
 <p><a href="http://localhost:8080/geoserver" class="uri">http://localhost:8080/geoserver</a></p>
@@ -222,9 +206,7 @@ QGIS–ohjelmisto ja sen lisäosat muodostavat kattavan ohjelmistoperheen paikka
 <p>GeoServerillä on omat kotisivut.</p>
 <p>Psst! Tietoa GeoServeristä löydät internetistä.</p>
 </div>
-</div>
-<div id="mistä-lisätietoja" class="section level2" number="1.5">
-<h2><span class="header-section-number">1.5</span> Mistä lisätietoja?</h2>
+<p>**Mistä lisätietoja?</p>
 <p>Ohessa muutamia web-sivustoja, joista saat lisätietoja:</p>
 <div class="note-box">
 <p><a href="http://www.qgis.org/" class="uri">http://www.qgis.org/</a></p>
@@ -238,13 +220,9 @@ QGIS–ohjelmisto ja sen lisäosat muodostavat kattavan ohjelmistoperheen paikka
 <div class="note-box">
 <p><a href="http://www.osgeo.fi" class="uri">http://www.osgeo.fi</a></p>
 </div>
-</div>
-<div id="virheet" class="section level2" number="1.6">
-<h2><span class="header-section-number">1.6</span> Virheet</h2>
+<p>**Virheet</p>
 <p>Jos havaitset materiaalissa virheitä, niin pyydämme ilmoittamaan niistä kouluttajalle tai sähköpostilla osoitteeseen <a href="mailto:info@gispo.fi" class="email">info@gispo.fi</a> .</p>
-</div>
-<div id="lisenssi-ja-oikeudet" class="section level2" number="1.7">
-<h2><span class="header-section-number">1.7</span> Lisenssi ja oikeudet</h2>
+<p>**Lisenssi ja oikeudet</p>
 <p>Nämä materiaalit on kehittänyt “Johdanto QGISin käyttöön”-kurssille Gispo Oy. Materiaalit on lisensoitu
 seuraavalla lisenssillä: <a href="https://creativecommons.org/licenses/by-nd/4.0/">CC BY-ND 4.0</a></p>
 <!--
@@ -253,7 +231,6 @@ These materials are developed for the Introduction to QGIS course by Gispo Ltd.
 The materials are licensed under [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/) license.
 -->
 
-</div>
 </div>
 <p style="text-align: center;">
 <a href="01_harjoitus_1.html"><button class="btn btn-default">Next</button></a>
