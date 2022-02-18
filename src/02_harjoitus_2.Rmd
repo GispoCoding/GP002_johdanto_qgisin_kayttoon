@@ -38,8 +38,8 @@ Luo nyt muutama WMS-palveluyhteys lisää. Voit hakea ja kopioida suoraan niin W
 Listaamme myös alle muutaman WMS-palvelun URL-osoitteen:
 
 * http://opaskartta.turku.fi/TeklaOgcWeb/WMS.ashx 
-* http://tiles.kartat.kapsi.fi/peruskartta? 
-* http://paikkatieto.ymparisto.fi/ArcGIS/services/INSPIRE/SYKE_Maanpeite/MapServer/WMSServer
+* http://tiles.kartat.kapsi.fi/peruskartta
+* https://julkinen.liikennevirasto.fi/inspirepalvelu/avoin/wms?request=getcapabilities
 
 **Yhdistä-painikkeen** yläpuolisesta alasvetovalikosta voit valita haluamasi yhteyden ja ladata sieltä haluamasi tasot. Valitse siis ensin palvelu alasvetovalikosta ja paina sitten **Yhdistä**. 
 Selaa aineistoja ja lataa vielä pari paikkatietoaineistoa eri palveluista. Voit valita aineistoja oman kiinnostuksesi mukaan. Kun olet löytänyt haluamasi aineiston, valitse se (voit valita useita kerrallaan) ja paina **Lisää**, niin aineisto latautuu ja tulee käyttöön QGISissä. 
@@ -51,8 +51,7 @@ WFS-palvelujen yhdistäminen toimii samalla logiikalla kuin edellä määritelly
 
 Lisää taas muutama WFS-palvelu ja nimeä ne haluamallasi tavalla. Jos et vielä avannut mainittua Gispon ylläpitämää WMS- ja WFS-rajapintojen listaa verkosta, avaa se nyt ja hae sieltä haluamasi WFS-palvelun URL tai lisää seuraavasta listasta WFS-palveluita:
 
-* http://geoserver.hel.fi/geoserver/hkr/ows/ 
-* http://geoserver.hel.fi/geoserver/wfs?
+* https://kartta.hel.fi/ws/geoserver/avoindata/wfs
 * http://lipas.cc.jyu.fi/geoserver/lipas/ows?
 * http://geo.stat.fi/geoserver/tilastointialueet/wfs?version=1.0.0
 
