@@ -20,6 +20,13 @@ Löydät etusivulta linkin, jonka avulla pääset lataamaan QGIS-työpöytäohje
 QGISin voi asentaa Windows-, Linux- tai Mac-käyttöjärjestelmään. Eri järjestelmien QGIS-versioiden välillä huomattavimmat erot ovat väriskeemoissa ja tiedostopoluissa – muuten erot ovat hyvin pieniä.
 
 ## Kurssimateriaalien lataus
+
+Voit halutessasi ladata kurssin luentokalvot täältä:
+
+:::{.note-box}
+[Luentomateriaali](https://drive.google.com/file/d/17Ayqz2qR6i6UFlVSBY2lA1Yuzz_0DXNV/view?usp=sharing)
+:::
+
 Kurssilla tarvittavat paikkatieto-aineistot on ladattavissa Google Drivestä linkistä
 
 :::{.note-box}
