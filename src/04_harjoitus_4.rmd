@@ -39,9 +39,10 @@ Nimiöiden tekstien näkymistä kartalla voi määrittää monella eri tavalla. 
 | Maski | Tekstiä korostavat puskurit, joiden vaikutusta alla oleviin tasoihin voi säädellä Tason ominaisuuksien **Masks** -välilehdellä|
 | Tausta | Tekstin taustalle voi piirtää suorakulmion tai muun muodon|
 | Varjo | Teksteille voidaan muodostaa varjo|
-| Sijoittaminen | Määrittelee tekstien sijoittumista kohteiden suhteen|
-| Piirtäminen | Määrittelee tekstien mittakaavarajoja ja muita tekstien näkyvyyteen liittyviä asioita|
 | Callouts | Voit siirtää nimiöitä karttanäkymässä vapaasti (Nimiöiden asetukset -työkalupalkin avulla) ja yhdistää tekstit niihin liittyviin kohteisiin viivalla|
+| Sijoittaminen | Määrittelee tekstien sijoittumista kohteiden suhteen|
+| Karttanäyttö | Määrittelee tekstien mittakaavarajoja ja muita tekstien näkyvyyteen liittyviä asioita|
+
 
  
 ## Nimiön tekstityyli
