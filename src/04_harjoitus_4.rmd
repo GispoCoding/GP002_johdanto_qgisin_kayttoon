@@ -15,7 +15,7 @@ Avaa projektiin seuraavat aineistot:
 * **.../kurssihakemisto/SYKE/Natura2000/NaturaKohde_ma.shp**
 * **.../kurssihakemisto/MML/YK_1M/TieViiva.shp**
 * **.../kurssihakemisto/HSY/Vaestotietoruudukko_2019.gpkg**
-* **.../kurssihakemisto/MML/Korkeusmalli_2m/L4133B.asc**
+* **.../kurssihakemisto/MML/Korkeusmalli_2m/L4133B.asc** (rasteri)
 
 Aseta aluksi **NaturaKohde_ma** -taso näkyviin ja muut näkymättömäksi
 
