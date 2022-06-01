@@ -36,10 +36,6 @@ Kurssilla tarvittavat paikkatieto-aineistot on ladattavissa Google Drivestä lin
 Avaa yllä oleva linkki ja klikkaa **Lataa**. Tämä lataa aineistot kokonaisuudessaan pakattuna zip-tiedostona **Kurssihakemisto.zip**. 
 Pura kurssimateriaalit omalle tietokoneellesi haluamaasi kansioon niin, että löydät ne helposti harjoituksia tehdessä. Kun kurssimateriaalissa viitataan **../kurssihakemisto/**, tarkoitetaan itse määrittelemääsi kurssihakemiston polkua. Kysy tarvittaessa apua kouluttajalta.
 
-:::{.hint-box}
-Kouluttaja ohjeistaa sinua lataamaan kurssimateriaalit joko muistitikulta, Google Drivestä tai AWS-palvelimelta. Kopioi kurssimateriaalit koulutuskoneelle haluamaasi kansioon niin, että löydät ne helposti jatkossa. Voit kirjoittaa muistiinpanoja harjoitusten viimeiselle sivulle.
-Kun kurssimateriaalissa viitataan **.../kurssihakemisto/**, tarkoitetaan itse määrittelemääsi kurssihakemiston polkua.
-:::
 
 ## QGISin käyttöliittymä
 Käynnistä QGIS. QGISin käyttöliittymä saattaa aueta englanninkielisenä ensimmäisellä käyttökerralla. Voit vaihtaa kielen suomeksi asetuksista **Settings → Options → General → User Interface Translation → suomi**. Paina lopuksi **OK**. 
