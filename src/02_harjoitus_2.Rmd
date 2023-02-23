@@ -72,11 +72,11 @@ Lisää Tilastokeskuksen tieliikenteen **WFS-rajapinnasta** <http://geo.stat.fi/
 
 Datan lataamiseksi tuotamme SQL-kyselyn, joka etsii '2'-tiedon meillä jo tiedossa olevasta sarakkeesta. Avaamme ensin **SQL-kyselyikkunan** ja muodostamme kyselyn:
 
-![](img/harjoitus_2/image9.gif)
+![](img/harjoitus_2/image7.gif)
 
 Sitten lisäämme tason QGISiin ja varmistamme, että SQL-kyselymme tuotti toivotun tuloksen:
 
-![](img/harjoitus_2/image7.gif)
+![](img/harjoitus_2/image9.gif)
 
 ::: hint-box
 **Psst! Muista tallentaa QGIS-projekti harjoituksen lopuksi.**
