@@ -12,10 +12,9 @@ Koulutettava oppii muodostamaan eri tyyppisille paikkatietokohteille tekstitykse
 Käynnistä QGIS-ohjelmisto. Avaa edellisen harjoituksen QGIS-projekti ja tallenna se nimellä (**Projekti → Tallenna nimellä…**) “**QGIS_harjoitus_4**”.
 Avaa projektiin seuraavat aineistot:
 
-* **.../kurssihakemisto/SYKE/Natura2000/NaturaKohde_ma.shp**
-* **.../kurssihakemisto/MML/YK_1M/TieViiva.shp**
-* **.../kurssihakemisto/HSY/Vaestotietoruudukko_2019.gpkg**
-* **.../kurssihakemisto/MML/Korkeusmalli_2m/L4133B.asc** (rasteri)
+* **.../Harjoitus_4/NaturaKohde_ma.shp**
+* **.../Harjoitus_4/TieViiva.shp**
+* **.../Harjoitus_4Vaestotietoruudukko_2019.gpkg**
 
 Aseta aluksi **NaturaKohde_ma** -taso näkyviin ja muut näkymättömäksi
 
@@ -133,21 +132,7 @@ Voit vertailla eri luokittelumenetelmiä ja tutkia aineiston jakaumaa histogramm
 Muuta vielä **Symbolityyliä**. Avaa uudelleen tason ominaisuustiedot ja paina  **Muuta…** 
 **Symbolin valitsija -ikkuna** aukene. Valitse soveltuva kuviointi monikulmioille. Valitse sitten **Yksinkertainen täyttö** symbolitasolle ja aseta **Piirron tyyliksi Ei viivaa**. Paina **OK** ja **OK**. Zoomaa karttaan tutkimaan tulosta ja palaa tyyliasetuksiin, jos haluat tehdä vielä muutoksia.
 
-## Rasteriaineiston luokittelut 
-Laita nyt näkyviin projektin rasterikuva **L4233B**. Se on Maanmittauslaitoksen avoin aineisto ja kyseinen aineisto sisältää osan  Helsingistä. Kun QGIS kysyy sen kordinaattijärjestelmätietoja, valitse **ETRS-TM35FIN**. Oletuksena korkeusmalli näyttää tällaiselta: 
 
-![](img/harjoitus_4/image23.png)
-
-Huomaa, että QGIS on tunnistanut, että aineisto sisältää jatkuvia arvoja ja on visualisoinut ne yksittäisenä harmaana kanavana. Oletusvärityksellä onnistut erottamaan Pasilan ratapihan. Zoomaa nyt Pasilan harmaana näkyvään alueeseen ja huomaa, että yksittäiset raiteet eivät erotu.
-Avaa tason **Kuvaustekniikka-asetukset**, kuten aiemmin teit vektoriaineiston yhteydessä. Muista, että rasteriaineistojen kuvaustekniikkatyökalut ovat erilaiset kuin vektoriaineistoilla. Seuraavaksi luokitellaan aineisto uudelleen niin, että Pasilasta erottuu hienompia yksityiskohtia. Zoomaa tasaisen sävyisenä näkyvään ratapihan alueeseen. Klikkaa auki **Min/Max arvojen asetukset** ja muokkaa asetuksia niin, että kuva käyttää **Min/Max-arvoja** ja **Tilastojen laajuus -arvoksi** on määritelty **Nykyinen karttaikkuna**.
-Katso mallia kuvasta:
-
-![](img/harjoitus_4/image14.png)
-
-Paina sitten **Käytä**.
-Kokeile myös mitä tapahtuu, jos vaihdat Tilastojen laajuudeksi **Päivitetty karttaikkuna**.
-
-Psst! Muista tallentaa QGIS-projekti harjoituksen lopuksi.
 
 ## Lisätehtävä: nimiöiden piirtäminen
 Loitonna karttanäkymää siten, että kaikki tasojesi kohteet tulevat näkyville. Voit tehdä tämän seuraavan työkalun avulla: 
