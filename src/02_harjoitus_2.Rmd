@@ -34,7 +34,7 @@ Palvelun määrityksen jälkeen paina **OK**. Paina vielä **Yhdistä**. Näin o
 
 ![](img/harjoitus_2/image3.png){width="70%"}
 
-Luo nyt muutama WMS-palveluyhteys lisää. Voit hakea ja kopioida suoraan niin WMS- kuin WFS-palveluiden URL-osoitteita Gispon ylläpitämässä vapaasti käytettävästä rajapintaluettelosta seuraavan osoitteen takaa (<https://goo.gl/g6Frmg> tai <https://gispohelp.zendesk.com/hc/fi/articles/208159815>). Listaamme myös alle muutaman WMS-palvelun URL-osoitteen:
+Luo nyt muutama WMS-palveluyhteys lisää. Voit hakea ja kopioida suoraan niin WMS- kuin WFS-palveluiden URL-osoitteita Gispon ylläpitämässä vapaasti käytettävästä rajapintaluettelosta seuraavan osoitteen takaa (<https://www.gispo.fi/blogi/avoimen-datan-wms-ja-wfs-karttapalveluita/>). Listaamme myös alle muutaman WMS-palvelun URL-osoitteen:
 
 -   <http://opaskartta.turku.fi/TeklaOgcWeb/WMS.ashx>
 -   <http://tiles.kartat.kapsi.fi/peruskartta>

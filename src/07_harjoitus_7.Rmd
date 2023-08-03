@@ -1,3 +1,9 @@
+---
+editor_options: 
+  markdown: 
+    wrap: sentence
+---
+
 # Harjoitus 7: Paikkatietoanalyysit
 
 ## Harjoituksen sisältö
@@ -10,96 +16,101 @@ Koulutettava oppii käyttämään eri aineistoille tarkoitettuja paikkatietoanal
 
 ## Valmistautuminen
 
-Luo uusi QGIS-projekti ja tallenna se nimellä (**Projekti → Tallenna nimellä…) “QGIS_harjoitus_7”**. 
+Luo uusi QGIS-projekti ja tallenna se nimellä (**Projekti → Tallenna nimellä...) "QGIS_harjoitus_7"**.
 Lisää projektiin seuraavat tasot:
 
-* **.../kurssihakemisto/Tilastokeskus/kunnat2017/kunta1000k_2017.gpkg**
- 
-* **.../kurssihakemisto/MML/YK_1M/TieViiva.shp**
+-   **.../Harjoitus_6/HallintoAlue.shp**
 
-Voit asettaa kunnat-monikulmion täytevärin pois ja saada siten tieviiva-aineiston paremmin näkyviin:
+-   **.../Harjoitus_6/NaturaKohde.shp**
+
+Voit asettaa HallintoAlue-monikulmion täytevärin pois ja saada siten NaturaKohde-aineiston paremmin näkyviin:
 
 ![](img/harjoitus_7/image14.gif)
 
 Karttanäkymä näyttää nyt kunkin väriasetuksia lukuunottamatta tältä:
 
-![](img/harjoitus_7/image4.png)
+![](img/harjoitus_7/image18.png)
 
-Voit tarkistaa/muokata projektisi koordinaattijärjestelmän asetuksia **Projekti → Ominaisuudet → Koordinaattijärjestelmä** -välilehdessä tai klikkaamalla oikeasta alareunasta:
+Tarkista projektisi koordinaattijärjestelmän asetukset **Projekti → Ominaisuudet → Koordinaattijärjestelmä** -välilehdessä tai klikkaamalla QGISin oikeasta alareunasta, jossa on kirjaimet EPSG ja nelinumeroinen koodi.
 
 ![](img/harjoitus_7/image2.png)
 
-Kummatkin tavat avaavat projektin koordinaattijärjestelmän määrityslomakkeen. Tarkista, että järjestelmä on ETRS89 / ETRS-TM35FIN.
-Muista, että voit lisätä ongelmitta projektiisi aineistoja eri karttaprojektioissa. Monet analyysityökalut eivät kuitenkaan toimi, jos analyysin lähtöaineistot eivät ole samassa koordinaattijärjestelmässä.
+Molemmilla tavoilla saat auki projektin koordinaattijärjestelmän määrityslomakkeen.
+Tarkista, että järjestelmä on ETRS89 / ETRS-TM35FIN.
+Muista, että voit lisätä ongelmitta projektiisi aineistoja eri karttaprojektioissa.
+Voit tarkistaa myös tasojesi koordinaattijärjestelmän valitsemalla avaamalla tason ominaisuudet ja valitsemalla **Informaatio** tai **Lähde** välilehden.
+Kummastakin löydät aineiston koordinaattijärjestelmän.
+Monet analyysityökalut eivät toimi jos analyysin lähtöaineistot eivät ole samassa koordinaattijärjestelmässä.
 
+::: hint-box
 Huomautus GK-koordinaatiston EPSG-koodeista!
-Suomalaiset koordinaattijärjestelmät (vanhat ja uudet) ovat pääosin hyvin tuettuina QGIS-ohjelmistossa. On kuitenkin huomautettava, että EPSG-määrittelyissä on lievää epäjohdonmukaisuutta. Esimerkiksi tarkemmat GK-koordinaattijärjestelmän koodit löytyvät EPSG:n luettelosta kahteen kertaan: EPSG:3126 – EPSG:3138 koodeilla löytyvät koordinaattijärjestelmät ETRS-GK19FIN - ETRS-GK31FIN. Nämä ovat kuitenkin ”virheellisiä”, keskimeridiaanin koordinaatti on aina 500 000.
+
+Suomalaiset koordinaattijärjestelmät (vanhat ja uudet) ovat pääosin hyvin tuettuina QGIS-ohjelmistossa.
+On kuitenkin huomautettava, että EPSG-määrittelyissä on lievää epäjohdonmukaisuutta.
+Esimerkiksi tarkemmat GK-koordinaattijärjestelmän koodit löytyvät EPSG:n luettelosta kahteen kertaan: EPSG:3126 -- EPSG:3138 koodeilla löytyvät koordinaattijärjestelmät ETRS-GK19FIN - ETRS-GK31FIN.
+Nämä ovat kuitenkin "virheellisiä", keskimeridiaanin koordinaatti on aina 500 000.
 
 OIKEAT EPSG-koodit: EPSG:3873 - EPSG:3885
 
-VIRHEELLISET EPSG-koodit: EPSG:3126 -  EPSG:3138
+VIRHEELLISET EPSG-koodit: EPSG:3126 - EPSG:3138
+:::
 
 ## Vektorianalyysit
 
-Tässä harjoituksessa on tarkoitus etsiä ne kunnat, joiden alueella kulkee suomalainen versio kuuluisasta Route 66 -tiestä. Lyhyesti harjoituksen kulku on seuraava:
-- Valitaan tieaineistosta ne tieviivat, joiden numero on 66
-- Tehdään spatiaalinen analyysi kunta- ja tieviiva-aineiston kanssa, jonka myötä viiva-aineisto saa kunta-aineiston sisältämät tiedot
-- Yhdistetään tieviivat kunnan nimen avulla
+Tässä harjoituksessa selvitetään Natura-alueiden pinta-ala kunnittain.
+Lyhyesti harjoituksen kulku on:
 
-Monista **TieViiva taso** hiiren oikealla näppäimellä aukeavasta valikosta **Monista taso** vaihda uuden tason nimeksi *Finnish Route 66*:ksi samasta valikosta **Nimeä taso**.
-Samasta valikosta löytyy myös **Suodata** -toiminto, joka määrittelee, mitä aineiston kohteita tämä taso käyttää. 
+\- Tehdään spatiaalinen analyysi kunta- ja Natura-aineiston kanssa, jossa leikataan Natura-alueet kunnittain, jotta Natura-alueisiin saadaan kunta-aineiston sisältämät tiedot
 
-Kirjoita **Suodattimena käytettävä lauseke** -kenttään ”Tienumero” = 66. Saat kentän nimen suoraan lausekkeeseen **Tietokentät**-kohdasta tuplaklikkaamalla ja **Operaattorit**-kuvakkeita klikkaamalla. Kun painat OK, karttanäkymässä näkyy enää suodattimen läpäisevät kohteet.
+\- Yhdistetään Natura-alueet kunnittain ja lasketaan niiden pinta-ala
 
-![](img/harjoitus_7/image6.png)
-
-Seuraavaksi lähdemme käsittelemään aineistoja **Vektori**-ylämenusta, josta löytyvät ensisijaiset  työkalut vektorianalyysien toteuttamiseen:
+Seuraavaksi lähdemme käsittelemään aineistoja **Vektori**-ylämenusta, josta löytyvät ensisijaiset työkalut vektorianalyysien toteuttamiseen:
 
 ![](img/harjoitus_7/image10.png)
 
-Käynnistä **Ristiinleikkaus (intersection...)**-työkalu **Geoprosessointi**-valikosta. Määrittele leikattavaksi tasoksi tiestöaineisto ja leikkaavaksi tasoksi kuntaraja-aineisto:
+Käynnistä **Ristiinleikkaus (intersection...)**-työkalu **Geoprosessointi**-valikosta.
+Määrittele syötetasoksi NaturaKohde ja leikkaavaksi tasoksi HallintoAlue-aineisto.
+Teemme tälle aineistolle vielä toisen analyysin, joten voit luoda tilapäisen tason:
 
-![](img/harjoitus_7/image1.png)
+![](img/harjoitus_7/image15.png)
 
-Suorita analyysi painamalla Suorita ja paina sen jälkeen **Sulje**. Analyysi luo uuden väliaikaisen tulostason nimeltä **Ristiinleikkaus (intersection)**.
-Karttaikkunassa aineisto näyttää samalta kuin alkuperäinen aineisto. Vertaile tasojen (**Finnish Route 66** ja **Ristiinleikkaus (intersection)**) ominaisuustietoja. Mitä huomaat? 
-Seuraavaksi voit visualisoida syntyneen tulostason tieviivat kunkin kunnan osalta eri välillä: määrittele kuvaustekniikka luokittelemalla tiestö kunnan nimen perusteella käyttäen kenttää Nimi. 
-Aktivoi **Näytä kohteiden lukumäärä** -toiminto (paina hiiren oikealla näppäimellä tason nimen päällä Tasoluettelossa).
+Suorita analyysi painamalla Suorita ja paina sen jälkeen **Sulje**.
+Analyysi luo uuden väliaikaisen tulostason nimeltä **Ristiinleikkaus (intersection)**.
+Karttaikkunassa aineisto näyttää samalta kuin alkuperäinen aineisto.
+
+Vertaile tasojen (**NaturaKohde** ja **Ristiinleikkaus (intersection)**) ominaisuustietoja.
+Mitä huomaat?
+Voit aktivoida myös **Näytä kohteiden lukumäärä** -toiminnon (paina hiiren oikealla näppäimellä tason nimen päällä Tasoluettelossa) katsoaksesi onko aineiston lukumäärä sama.
+
+Analyysin tuloksena ristiinleikatussa aineistossa tulisi olla enemmän kohteita ja ominaisuustietotaulukossa HallintoAlue-aineiston sarakkeet lisänä.
 
 ![](img/harjoitus_7/image12.gif)
 
-Tasoluettelossa luokittelun pitäisi näyttää suunnilleen seuraavalta (värit ja viivojen paksuus on sen mukainen kuin olet määritellyt):
+Koska saman kunnan alueella voi olla usempia eri Natura-alueita, seuraavaksi siis yhdistämme eri kuntien alueella olevat alueet **Sulauta**-työkalun avulla.
+Valitse työkalu **Vektori-Geoprosessointi → Sulauta**.
 
-![](img/harjoitus_7/image13.png)
+Valitse syötetasoksi aiemmin tehty Ristiinleikkaus-taso ja valitse sulautuksen perusteena oleva sarake painamalla Dissolve fields kohdasta ![](img/harjoitus_7/image21.png).
+Valitse ja laita täppä **Kunta** sarakkeeseen ja paina oikealta OK.
+Sarakkeen pitäisi tulla harmaana Dissolve fields valinnaksi.
 
-Seuraavaksi voimme yhdistää erilliset tieviivat **Sulauta**-työkalun (Dissolve) avulla. Valitse työkalu **Vektori-Geoprosessointi → Sulauta**. Sulauta tieviivat kunnan nimen (tai numeron) perusteella ja tallenna lopputulos kurssihakemistoon haluamallasi nimellä (esimerkiksi kunta_sulautettu.shp). Täytä asetukset Sulauta-ikkunassa kuvan mukaisesti:
-
-![](img/harjoitus_7/image5.png)
+![](img/harjoitus_7/image16.png)
 
 Paina **Suorita** ja sitten **Sulje**.
-Voit kopioida aiemmin luodun tason tyylin helposti uudelle aineistoille. Valitse hiiren oikealla näppäimellä avautuvasta valikosta **Tyyli → Kopioi tyyli**. Valitse äsken luotu taso ja **Tyyli → Liitä tyyli**. Kun laitat vielä kohteiden lukumäärän näkyviin, niin lopputuloksen pitäisi tasoluettelossa olla seuraava:
+Tarkista taas kuinka paljon aineistossa on kohteita.
+Voit myös visualisoida aineiston esimerkiksi maakunnittain avaamalla **Kuvaustekniikan** ja valitsemalla symbolin tyypiksi **Luokiteltu**, vaihda Arvokenttään **"Maaku_ni1"** ja paina alareunasta **Luokittele** ja **OK**.
 
-![](img/harjoitus_7/image11.png)
+![](img/harjoitus_7/image19.png)
 
-Lopuksi voimme laskea, kuinka pitkä pätkä tietä nro. 66 osuu kunkin kunnan alueelle.  Avaa ominaisuustietotaulukko ja käytä **Kentän arvojen laskin**-työkalua. Luo uusi kenttä, jossa on kunkin tieviivan pituus hyödyntämällä **Geometria**-ryhmästä **$length**-funktiota.
+Lopuksi voimme laskea, kuinka monta neliömetriä kullakin kunnalla on suojeltu Natura-alueena.
+Avaa sulautetun tason ominaisuustietotaulukko ja laita taso editoitavaksi.
+Avaa **Kentän arvojen laskin**-työkalua.
+Luo uusi kenttä, jossa on kunnan Natura-alueiden pinta-ala neliökilometreinä \$area\*\* funktion avulla.Voit antaa kentän tyypiksi desimaalinumero (reaali).
+Voit laskea pinta-alan neliökilometreinä jakolaskun avulla jakamalla funktion 1 000 000.
 
-![](img/harjoitus_7/image7.png)
+Missä kunnassa tai maakunnassa on eniten suojeltuja alueita?
 
-:::{.note-box}
-**Psst! Muista tallentaa QGIS-projekti harjoituksen lopuksi.** 
+![](img/harjoitus_7/image20.png)
+
+::: note-box
+**Psst! Muista tallentaa QGIS-projekti harjoituksen lopuksi.**
 :::
-
-
-## Lisätehtävä: ominaisuustietojen lisääminen ja tarkastelu
-
-Voidaan vielä laskea, kuinka suuri osa suhteellisesti (osuus koko pituudesta) tietä nro. 66 osuu kunkin kunnan alueelle. Prosenttilaskun toimittamiseksi tarvitset tiedon tiesegmenttien yhteenlasketusta kokonaispituudesta eli summasta, jonka saat käyttöösi Kenttien tilastolliset tunnusluvut -työkalun avulla: avaa yläpalkista **Prosessointi → Työkalut** ja kirjoita etsi hakukentän avulla työkalu **Kenttien tilastolliset tunnusluvut**. 
-
-![](img/harjoitus_7/image3.png)
-
-Anna avautuvassa ikkunassa kentäksi, josta tilastot lasketaan, edellisessä tehtävässä laskemasi pituus-kenttä:
-Prosenttilasku tehdään samalla tavalla kuin pituuden tai pinta-alan laskenta eli tehdään uusi sarake, jonka kohteille lasketaan arvot seuraavan funktion avulla (heittomerkkien sisään jäävä sana/merkkijono viittaa sarakkeen nimeen ja ‘summa’ laskemaasi arvoon):
-
-("Pituus" / summa)`*100`
-
-Lopuksi voit visualisoida kartalle kunkin kunnan osuuden haluamallasi tavalla.
-
