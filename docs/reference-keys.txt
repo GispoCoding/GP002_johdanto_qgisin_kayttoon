@@ -17,8 +17,8 @@ harjoituksen-sisältö-1
 harjoituksen-tavoite-1
 valmistautuminen-1
 vektoriaineistojen-visualisointi
-monikulmioaineiston-edistynyt-visualisointi
-rasteriaineistojen-visualisointi
+viiva--ja-monikulmioaineiston-visualisointi
+lisätehtävä-monikulmioaineiston-edistynyt-visualisointi
 harjoitus-4-paikkatietoaineiston-nimiöinti-ja-luokittelu
 harjoituksen-sisältö-2
 harjoituksen-tavoite-2
@@ -51,7 +51,6 @@ harjoituksen-sisältö-5
 harjoituksen-tavoite-5
 valmistautuminen-5
 vektorianalyysit
-lisätehtävä-ominaisuustietojen-lisääminen-ja-tarkastelu
 harjoitus-8-qgisin-lisäosat
 harjoituksen-sisältö-6
 harjoituksen-tavoite-6
