@@ -12,9 +12,9 @@ Koulutettava oppii muodostamaan eri tyyppisille paikkatietokohteille tekstitykse
 Käynnistä QGIS-ohjelmisto. Avaa edellisen harjoituksen QGIS-projekti ja tallenna se nimellä (**Projekti → Tallenna nimellä…**) “**QGIS_harjoitus_4**”.
 Avaa projektiin seuraavat aineistot:
 
-* **.../Harjoitus_4/NaturaKohde_ma.shp**
-* **.../Harjoitus_4/TieViiva.shp**
-* **.../Harjoitus_4Vaestotietoruudukko_2019.gpkg**
+* **.../Harjoitus 4/NaturaKohde_ma.shp**
+* **.../Harjoitus 4/TieViiva.shp**
+* **.../Harjoitus 4Vaestotietoruudukko_2019.gpkg**
 
 Aseta aluksi **NaturaKohde_ma** -taso näkyviin ja muut näkymättömäksi
 

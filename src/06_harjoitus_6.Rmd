@@ -31,16 +31,9 @@ Anna uudelle kentälle nimi “**aluetyyppi**” ja aseta tyypiksi “**Teksti**
 
 ![](img/harjoitus_6/image1.png)
 
-## Digitoitavan tason tietorakenne
-Jatketaan edelleen **Tason ominaisuudet -ikkunassa**. Valitse nyt vasemmalta **Attribuuttilomake-välilehti**. Tässä välilehdessä voit määrittää sääntöjä ja rajoituksia laatimillesi tietokentille (ts. taulun sarakkeille). Kyseiset määritykset auttavat säilyttämään tietorakenteen sekä itse tiedon laadun ja helpottavat myös digitointia.
-Valitse **Käytettävissä olevista käyttöliittymäelementit -kohdasta** aluetyyppi-kenttä ja valitse **Muokkauksen tyyppi -kohdasta Arvoluettelo** alla olevan kuvan tapaan. Mikäli et näe nyt aluetyyppi-saraketta, sulje vielä **Tason ominaisuudet -ikkuna** ja avaa se uudelleen.
-
-![](img/harjoitus_6/image11.png)
-
-Arvoluettelon avulla käyttäjän on mahdollista määrittää arvoja vetovalikosta editointia tehdessään. Muokkaa soluja tuplaklikkaamalla. Määritä arvot kuvassa näkyvän luettelon mukaisesti. Kirjaa myös aluetyypeille kuvaukset halutessasi. Kuvauksista on hyötyä yleisesti tietorakenteiden eheyden ylläpitämiseksi. Kun olet valmis, klikkaa **OK** palataksesi karttanäkymään. 
 
 ## Pohjakartan lisääminen
-Voit käyttää digitoinnin pohjana Maanmittauslaitoksen ilmakuvia. Lisää nyt ortoilmakuva **L4131F.jp2-rasteritiedosto** kansiosta **.../kurssihakemisto/MML/Ortoilmakuvat/** QGISiin. Muista, että myös rasteriaineistot saat käyttöösi helposti raahaamalla tiedoston karttaikkunaan tai **Tasot-paneeliin**. 
+Voit käyttää digitoinnin pohjana Maanmittauslaitoksen ilmakuvia. Lisää nyt ortoilmakuva **L4131F.jp2-rasteritiedosto** kansiosta **.../Harjoitus 6/L4131F** QGISiin. Muista, että myös rasteriaineistot saat käyttöösi helposti raahaamalla tiedoston karttaikkunaan tai **Tasot-paneeliin**. 
 
 ![](img/harjoitus_6/image13.png)
 

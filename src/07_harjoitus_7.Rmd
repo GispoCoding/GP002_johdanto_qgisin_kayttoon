@@ -25,7 +25,7 @@ Lisää projektiin seuraavat tasot:
 
 Voit asettaa HallintoAlue-monikulmion täytevärin pois ja saada siten NaturaKohde-aineiston paremmin näkyviin:
 
-![](img/harjoitus_7/image14.gif)
+![](img/harjoitus_7/image22.gif)
 
 Karttanäkymä näyttää nyt kunkin väriasetuksia lukuunottamatta tältä:
 
@@ -69,7 +69,7 @@ Seuraavaksi lähdemme käsittelemään aineistoja **Vektori**-ylämenusta, josta
 ![](img/harjoitus_7/image10.png)
 
 Käynnistä **Ristiinleikkaus (intersection...)**-työkalu **Geoprosessointi**-valikosta.
-Määrittele syötetasoksi NaturaKohde ja leikkaavaksi tasoksi HallintoAlue-aineisto.
+Määrittele syötetasoksi NaturaKohde ja leikkaavaksi tasoksi HallintoAlue-aineisto. Aineistossa voi olla geometriavirheitä, joten suodatetaan ne pois analyysista. Paina syötetason vierestä Asetukset ![](img/harjoitus_7/image23.png) ja valitse **Invalid feature filtering** asetukseksi "Skip (Ignore) features with invalid geometries.Näin analyysi ei lopu, vaikka aineistossa on virheellisiä kohteita.
 Teemme tälle aineistolle vielä toisen analyysin, joten voit luoda tilapäisen tason:
 
 ![](img/harjoitus_7/image15.png)
@@ -84,7 +84,7 @@ Voit aktivoida myös **Näytä kohteiden lukumäärä** -toiminnon (paina hiiren
 
 Analyysin tuloksena ristiinleikatussa aineistossa tulisi olla enemmän kohteita ja ominaisuustietotaulukossa HallintoAlue-aineiston sarakkeet lisänä.
 
-![](img/harjoitus_7/image12.gif)
+![](img/harjoitus_7/image24.gif)
 
 Koska saman kunnan alueella voi olla usempia eri Natura-alueita, seuraavaksi siis yhdistämme eri kuntien alueella olevat alueet **Sulauta**-työkalun avulla.
 Valitse työkalu **Vektori-Geoprosessointi → Sulauta**.
@@ -104,7 +104,7 @@ Voit myös visualisoida aineiston esimerkiksi maakunnittain avaamalla **Kuvauste
 Lopuksi voimme laskea, kuinka monta neliömetriä kullakin kunnalla on suojeltu Natura-alueena.
 Avaa sulautetun tason ominaisuustietotaulukko ja laita taso editoitavaksi.
 Avaa **Kentän arvojen laskin**-työkalua.
-Luo uusi kenttä, jossa on kunnan Natura-alueiden pinta-ala neliökilometreinä \$area\*\* funktion avulla.Voit antaa kentän tyypiksi desimaalinumero (reaali).
+Luo uusi kenttä, jossa on kunnan Natura-alueiden pinta-ala neliökilometreinä **$area** funktion avulla.Voit antaa kentän tyypiksi desimaalinumero (reaali).
 Voit laskea pinta-alan neliökilometreinä jakolaskun avulla jakamalla funktion 1 000 000.
 
 Missä kunnassa tai maakunnassa on eniten suojeltuja alueita?
