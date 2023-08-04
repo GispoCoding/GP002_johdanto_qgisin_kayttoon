@@ -28,7 +28,6 @@ nimiöiden-tyyli--ja-yleisasetukset
 nimiön-tekstityyli
 nimiöinnit-viivatasoilla
 vektoriaineiston-luokittelut
-rasteriaineiston-luokittelut
 lisätehtävä-nimiöiden-piirtäminen
 harjoitus-5-karttatuloste
 harjoituksen-sisältö-3
@@ -41,7 +40,6 @@ harjoituksen-sisältö-4
 harjoituksen-tavoite-4
 valmistautuminen-4
 vektoriaineiston-geopackage-luominen
-digitoitavan-tason-tietorakenne
 pohjakartan-lisääminen
 digitoinnin-aloittaminen
 lisätehtävä-cad-digitointi
@@ -57,5 +55,6 @@ harjoituksen-tavoite-6
 valmistautuminen-6
 lisäosien-hallinta
 quickmapservices
-qgis2threejs
-qgis2web
+quickosm
+lisätehtävä-qgis2threejs
+lisätehtävä-qgis2web
