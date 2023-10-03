@@ -24,12 +24,6 @@ Avaa juuri luomasi tason attribuuttitaulukko ja tarkista, että se on tyhjä. Ta
 ![](img/harjoitus_6/image4.png)
 
 **Fid-kenttä** muodostuu automaattisesti ja **Nimi-kentän** loimme itse äskeisessä määrittelyikkunassa.
-Tarkastellaan nyt attribuutteja lähemmin **Tason ominaisuudet -ikkunassa**. 
-
-Avaa juuri luomasi Alueet-tason **Tason ominaisuudet** -ikkuna ja valitse vasemmalta **Attribuutit**. Attribuutit-välilehdessä pystytään muokkaamaan attribuuttitaulun tietorakennetta. Aseta muokkaus päälle klikkaamalla kynäikonia. Uuden kentän pystyt lisäämään **Uusi kenttä -painikkeesta**, joka on varustettu keltaisella tähti-ikonilla. 
-Anna uudelle kentälle nimi “**aluetyyppi**” ja aseta tyypiksi “**Teksti**” ylläolevan kuvan mukaisesti. Klikkaa **OK** lisätäksesi uuden kentän listaan. Klikkaa tämän jälkeen uudestaan kynäikonia lopettaaksesi muokkauksen ja tallenna muutokset.
-
-![](img/harjoitus_6/image1.png)
 
 
 ## Pohjakartan lisääminen

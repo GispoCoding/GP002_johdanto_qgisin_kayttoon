@@ -44,7 +44,7 @@ Testaa etsiä esimerkiksi **Stamen** karttoja tai etsi onko omalla tai naapuriku
 
 ## QuickOSM
 
-Etsi ja asenna vielä **QuickOSM**-lisäosa.
+Etsi ja asenna **QuickOSM**-lisäosa.
 Tällä lisäosalla voit etsiä OpenStreetMapista erilaisia kohteita ja saada ne kartallesi visualisoitavaksi tai analysoitavaksi tasoksi.
 Lisäosan voit avata **Vektori → QuickOSM → QuickOSM**.
 Avautuvassa ikkunassa voit etsiä kohteita avaimen ja arvon kautta.

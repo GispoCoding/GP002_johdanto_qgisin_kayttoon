@@ -19,9 +19,9 @@ Koulutettava oppii käyttämään eri aineistoille tarkoitettuja paikkatietoanal
 Luo uusi QGIS-projekti ja tallenna se nimellä (**Projekti → Tallenna nimellä...) "QGIS_harjoitus_7"**.
 Lisää projektiin seuraavat tasot:
 
--   **.../Harjoitus_6/HallintoAlue.shp**
+-   **.../Harjoitus 7/HallintoAlue.shp**
 
--   **.../Harjoitus_6/NaturaKohde.shp**
+-   **.../Harjoitus 7/NaturaKohde.shp**
 
 Voit asettaa HallintoAlue-monikulmion täytevärin pois ja saada siten NaturaKohde-aineiston paremmin näkyviin:
 
@@ -87,17 +87,17 @@ Analyysin tuloksena ristiinleikatussa aineistossa tulisi olla enemmän kohteita 
 ![](img/harjoitus_7/image24.gif)
 
 Koska saman kunnan alueella voi olla usempia eri Natura-alueita, seuraavaksi siis yhdistämme eri kuntien alueella olevat alueet **Sulauta**-työkalun avulla.
-Valitse työkalu **Vektori-Geoprosessointi → Sulauta**.
+Valitse työkalu **Vektori → Geoprosessointi → Sulauta**.
 
 Valitse syötetasoksi aiemmin tehty Ristiinleikkaus-taso ja valitse sulautuksen perusteena oleva sarake painamalla Dissolve fields kohdasta ![](img/harjoitus_7/image21.png).
-Valitse ja laita täppä **Kunta** sarakkeeseen ja paina oikealta OK.
+Valitse ja laita täppä **Kunta** sarakkeeseen ja paina oikealta **OK**.
 Sarakkeen pitäisi tulla harmaana Dissolve fields valinnaksi.
 
 ![](img/harjoitus_7/image16.png)
 
 Paina **Suorita** ja sitten **Sulje**.
 Tarkista taas kuinka paljon aineistossa on kohteita.
-Voit myös visualisoida aineiston esimerkiksi maakunnittain avaamalla **Kuvaustekniikan** ja valitsemalla symbolin tyypiksi **Luokiteltu**, vaihda Arvokenttään **"Maaku_ni1"** ja paina alareunasta **Luokittele** ja **OK**.
+Voit myös visualisoida aineiston esimerkiksi maakunnittain avaamalla **kuvaustekniikan** ja valitsemalla symbolin tyypiksi **Luokiteltu**, vaihda arvokenttään **"Maaku_ni1"** ja paina alareunasta **Luokittele** ja **OK**.
 
 ![](img/harjoitus_7/image19.png)
 
